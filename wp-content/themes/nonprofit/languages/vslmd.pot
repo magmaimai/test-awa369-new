@@ -1,0 +1,5102 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Horizon\n"
+"POT-Creation-Date: 2021-04-21 14:16-0300\n"
+"PO-Revision-Date: 2021-04-21 14:16-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:28
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:33
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:43
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:63
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: author.php:31
+msgid "About:"
+msgstr ""
+
+#: author.php:39
+msgid "Website:"
+msgstr ""
+
+#: author.php:46
+msgid "Profile"
+msgstr ""
+
+#: author.php:51
+msgid "Posts by"
+msgstr ""
+
+#. translators: %s: post title
+#: comments.php:34
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:59 comments.php:89
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:62 comments.php:92
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:66 comments.php:96
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:111
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:112
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:112
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:114
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: header.php:345
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:610
+msgid "No Slider Found!"
+msgstr ""
+
+#: header.php:610
+msgid ""
+"Please go to your page editor area and apply your slider show build with "
+"revolution slider on Page Options > Layout > Slider Revolution."
+msgstr ""
+
+#: inc/custom-comments.php:24
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:868
+msgid "Name"
+msgstr ""
+
+#: inc/custom-comments.php:27
+#: vslmd/options/redux-extensions/configs/config.php:286
+msgid "Email"
+msgstr ""
+
+#: inc/custom-comments.php:30
+msgid "Website"
+msgstr ""
+
+#: inc/custom-comments.php:49
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: inc/enqueue.php:39 vslmd/assets/like-system.php:188
+#: vslmd/assets/like-system.php:303
+msgid "Like"
+msgstr ""
+
+#: inc/enqueue.php:40 vslmd/assets/like-system.php:184
+msgid "Unlike"
+msgstr ""
+
+#: inc/extras.php:93
+msgid "Post navigation"
+msgstr ""
+
+#: inc/extras.php:98
+msgctxt "Previous post link"
+msgid "<i class=\"fa fa-angle-left\"></i>&nbsp;%title"
+msgstr ""
+
+#: inc/extras.php:101
+msgctxt "Next post link"
+msgid "%title&nbsp;<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: inc/pagination.php:17
+msgid "&laquo;"
+msgstr ""
+
+#: inc/pagination.php:18
+msgid "&raquo;"
+msgstr ""
+
+#: inc/pagination.php:19
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/setup.php:49
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/setup.php:54
+msgid "Centered Header - Left Menu"
+msgstr ""
+
+#: inc/setup.php:55
+msgid "Centered Header - Right Menu"
+msgstr ""
+
+#: inc/setup.php:132
+msgid "Read More"
+msgstr ""
+
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:64
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:64
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:64
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:68
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:85
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: inc/template-tags.php:87
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: inc/template-tags.php:89
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: inc/template-tags.php:91
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags.php:91
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:93
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags.php:93
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:95
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/template-tags.php:95
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:97
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:99
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:101
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags.php:103
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/template-tags.php:105
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:107
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags.php:109
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags.php:111
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:113
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: inc/template-tags.php:115
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:119
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/template-tags.php:121
+msgid "Archives"
+msgstr ""
+
+#: inc/template-tags.php:202
+msgid "Home"
+msgstr ""
+
+#: inc/template-tags.php:203
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: inc/template-tags.php:204
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: inc/template-tags.php:205
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: inc/template-tags.php:206
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: inc/template-tags.php:207
+msgid "Error 404"
+msgstr ""
+
+#: inc/template-tags.php:363
+msgid "Page"
+msgstr ""
+
+#: inc/widgets.php:15
+msgid "Sidebar"
+msgstr ""
+
+#: inc/widgets.php:25
+msgid "Before Footer"
+msgstr ""
+
+#: inc/widgets.php:35
+msgid "First Footer"
+msgstr ""
+
+#: inc/widgets.php:44
+msgid "Second Footer"
+msgstr ""
+
+#: inc/widgets.php:53
+msgid "Third Footer"
+msgstr ""
+
+#: inc/widgets.php:62
+msgid "Fourth Footer"
+msgstr ""
+
+#: inc/widgets.php:72
+msgid "After Footer"
+msgstr ""
+
+#: inc/widgets.php:82
+msgid "Copyright Footer"
+msgstr ""
+
+#: inc/widgets.php:92
+msgid "First Extra Widget"
+msgstr ""
+
+#: inc/widgets.php:102
+msgid "Second Extra Widget"
+msgstr ""
+
+#: inc/widgets.php:112
+msgid "Third Extra Widget"
+msgstr ""
+
+#: inc/widgets.php:122
+msgid "Fourth Extra Widget"
+msgstr ""
+
+#: inc/widgets.php:140 inc/widgets.php:184
+msgid "Top Header Central"
+msgstr ""
+
+#: inc/widgets.php:152 inc/widgets.php:174
+msgid "Top Header Left"
+msgstr ""
+
+#: inc/widgets.php:162 inc/widgets.php:194
+msgid "Top Header Right"
+msgstr ""
+
+#: inc/widgets.php:209
+msgid "Vertical Header"
+msgstr ""
+
+#: inc/widgets.php:226 vslmd/options/config.php:1660
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/widgets.php:242
+msgid "bbPress"
+msgstr ""
+
+#: inc/widgets.php:258 vslmd/options/config.php:527
+#: vslmd/options/config.php:533
+msgid "Side Navigation"
+msgstr ""
+
+#: loop-templates/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: loop-templates/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: loop-templates/content-none.php:28
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: loop-templates/content-none.php:33
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: loop-templates/content-page.php:19 loop-templates/content-single.php:15
+#: loop-templates/content.php:28
+msgid "Pages:"
+msgstr ""
+
+#: module-templates/nav-extra-elements.php:190 searchform.php:12
+msgid "Search &hellip;"
+msgstr ""
+
+#: module-templates/nav-extra-elements.php:192 searchform.php:15
+#: vslmd/options/config.php:283
+msgid "Search"
+msgstr ""
+
+#: module-templates/visualmodo-dashboard.php:14
+msgid "Welcome to "
+msgstr ""
+
+#: module-templates/visualmodo-dashboard.php:17
+msgid ""
+"WordPress Theme by Visualmodo a clean, modern, minimal, smart and multi-"
+"purpose WordPress template. It has a wide range of incredible features and "
+"amazing tools for every site style creation, everything you need to create "
+"an awesome WordPress site in an incredibly easy way saving time doing it. "
+"Build any site design without coding!"
+msgstr ""
+
+#: module-templates/visualmodo-dashboard.php:21
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: module-templates/visualmodo-dashboard.php:26
+#: vslmd/options/redux-extensions/configs/config.php:195
+#: vslmd/widgets/flickr-widget.php:154
+msgid "Settings"
+msgstr ""
+
+#: module-templates/visualmodo-dashboard.php:29
+msgid "Documentation"
+msgstr ""
+
+#: module-templates/visualmodo-dashboard.php:32
+#: vslmd/widgets/flickr-widget.php:162
+msgid "Support"
+msgstr ""
+
+#: search.php:23
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: vslmd/assets/dashboard-news.php:6
+msgid "Visualmodo News"
+msgstr ""
+
+#: vslmd/assets/dashboard-news.php:47
+msgid "Number of RSS articles:"
+msgstr ""
+
+#: vslmd/assets/dashboard-tools.php:6
+msgid "Visualmodo Tools"
+msgstr ""
+
+#: vslmd/assets/demo-import.php:10
+msgid "Visualmodo Demo"
+msgstr ""
+
+#: vslmd/assets/demo-import.php:39 vslmd/assets/demo-import.php:87
+#: vslmd/assets/demo-import.php:135 vslmd/assets/demo-import.php:183
+#: vslmd/assets/demo-import.php:233 vslmd/assets/demo-import.php:283
+#: vslmd/assets/demo-import.php:333 vslmd/assets/demo-import.php:383
+#: vslmd/assets/demo-import.php:433 vslmd/assets/demo-import.php:485
+#: vslmd/assets/demo-import.php:537 vslmd/assets/demo-import.php:585
+#: vslmd/assets/demo-import.php:637 vslmd/assets/demo-import.php:685
+#: vslmd/assets/demo-import.php:733 vslmd/assets/demo-import.php:783
+#: vslmd/assets/demo-import.php:833 vslmd/assets/demo-import.php:881
+#: vslmd/assets/demo-import.php:931 vslmd/assets/demo-import.php:985
+#: vslmd/assets/demo-import.php:1035 vslmd/assets/demo-import.php:1085
+#: vslmd/assets/demo-import.php:1135 vslmd/assets/demo-import.php:1185
+#: vslmd/assets/demo-import.php:1235 vslmd/assets/demo-import.php:1285
+#: vslmd/assets/demo-import.php:1335 vslmd/assets/demo-import.php:1385
+#: vslmd/assets/demo-import.php:1433 vslmd/assets/demo-import.php:1483
+#: vslmd/assets/demo-import.php:1531 vslmd/assets/demo-import.php:1581
+#: vslmd/assets/demo-import.php:1629 vslmd/assets/demo-import.php:1679
+#: vslmd/assets/demo-import.php:1729 vslmd/assets/demo-import.php:1781
+#: vslmd/assets/demo-import.php:1829 vslmd/assets/demo-import.php:1877
+#: vslmd/assets/demo-import.php:1929 vslmd/assets/demo-import.php:1981
+#: vslmd/assets/demo-import.php:2031 vslmd/assets/demo-import.php:2081
+msgid ""
+"After you import this demo, you will have to setup the slider separately."
+msgstr ""
+
+#: vslmd/assets/like-system.php:14
+msgid "Not permitted"
+msgstr ""
+
+#: vslmd/assets/like-system.php:319
+msgid "You Like:"
+msgstr ""
+
+#: vslmd/assets/like-system.php:345
+msgid "You do not like anything yet."
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: vslmd/assets/menu/edit_custom_walker.php:78
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: vslmd/assets/menu/edit_custom_walker.php:82
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:107
+msgid "Move up"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:120
+msgid "Move down"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:122
+#: vslmd/assets/menu/edit_custom_walker.php:124
+msgid "Edit Menu Item"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:133
+#: vslmd/options/redux-framework/inc/fields/slides/class-redux-slides.php:154
+#: vslmd/options/redux-framework/inc/fields/slides/class-redux-slides.php:290
+msgid "URL"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:140
+msgid "Navigation Label"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:146
+msgid "Title Attribute"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:153
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:158
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:164
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:170
+#: vslmd/options/redux-framework/inc/classes/class-redux-field.php:40
+#: vslmd/options/redux-framework/inc/fields/slides/class-redux-slides.php:142
+#: vslmd/options/redux-framework/inc/fields/slides/class-redux-slides.php:278
+msgid "Description"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:172
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:181
+msgid "Anchor"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:187
+#: vslmd/post-types/post-types.php:112 vslmd/post-types/post-types.php:128
+msgid "Icon"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:198
+msgid "Don't link"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:208
+msgid "Hide Text"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:213
+msgid "Column Width"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:226
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:235
+msgid "Submenu Position"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:244
+msgid "Dropdown Type"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:253
+msgid "Visibility Control"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:263
+msgid "Custom widget area"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:280
+msgid "Submenu Background Image"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:286
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:142
+msgid "Background Repeat"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:298
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:195
+msgid "Background Size"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:308
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:212
+msgid "Background Attachment"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:318
+msgid "Background Postion"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:339
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:352
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:342
+#: vslmd/options/redux-framework/inc/fields/media/class-redux-media.php:207
+#: vslmd/options/redux-framework/inc/fields/multi_text/class-redux-multi-text.php:51
+#: vslmd/options/redux-framework/inc/fields/multi_text/class-redux-multi-text.php:68
+#: vslmd/options/redux-framework/inc/fields/multi_text/class-redux-multi-text.php:90
+#: vslmd/options/redux-framework/inc/fields/slides/class-redux-slides.php:118
+#: vslmd/options/redux-framework/inc/fields/slides/class-redux-slides.php:253
+msgid "Remove"
+msgstr ""
+
+#: vslmd/assets/menu/edit_custom_walker.php:353
+#: vslmd/options/redux-framework/inc/fields/color_rgba/class-redux-color-rgba.php:43
+msgid "Cancel"
+msgstr ""
+
+#: vslmd/assets/theme-functions.php:139
+msgid "Extra Menu "
+msgstr ""
+
+#: vslmd/assets/woocommerce.php:42
+msgid "Your order"
+msgstr ""
+
+#: vslmd/options/config.php:36 vslmd/options/config.php:38
+#: vslmd/options/redux-extensions/configs/config.php:28
+#: vslmd/options/redux-extensions/configs/config.php:30
+msgid "No Slider Found"
+msgstr ""
+
+#: vslmd/options/config.php:49 vslmd/options/config.php:50
+msgid "Theme Options"
+msgstr ""
+
+#: vslmd/options/config.php:156
+msgid "Theme Information 1"
+msgstr ""
+
+#: vslmd/options/config.php:157 vslmd/options/config.php:162
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: vslmd/options/config.php:161
+msgid "Theme Information 2"
+msgstr ""
+
+#: vslmd/options/config.php:168
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: vslmd/options/config.php:185 vslmd/options/config.php:790
+msgid "Header"
+msgstr ""
+
+#: vslmd/options/config.php:186 vslmd/options/config.php:325
+#: vslmd/options/config.php:370 vslmd/options/config.php:471
+#: vslmd/options/config.php:528
+msgid "Control and configure the general setup of your header."
+msgstr ""
+
+#: vslmd/options/config.php:191
+msgid "Navigation Position"
+msgstr ""
+
+#: vslmd/options/config.php:192
+msgid "Choose horizontal or vertical navigation."
+msgstr ""
+
+#: vslmd/options/config.php:213
+msgid "Header Layout"
+msgstr ""
+
+#: vslmd/options/config.php:227
+msgid "Fixed Navigation"
+msgstr ""
+
+#: vslmd/options/config.php:228
+msgid "Do you want the header as sticky?"
+msgstr ""
+
+#: vslmd/options/config.php:235
+msgid "Top Header"
+msgstr ""
+
+#: vslmd/options/config.php:236
+msgid "Configure the top header."
+msgstr ""
+
+#: vslmd/options/config.php:239 vslmd/options/config.php:273
+#: vslmd/options/config.php:287 vslmd/options/config.php:301
+#: vslmd/options/redux-framework/inc/fields/switch/class-redux-switch.php:40
+msgid "Off"
+msgstr ""
+
+#: vslmd/options/config.php:240 vslmd/options/config.php:274
+#: vslmd/options/config.php:288 vslmd/options/config.php:302
+msgid "Only Mobile"
+msgstr ""
+
+#: vslmd/options/config.php:241 vslmd/options/config.php:275
+#: vslmd/options/config.php:289 vslmd/options/config.php:303
+msgid "Only Desktop"
+msgstr ""
+
+#: vslmd/options/config.php:242 vslmd/options/config.php:276
+#: vslmd/options/config.php:290 vslmd/options/config.php:304
+msgid "Desktop And Mobile"
+msgstr ""
+
+#: vslmd/options/config.php:249
+msgid "Top Header Structure"
+msgstr ""
+
+#: vslmd/options/config.php:250
+msgid "Select the columns for top header area."
+msgstr ""
+
+#: vslmd/options/config.php:251
+msgid "Customize the Top Header with widgets."
+msgstr ""
+
+#: vslmd/options/config.php:269
+msgid "WooCommerce Cart"
+msgstr ""
+
+#: vslmd/options/config.php:270
+msgid "Enable or disable cart on header."
+msgstr ""
+
+#: vslmd/options/config.php:284
+msgid "Enable or disable search on header."
+msgstr ""
+
+#: vslmd/options/config.php:297
+msgid "Wishlist"
+msgstr ""
+
+#: vslmd/options/config.php:298
+msgid "Enable or disable wishlist on header."
+msgstr ""
+
+#: vslmd/options/config.php:311
+msgid "Do You Want Extra Menus?"
+msgstr ""
+
+#: vslmd/options/config.php:312
+msgid "Enter a number. Min: 0, max: 50, step: 1, default value: 0"
+msgstr ""
+
+#: vslmd/options/config.php:324
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:372
+msgid "Style"
+msgstr ""
+
+#: vslmd/options/config.php:330
+msgid "Header Height"
+msgstr ""
+
+#: vslmd/options/config.php:331
+msgid "Choose the height of the your header."
+msgstr ""
+
+#: vslmd/options/config.php:342
+msgid "Navigation Collapsed"
+msgstr ""
+
+#: vslmd/options/config.php:343
+msgid "Choose when the menu will collapse."
+msgstr ""
+
+#: vslmd/options/config.php:356 vslmd/options/config.php:614
+msgid "Boxed or Stretched Style"
+msgstr ""
+
+#: vslmd/options/config.php:357 vslmd/options/config.php:615
+#: vslmd/options/config.php:1251
+msgid "Choose the format that works best for you."
+msgstr ""
+
+#: vslmd/options/config.php:369
+msgid "Brand"
+msgstr ""
+
+#: vslmd/options/config.php:375
+msgid "Brand Scheme"
+msgstr ""
+
+#: vslmd/options/config.php:376
+msgid "Choose the structure that is right for you."
+msgstr ""
+
+#: vslmd/options/config.php:377
+msgid ""
+"The options text use the Site Title on Settings > General. If any text "
+"content option is enabled, a new option will appear in the typography "
+"section specific to that text."
+msgstr ""
+
+#: vslmd/options/config.php:390
+msgid "Site Title"
+msgstr ""
+
+#: vslmd/options/config.php:392
+msgid ""
+"If this field is left blank, the system will use the General Settings Site "
+"Title."
+msgstr ""
+
+#: vslmd/options/config.php:398
+msgid "Logo Default"
+msgstr ""
+
+#: vslmd/options/config.php:399
+msgid ""
+"Click Browse and upload your logo, and then click Insert into Post. PNG and "
+"JPG allowed. Optimal image height is 48px."
+msgstr ""
+
+#: vslmd/options/config.php:400 vslmd/options/config.php:441
+msgid ""
+"You can upload your logo here. A plain text logo of the blog name will be "
+"placed here if you have not uploaded any image for the logo."
+msgstr ""
+
+#: vslmd/options/config.php:409
+msgid "Logo Light"
+msgstr ""
+
+#: vslmd/options/config.php:410
+msgid ""
+"Choose a logo image to display for \"Light\" header skin. Optimal image "
+"height is 48px."
+msgstr ""
+
+#: vslmd/options/config.php:419
+msgid "Logo Dark"
+msgstr ""
+
+#: vslmd/options/config.php:420
+msgid ""
+"Choose a logo image to display for \"Dark\" header skin. Optimal image "
+"height is 48px."
+msgstr ""
+
+#: vslmd/options/config.php:429
+msgid "Logo Mobile"
+msgstr ""
+
+#: vslmd/options/config.php:430
+msgid ""
+"Choose a logo image to display for \"Mobile\" header type. Optimal image "
+"height is 24px."
+msgstr ""
+
+#: vslmd/options/config.php:439
+msgid "Retina Logo Default"
+msgstr ""
+
+#: vslmd/options/config.php:440
+msgid ""
+"Click Browse and upload your logo, and then click Insert into Post. PNG and "
+"JPG allowed. Optimal image height is 96px."
+msgstr ""
+
+#: vslmd/options/config.php:447
+msgid "Retina Logo Light"
+msgstr ""
+
+#: vslmd/options/config.php:448
+msgid ""
+"Choose a logo image to display for \"Light\" header skin. Optimal image "
+"height is 96px."
+msgstr ""
+
+#: vslmd/options/config.php:454
+msgid "Retina Logo Dark"
+msgstr ""
+
+#: vslmd/options/config.php:455
+msgid ""
+"Choose a logo image to display for \"Dark\" header skin. Optimal image "
+"height is 96px."
+msgstr ""
+
+#: vslmd/options/config.php:461
+msgid "Retina Logo Mobile"
+msgstr ""
+
+#: vslmd/options/config.php:462
+msgid ""
+"Choose a logo image to display for \"Mobile\" header type. Optimal image "
+"height is 48px."
+msgstr ""
+
+#: vslmd/options/config.php:470
+msgid "Alert Message"
+msgstr ""
+
+#: vslmd/options/config.php:476
+msgid "Enable Alert Message"
+msgstr ""
+
+#: vslmd/options/config.php:482 vslmd/options/config.php:697
+#: vslmd/options/config.php:943 vslmd/options/config.php:1261
+msgid "Background Color"
+msgstr ""
+
+#: vslmd/options/config.php:483 vslmd/options/config.php:944
+#: vslmd/options/config.php:1262
+msgid "Set color and alpha channel"
+msgstr ""
+
+#: vslmd/options/config.php:493 vslmd/options/config.php:587
+#: vslmd/options/config.php:953 vslmd/options/config.php:1270
+#: vslmd/options/config.php:1741 vslmd/options/config.php:1841
+#: vslmd/options/config.php:1894 vslmd/options/config.php:2003
+#: vslmd/options/redux-extensions/configs/config.php:86
+msgid "Background Image"
+msgstr ""
+
+#: vslmd/options/config.php:494 vslmd/options/config.php:954
+#: vslmd/options/config.php:1271
+msgid "Background with image"
+msgstr ""
+
+#: vslmd/options/config.php:507
+msgid "Spacing"
+msgstr ""
+
+#: vslmd/options/config.php:508
+msgid "Choose The Spacing You Want."
+msgstr ""
+
+#: vslmd/options/config.php:509
+msgid ""
+"You can enable or disable any piece of this field. Top, Right, Bottom, Left, "
+"or Units."
+msgstr ""
+
+#: vslmd/options/config.php:514 vslmd/options/config.php:642
+msgid "Copyright Text"
+msgstr ""
+
+#: vslmd/options/config.php:515 vslmd/options/config.php:643
+msgid "Create your custom footer text"
+msgstr ""
+
+#: vslmd/options/config.php:534
+msgid "Create an animated, closable side navigation menu."
+msgstr ""
+
+#: vslmd/options/config.php:547
+msgid "Color Scheme"
+msgstr ""
+
+#: vslmd/options/config.php:548 vslmd/options/config.php:1901
+msgid "Choose the Color Scheme."
+msgstr ""
+
+#: vslmd/options/config.php:559
+msgid "Layout Side Navigation"
+msgstr ""
+
+#: vslmd/options/config.php:560 vslmd/options/config.php:1714
+#: vslmd/options/config.php:1814 vslmd/options/config.php:1971
+#: vslmd/options/redux-extensions/configs/config.php:43
+#: vslmd/options/redux-extensions/configs/config.php:57
+msgid "Organize how you want the layout to appear."
+msgstr ""
+
+#: vslmd/options/config.php:588 vslmd/options/config.php:1742
+#: vslmd/options/config.php:1842 vslmd/options/config.php:1895
+#: vslmd/options/config.php:2004
+#: vslmd/options/redux-extensions/configs/config.php:87
+msgid ""
+"Upload your image should be between 1920px x 1080px (or more) for best "
+"results."
+msgstr ""
+
+#: vslmd/options/config.php:595 vslmd/options/config.php:925
+msgid "Footer"
+msgstr ""
+
+#: vslmd/options/config.php:596
+msgid "Control and configure of your footer area."
+msgstr ""
+
+#: vslmd/options/config.php:601
+msgid "Breadcrumbs And Bottom To Top Button"
+msgstr ""
+
+#: vslmd/options/config.php:602
+msgid "Enable or disable the breadcrumbs and botton to top"
+msgstr ""
+
+#: vslmd/options/config.php:625
+msgid "Widget Area Columns"
+msgstr ""
+
+#: vslmd/options/config.php:626
+msgid "Select the columns for footer widget area."
+msgstr ""
+
+#: vslmd/options/config.php:650
+msgid "Colors"
+msgstr ""
+
+#: vslmd/options/config.php:651 vslmd/options/config.php:791
+#: vslmd/options/config.php:926
+msgid "Control and configure of colors and backgrounds."
+msgstr ""
+
+#: vslmd/options/config.php:656
+msgid "Color Mode"
+msgstr ""
+
+#: vslmd/options/config.php:657 vslmd/options/config.php:797
+#: vslmd/options/config.php:932
+msgid "Select a color mode."
+msgstr ""
+
+#: vslmd/options/config.php:667
+msgid "Choose Global Color"
+msgstr ""
+
+#: vslmd/options/config.php:676
+msgid "Pick a global color for the theme."
+msgstr ""
+
+#: vslmd/options/config.php:684
+msgid "Body Background Color"
+msgstr ""
+
+#: vslmd/options/config.php:688
+msgid "Pick a Body background color for the theme."
+msgstr ""
+
+#: vslmd/options/config.php:701
+msgid "Pick a background color for the theme."
+msgstr ""
+
+#: vslmd/options/config.php:710
+msgid "Border Color"
+msgstr ""
+
+#: vslmd/options/config.php:714
+msgid "Pick a border color for the theme."
+msgstr ""
+
+#: vslmd/options/config.php:723
+msgid "Color"
+msgstr ""
+
+#: vslmd/options/config.php:727
+msgid "Pick a color for the theme."
+msgstr ""
+
+#: vslmd/options/config.php:736
+msgid "Page Heading Text Color"
+msgstr ""
+
+#: vslmd/options/config.php:740
+msgid "Pick a page heading text color for the theme."
+msgstr ""
+
+#: vslmd/options/config.php:749
+msgid "Page Heading Subtitle Text Color"
+msgstr ""
+
+#: vslmd/options/config.php:753
+msgid "Pick a page heading subtitle text color for the theme."
+msgstr ""
+
+#: vslmd/options/config.php:762
+msgid "Body Text Color"
+msgstr ""
+
+#: vslmd/options/config.php:766
+msgid "Pick a body text color for the theme."
+msgstr ""
+
+#: vslmd/options/config.php:775
+msgid "Heading Text Color"
+msgstr ""
+
+#: vslmd/options/config.php:779
+msgid "Pick a heading text color for the theme."
+msgstr ""
+
+#: vslmd/options/config.php:796
+msgid "Header Color Scheme"
+msgstr ""
+
+#: vslmd/options/config.php:809
+msgid "Navigation Color Scheme"
+msgstr ""
+
+#: vslmd/options/config.php:810 vslmd/options/config.php:822
+msgid "Choose the Color."
+msgstr ""
+
+#: vslmd/options/config.php:821
+msgid "Dropdown Navigation Color Scheme"
+msgstr ""
+
+#: vslmd/options/config.php:833
+msgid "Navigation Background Color"
+msgstr ""
+
+#: vslmd/options/config.php:834 vslmd/options/config.php:849
+msgid "Choose the Background Color."
+msgstr ""
+
+#: vslmd/options/config.php:848
+msgid "Dropdown Navigation Background Color"
+msgstr ""
+
+#: vslmd/options/config.php:863
+msgid "Navigation Color"
+msgstr ""
+
+#: vslmd/options/config.php:864 vslmd/options/config.php:879
+msgid "Set navigation text color and alpha channel"
+msgstr ""
+
+#: vslmd/options/config.php:878
+msgid "Navigation Color Hover"
+msgstr ""
+
+#: vslmd/options/config.php:893
+msgid "Navigation Dropdown Color"
+msgstr ""
+
+#: vslmd/options/config.php:894 vslmd/options/config.php:909
+msgid "Set dropdown navigation text color and alpha channel"
+msgstr ""
+
+#: vslmd/options/config.php:908
+msgid "Navigation Dropdown Color Hover"
+msgstr ""
+
+#: vslmd/options/config.php:931
+msgid "Footer Color Scheme"
+msgstr ""
+
+#: vslmd/options/config.php:962
+msgid "Typography"
+msgstr ""
+
+#: vslmd/options/config.php:963 vslmd/options/config.php:969
+#: vslmd/options/config.php:1090
+msgid "Control and configure the typography of your theme."
+msgstr ""
+
+#: vslmd/options/config.php:968
+msgid "Navigation & Page Header"
+msgstr ""
+
+#: vslmd/options/config.php:974
+msgid "Enable Custom Fonts?"
+msgstr ""
+
+#: vslmd/options/config.php:980
+msgid "Navigation Font"
+msgstr ""
+
+#: vslmd/options/config.php:981
+msgid "Specify the Navigation font properties."
+msgstr ""
+
+#: vslmd/options/config.php:1001
+msgid "Navigation Dropdown Font"
+msgstr ""
+
+#: vslmd/options/config.php:1002
+msgid "Specify the Navigation Dropdown font properties."
+msgstr ""
+
+#: vslmd/options/config.php:1022
+msgid "Brand Font"
+msgstr ""
+
+#: vslmd/options/config.php:1023
+msgid "Specify the Brand font properties."
+msgstr ""
+
+#: vslmd/options/config.php:1043
+msgid "Page Heading Font"
+msgstr ""
+
+#: vslmd/options/config.php:1044
+msgid "Specify the Page Heading font properties."
+msgstr ""
+
+#: vslmd/options/config.php:1065
+msgid "Page Heading Subtitle Font"
+msgstr ""
+
+#: vslmd/options/config.php:1066
+msgid "Specify the Page Heading Subtitle font properties."
+msgstr ""
+
+#: vslmd/options/config.php:1089
+msgid "General HTML elements"
+msgstr ""
+
+#: vslmd/options/config.php:1095
+msgid "Body Font"
+msgstr ""
+
+#: vslmd/options/config.php:1096
+msgid "Specify the Body font properties."
+msgstr ""
+
+#: vslmd/options/config.php:1116
+msgid "Heading 1"
+msgstr ""
+
+#: vslmd/options/config.php:1117
+msgid "Specify the H1 Text properties."
+msgstr ""
+
+#: vslmd/options/config.php:1137
+msgid "Heading 2"
+msgstr ""
+
+#: vslmd/options/config.php:1138
+msgid "Specify the H2 Text properties."
+msgstr ""
+
+#: vslmd/options/config.php:1158
+msgid "Heading 3"
+msgstr ""
+
+#: vslmd/options/config.php:1159
+msgid "Specify the H3 Text properties."
+msgstr ""
+
+#: vslmd/options/config.php:1179
+msgid "Heading 4"
+msgstr ""
+
+#: vslmd/options/config.php:1180
+msgid "Specify the H4 Text properties."
+msgstr ""
+
+#: vslmd/options/config.php:1200
+msgid "Heading 5"
+msgstr ""
+
+#: vslmd/options/config.php:1201
+msgid "Specify the H5 Text properties."
+msgstr ""
+
+#: vslmd/options/config.php:1221
+msgid "Heading 6"
+msgstr ""
+
+#: vslmd/options/config.php:1222
+msgid "Specify the H6 Text properties."
+msgstr ""
+
+#: vslmd/options/config.php:1243
+#: vslmd/options/redux-extensions/configs/config.php:35
+msgid "Layout"
+msgstr ""
+
+#: vslmd/options/config.php:1244
+#: vslmd/options/redux-extensions/configs/config.php:36
+msgid "Control and configure the layout."
+msgstr ""
+
+#: vslmd/options/config.php:1250
+msgid "Boxed or Stretched style"
+msgstr ""
+
+#: vslmd/options/config.php:1278
+msgid "Post Types"
+msgstr ""
+
+#: vslmd/options/config.php:1279 vslmd/options/config.php:1523
+msgid "Control and configure the general setup of your custom post types."
+msgstr ""
+
+#: vslmd/options/config.php:1285
+msgid "How many custom post types?"
+msgstr ""
+
+#: vslmd/options/config.php:1287
+msgid "Enter a number. Min: 1, max: 5, step: 1, default value: 0"
+msgstr ""
+
+#: vslmd/options/config.php:1297 vslmd/options/config.php:1345
+#: vslmd/options/config.php:1393 vslmd/options/config.php:1437
+#: vslmd/options/config.php:1481
+msgid "Singular name"
+msgstr ""
+
+#: vslmd/options/config.php:1299 vslmd/options/config.php:1347
+#: vslmd/options/config.php:1395 vslmd/options/config.php:1439
+#: vslmd/options/config.php:1483
+msgid "Enter a Singular Name. Ex: \"Book\""
+msgstr ""
+
+#: vslmd/options/config.php:1305 vslmd/options/config.php:1353
+#: vslmd/options/config.php:1400 vslmd/options/config.php:1444
+#: vslmd/options/config.php:1488
+msgid "Plural name"
+msgstr ""
+
+#: vslmd/options/config.php:1307 vslmd/options/config.php:1355
+#: vslmd/options/config.php:1402 vslmd/options/config.php:1446
+#: vslmd/options/config.php:1490
+msgid "Enter a Plural Name. Ex: \"Books\""
+msgstr ""
+
+#: vslmd/options/config.php:1313 vslmd/options/config.php:1361
+#: vslmd/options/config.php:1407 vslmd/options/config.php:1451
+#: vslmd/options/config.php:1495
+msgid "Custom Slug"
+msgstr ""
+
+#: vslmd/options/config.php:1317 vslmd/options/config.php:1365
+#: vslmd/options/config.php:1410 vslmd/options/config.php:1454
+#: vslmd/options/config.php:1498
+msgid ""
+"Please enter the Slug here.  Ex: \"book\"<br/><br/>\n"
+"                <b>You will still have to refresh your permalinks after "
+"saving this!</b><br/><br/>\n"
+"                This is done by going to <b>Settings -> Permalinks</b> and "
+"clicking save."
+msgstr ""
+
+#: vslmd/options/config.php:1324 vslmd/options/config.php:1372
+#: vslmd/options/config.php:1417 vslmd/options/config.php:1461
+#: vslmd/options/config.php:1505
+msgid "URL Index"
+msgstr ""
+
+#: vslmd/options/config.php:1326 vslmd/options/config.php:1374
+#: vslmd/options/config.php:1419 vslmd/options/config.php:1463
+#: vslmd/options/config.php:1507
+msgid "Enter an URL valid of the Index."
+msgstr ""
+
+#: vslmd/options/config.php:1331 vslmd/options/config.php:1379
+#: vslmd/options/config.php:1424 vslmd/options/config.php:1468
+#: vslmd/options/config.php:1512
+msgid "Custom Post Type Icon"
+msgstr ""
+
+#: vslmd/options/config.php:1333 vslmd/options/config.php:1381
+#: vslmd/options/config.php:1426 vslmd/options/config.php:1470
+#: vslmd/options/config.php:1514
+msgid "Choice the Icon you want."
+msgstr ""
+
+#: vslmd/options/config.php:1334 vslmd/options/config.php:1383
+#: vslmd/options/config.php:1427 vslmd/options/config.php:1471
+#: vslmd/options/config.php:1515
+msgid ""
+"Choice the <a target=\"_blank\" href=\"https://developer.wordpress.org/"
+"resource/dashicons/\">Dashicon</a> and paster here. Ex: \"dashicons-admin-"
+"site\""
+msgstr ""
+
+#: vslmd/options/config.php:1522
+msgid "Share"
+msgstr ""
+
+#: vslmd/options/config.php:1528
+msgid "Enable Sharing System?"
+msgstr ""
+
+#: vslmd/options/config.php:1534
+msgid "Twitter Account"
+msgstr ""
+
+#: vslmd/options/config.php:1536
+msgid "Input your twitter account without @."
+msgstr ""
+
+#: vslmd/options/config.php:1543
+msgid "Sharing for Posts and Pages"
+msgstr ""
+
+#: vslmd/options/config.php:1544
+msgid "Enable or Disable Sharing System for each Post Type or Pages."
+msgstr ""
+
+#: vslmd/options/config.php:1550
+msgid "Post Type Share Position"
+msgstr ""
+
+#: vslmd/options/config.php:1551
+msgid "Choose the Position."
+msgstr ""
+
+#: vslmd/options/config.php:1564
+msgid "Blog"
+msgstr ""
+
+#: vslmd/options/config.php:1565 vslmd/options/config.php:1585
+msgid "Control and configure the general setup of your Blog."
+msgstr ""
+
+#: vslmd/options/config.php:1570
+msgid "Single Post Widget"
+msgstr ""
+
+#: vslmd/options/config.php:1571
+msgid "Enable or disable the widget on single post"
+msgstr ""
+
+#: vslmd/options/config.php:1584 vslmd/options/config.php:1590
+msgid "Related Posts"
+msgstr ""
+
+#: vslmd/options/config.php:1596
+msgid "Related Posts Image"
+msgstr ""
+
+#: vslmd/options/config.php:1603
+msgid "Related Posts Excerpt"
+msgstr ""
+
+#: vslmd/options/config.php:1610
+msgid "Number of Posts to Display"
+msgstr ""
+
+#: vslmd/options/config.php:1611
+msgid "Min: 3, max: 12, step: 1, default value: 6"
+msgstr ""
+
+#: vslmd/options/config.php:1622
+msgid "Limit Post Excerpt Length"
+msgstr ""
+
+#: vslmd/options/config.php:1623
+msgid "Min: 10, max: 100, step: 1, default value: 60"
+msgstr ""
+
+#: vslmd/options/config.php:1634
+msgid "Related Posts Image Resolution"
+msgstr ""
+
+#: vslmd/options/config.php:1635
+msgid "Select the best resolution for the images."
+msgstr ""
+
+#: vslmd/options/config.php:1638 vslmd/widgets/flickr-widget.php:101
+#: vslmd/widgets/instagram-widget.php:98
+msgid "Thumbnail"
+msgstr ""
+
+#: vslmd/options/config.php:1639 vslmd/widgets/flickr-widget.php:101
+msgid "Medium"
+msgstr ""
+
+#: vslmd/options/config.php:1640
+msgid "Medium Large"
+msgstr ""
+
+#: vslmd/options/config.php:1641 vslmd/widgets/instagram-widget.php:100
+msgid "Large"
+msgstr ""
+
+#: vslmd/options/config.php:1642
+msgid "Full"
+msgstr ""
+
+#: vslmd/options/config.php:1649
+msgid "Related Posts Heading"
+msgstr ""
+
+#: vslmd/options/config.php:1651
+msgid "Default is \"Recommended For You\"."
+msgstr ""
+
+#: vslmd/options/config.php:1661 vslmd/options/config.php:1695
+#: vslmd/options/config.php:1795
+msgid "Control and configure the general setup of your store."
+msgstr ""
+
+#: vslmd/options/config.php:1666
+msgid "Main Shop Structure"
+msgstr ""
+
+#: vslmd/options/config.php:1667 vslmd/options/config.php:1680
+msgid "Select sidebar alignment."
+msgstr ""
+
+#: vslmd/options/config.php:1679
+msgid "Single Product Structure"
+msgstr ""
+
+#: vslmd/options/config.php:1694
+msgid "Hero Header Shop"
+msgstr ""
+
+#: vslmd/options/config.php:1700 vslmd/options/config.php:1800
+#: vslmd/options/config.php:1956
+msgid "Overlay Navigation Menu"
+msgstr ""
+
+#: vslmd/options/config.php:1701 vslmd/options/config.php:1801
+#: vslmd/options/config.php:1957
+msgid "The menu will overlay the content on top."
+msgstr ""
+
+#: vslmd/options/config.php:1713 vslmd/options/config.php:1813
+#: vslmd/options/config.php:1970
+#: vslmd/options/redux-extensions/configs/config.php:56
+msgid "Layout Header Title"
+msgstr ""
+
+#: vslmd/options/config.php:1748 vslmd/options/config.php:1848
+#: vslmd/options/config.php:2011
+#: vslmd/options/redux-extensions/configs/config.php:93
+msgid "Header Title Height"
+msgstr ""
+
+#: vslmd/options/config.php:1749 vslmd/options/config.php:1849
+#: vslmd/options/config.php:2012
+#: vslmd/options/redux-extensions/configs/config.php:94
+msgid "Choose the height you want."
+msgstr ""
+
+#: vslmd/options/config.php:1764 vslmd/options/config.php:2028
+#: vslmd/options/redux-extensions/configs/config.php:123
+#: vslmd/options/redux-extensions/configs/config.php:583
+#: vslmd/options/redux-framework/inc/classes/class-redux-field.php:38
+#: vslmd/options/redux-framework/inc/fields/slides/class-redux-slides.php:130
+#: vslmd/options/redux-framework/inc/fields/slides/class-redux-slides.php:265
+#: vslmd/widgets/instagram-widget.php:93
+msgid "Title"
+msgstr ""
+
+#: vslmd/options/config.php:1765 vslmd/options/config.php:2029
+msgid "Please enter the title."
+msgstr ""
+
+#: vslmd/options/config.php:1774 vslmd/options/config.php:2039
+#: vslmd/options/redux-extensions/configs/config.php:133
+msgid "Caption"
+msgstr ""
+
+#: vslmd/options/config.php:1775 vslmd/options/config.php:2040
+msgid "Please enter the caption."
+msgstr ""
+
+#: vslmd/options/config.php:1783 vslmd/options/config.php:1863
+#: vslmd/options/config.php:2049
+#: vslmd/options/redux-extensions/configs/config.php:168
+msgid "Slider Revolution"
+msgstr ""
+
+#: vslmd/options/config.php:1784 vslmd/options/config.php:1864
+#: vslmd/options/config.php:2050
+#: vslmd/options/redux-extensions/configs/config.php:169
+msgid "Choose Slide Template"
+msgstr ""
+
+#: vslmd/options/config.php:1794
+msgid "Hero Header Products"
+msgstr ""
+
+#: vslmd/options/config.php:1874
+msgid "Account"
+msgstr ""
+
+#: vslmd/options/config.php:1875
+msgid ""
+"Control and configure the general setup of your Register, Login and Reset "
+"pages."
+msgstr ""
+
+#: vslmd/options/config.php:1880
+msgid "Upload your Logo"
+msgstr ""
+
+#: vslmd/options/config.php:1881
+msgid ""
+"The WordPress logo will be placed here if you have not uploaded any image "
+"for the logo."
+msgstr ""
+
+#: vslmd/options/config.php:1882
+msgid "Standard resolution is 84px x 84px."
+msgstr ""
+
+#: vslmd/options/config.php:1900
+msgid "Text and Buttons Color Scheme"
+msgstr ""
+
+#: vslmd/options/config.php:1911
+msgid "Custom Code"
+msgstr ""
+
+#: vslmd/options/config.php:1912
+msgid "Enter your custom codes."
+msgstr ""
+
+#: vslmd/options/config.php:1917
+msgid "CSS Code"
+msgstr ""
+
+#: vslmd/options/config.php:1918
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: vslmd/options/config.php:1926
+msgid "JS Code"
+msgstr ""
+
+#: vslmd/options/config.php:1927
+msgid "Paste your JS code here."
+msgstr ""
+
+#: vslmd/options/config.php:1934
+msgid "Google Analytics Code"
+msgstr ""
+
+#: vslmd/options/config.php:1935
+msgid "Paste your code here."
+msgstr ""
+
+#: vslmd/options/config.php:1944
+msgid "404 Page"
+msgstr ""
+
+#: vslmd/options/config.php:1945
+msgid "Control and configure the general setup of your 404 page."
+msgstr ""
+
+#: vslmd/options/config.php:1950
+msgid "Enable Custom 404?"
+msgstr ""
+
+#: vslmd/options/config.php:2061
+msgid "Select Page Content"
+msgstr ""
+
+#: vslmd/options/config.php:2062
+msgid "Select a page content for 404 page."
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:42
+msgid "Layout Manager"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:112
+msgid "Custom Header Title Height"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:113
+msgid "Enter a number. Min: 1, max: 100, step: 1, default value: 250"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:124
+msgid "You can insert a custom text caption."
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:134
+msgid "You can insert a custom title instead of default title."
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:177
+msgid "Slides Options"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:183
+msgid "Unlimited slides with drag and drop sortings."
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:184
+msgid ""
+"This field will store all slides values into a multidimensional array to use "
+"into a foreach loop."
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:187
+msgid "This is a title"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:188
+msgid "Description Here"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:196
+msgid "Control and configure the general settings."
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:203
+msgid "Overlay Navigation"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:204
+msgid "The navigation will overlay the content on top."
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:227
+msgid "Change Menu"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:228
+msgid "Select the Menu that you want to show."
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:254
+#: vslmd/options/redux-extensions/extensions/metaboxes/extension_metaboxes.php:798
+#: vslmd/options/redux-framework/inc/classes/class-redux-args.php:277
+#: vslmd/options/redux-framework/inc/classes/class-redux-args.php:281
+msgid "Options"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:270
+#: vslmd/options/redux-extensions/configs/config.php:275
+msgid "Occupation"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:276
+msgid "Please input the Occupation"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:281
+msgid "Contact Settings"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:287
+msgid "Please input the Email"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:292
+msgid "Facebook Profile URL"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:293
+#: vslmd/options/redux-extensions/configs/config.php:299
+#: vslmd/options/redux-extensions/configs/config.php:305
+#: vslmd/options/redux-extensions/configs/config.php:311
+#: vslmd/options/redux-extensions/configs/config.php:317
+#: vslmd/options/redux-extensions/configs/config.php:323
+#: vslmd/options/redux-extensions/configs/config.php:329
+#: vslmd/options/redux-extensions/configs/config.php:335
+msgid "Please input the URL"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:298
+msgid "Github Profile URL"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:304
+msgid "Google Plus Profile URL"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:310
+msgid "Instagram Profile URL"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:316
+msgid "Linked In Profile URL"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:322
+msgid "Twitter Profile URL"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:328
+msgid "Vimeo Profile URL"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:334
+msgid "Youtube Profile URL"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:342
+msgid "Team Options"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:358
+msgid "Knowledgebase"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:363
+msgid "Custom Icon"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:364
+msgid "You can insert a custom icon code \"icon-book\"."
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:369
+msgid "Knowledgebase Description"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:370
+msgid "Write a description for your Knowledgebase."
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:382
+msgid "Knowledgebase Options"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:404
+msgid "Please Write a content."
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:412
+msgid "Aside Format Options"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:432
+msgid "Please Write a content for your quote."
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:440
+msgid "Quote Format Options"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:460
+msgid "Please input the URL for your link."
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:467
+msgid "Link Format Options"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:497
+msgid "Embedded Code"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:498
+msgid "Enter a Youtube or Vimeo URL here."
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:504
+msgid "WEBM File URL"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:505
+#: vslmd/options/redux-extensions/configs/config.php:512
+#: vslmd/options/redux-extensions/configs/config.php:519
+msgid "You must include both formats."
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:511
+msgid "MP4 File URL"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:518
+msgid "OGV File URL"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:527
+msgid "Video Format Options"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:548
+msgid "Please Paste MP3 URL."
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:555
+msgid "Audio Format Options"
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:576
+msgid "Please put the slides."
+msgstr ""
+
+#: vslmd/options/redux-extensions/configs/config.php:591
+msgid "Gallery Format Options"
+msgstr ""
+
+#: vslmd/options/redux-extensions/extensions/metaboxes/extension_metaboxes.php:966
+#: vslmd/options/redux-framework/inc/classes/class-redux-panel.php:155
+msgid "Settings Imported!"
+msgstr ""
+
+#: vslmd/options/redux-extensions/extensions/metaboxes/extension_metaboxes.php:969
+#: vslmd/options/redux-framework/inc/classes/class-redux-panel.php:245
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: vslmd/options/redux-extensions/extensions/metaboxes/extension_metaboxes.php:974
+#: vslmd/options/redux-extensions/extensions/metaboxes/extension_metaboxes.php:1263
+#: vslmd/options/redux-framework/inc/classes/class-redux-panel.php:259
+msgid "error(s) were found!"
+msgstr ""
+
+#: vslmd/options/redux-extensions/extensions/metaboxes/extension_metaboxes.php:979
+#: vslmd/options/redux-framework/inc/classes/class-redux-panel.php:274
+msgid "warning(s) were found!"
+msgstr ""
+
+#: vslmd/options/redux-extensions/extensions/metaboxes/extension_metaboxes.php:984
+#: vslmd/options/redux-framework/templates/panel/header-stickybar.tpl.php:16
+msgid "Expand"
+msgstr ""
+
+#: vslmd/options/redux-extensions/extensions/metaboxes/extension_metaboxes.php:1269
+msgid "warnings(s) were found!"
+msgstr ""
+
+#: vslmd/options/redux-framework/framework.php:390
+#: vslmd/options/redux-framework/framework.php:399
+msgid "Cheatin&#8217; eh?"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-admin-notices.php:135
+msgid "Dismiss"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-ajax-save.php:40
+#: vslmd/options/redux-framework/inc/classes/class-redux-ajax-select2.php:38
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-ajax-save.php:50
+#: vslmd/options/redux-framework/inc/classes/class-redux-ajax-select2.php:42
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-ajax-save.php:112
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-api.php:143
+msgid "Warning, Premature Initialization"
+msgstr ""
+
+#. translators: This is only shown to developers, should not impact users.
+#: vslmd/options/redux-framework/inc/classes/class-redux-api.php:146
+#, php-format
+msgid "was run before the %s hook and was delayed to avoid errors."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-api.php:360
+msgid "Redux Framework is not installed. Please install it."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-api.php:725
+msgid "Unable to create a section due to missing id and title."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-api.php:743
+msgid ""
+"Unable to create a section due an empty section array or the section "
+"variable passed was not an array."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-args.php:134
+msgid "Regular 400"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-args.php:138
+msgid "Regular 400 Italic"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-args.php:142
+msgid "Bold 700"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-args.php:146
+msgid "Bold 700 Italic"
+msgstr ""
+
+#. translators: 1: Redux, 2: Link to plugin review
+#: vslmd/options/redux-framework/inc/classes/class-redux-args.php:269
+#, php-format
+msgid ""
+"Enjoyed %1$s? Please leave us a %2$s rating. We really appreciate your "
+"support!"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-args.php:270
+#: vslmd/options/redux-framework/inc/classes/class-redux-enable-gutenberg.php:510
+#: vslmd/options/redux-framework/inc/classes/class-redux-user-feedback.php:316
+msgid "Redux"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-args.php:344
+msgid "Redux Framework Notice"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-args.php:347
+msgid ""
+"There are references to the Redux Framework support site in your config's "
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-args.php:350
+#: vslmd/options/redux-framework/inc/classes/class-redux-args.php:374
+msgid ""
+"argument.  This is sample data.  Please change or remove this data before "
+"shipping your product."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-args.php:368
+msgid "Redux Framework Notice:"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-args.php:371
+msgid ""
+"There are references to the Redux Framework support site in your config's"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-cdn.php:127
+msgid ""
+"Please wait a few minutes, then try refreshing the page. Unable to load some "
+"remotely hosted scripts."
+msgstr ""
+
+#. translators: %s: URL.
+#: vslmd/options/redux-framework/inc/classes/class-redux-cdn.php:130
+#, php-format
+msgid ""
+"If you are developing offline, please download and install the %s plugin/"
+"extension to bypass our CDN and avoid this warning"
+msgstr ""
+
+#. translators: %s: CDN handle.
+#: vslmd/options/redux-framework/inc/classes/class-redux-cdn.php:134
+msgid "Redux Framework Warning"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-cdn.php:134
+#, php-format
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr ""
+
+#. translators: %s: Vendor support URL. %s: Admin pluygins page.
+#: vslmd/options/redux-framework/inc/classes/class-redux-cdn.php:182
+#, php-format
+msgid ""
+"The %1$s (or extension) is either not installed or not activated and thus, "
+"some controls may not render properly.  Please ensure that it is installed "
+"and %2$s"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-cdn.php:182
+msgid "activated."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:136
+msgid "Security check failed."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:250
+msgid "Loading..."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:279
+#, php-format
+msgid ""
+"Register <strong>%1$s</strong> to enable automatic Google Font updates "
+"service. Plus unlock all free block templates in the Redux template library."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:284
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:707
+msgid "learn more"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:291
+msgid "Register Now"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:292
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:404
+msgid "No thanks"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:336
+msgid ""
+"You’re almost done. Register for our service to unlock even more tools to "
+"help you build better sites faster in WordPress."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:342
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:357
+msgid "Visit our website to learn more!"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:369
+msgid ""
+"Redux helps you to take your site to the next level with tools that greatly "
+"enhance your WordPress experience."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:379
+msgid "Build better sites faster with Redux"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:383
+msgid ""
+"The Redux block library service allows you to build any site you want in "
+"minutes with a click of a button. With over 1,000+ templates, Redux helps "
+"you build sites fast!"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:392
+msgid ""
+"No registration is required to use Redux as you always have. By registering "
+"for our service you gain access to Google Font updates as well as access to "
+"all free templates in our block template library."
+msgstr ""
+
+#. translators: 1. Name
+#. phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:404
+#: vslmd/options/redux-framework/inc/classes/class-redux-enable-gutenberg.php:349
+msgid "No Thanks"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:408
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:455
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:706
+msgid "Register"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:442
+msgid "Redux Logo"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:447
+msgid ""
+"Activate essential WordPress security and performance tools by setting up "
+"Redux"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:464
+msgid "Security & Backups"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:471
+msgid ""
+"Redux protects you against brute force attacks and unauthorized logins. "
+"Basic protection is always free, while premium plans add unlimited backups "
+"of your whole site, spam protection, malware scanning, and automated fixes."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:484
+msgid "Built-in Performance"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:491
+msgid ""
+"Activate site accelerator tools and watch your page load times decrease—"
+"we'll optimize your images and serve them from our own powerful global "
+"network of servers, and speed up your mobile site to reduce bandwidth usage."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:507
+msgctxt "a link that closes the modal window that offers to connect Redux"
+msgid "Not now, thank you."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:532
+msgid ""
+"<strong>Redux is activated!</strong> Each site on your network must be "
+"connected individually by an admin on that site."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-connection-banner.php:554
+#, php-format
+msgid ""
+"By clicking the <strong>Register</strong> button, you agree to our <a href="
+"\"%1$s\" target=\"_blank\">terms of service</a>, to create an account, and "
+"to share details of your usage metrics with Redux.io."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-enable-gutenberg.php:175
+msgid "Gutenberg is currently disabled!"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-enable-gutenberg.php:183
+msgid "Hmm, it seems something else is disabling Gutenberg..."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-enable-gutenberg.php:186
+msgid "Your theme author has disabled Gutenberg!"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-enable-gutenberg.php:189
+msgid "Looks like something has disabled Gutenberg?"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-enable-gutenberg.php:194
+#: vslmd/options/redux-framework/inc/classes/class-redux-enable-gutenberg.php:200
+msgid "Enable Gutenberg"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-enable-gutenberg.php:198
+msgid "Your theme"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-enable-gutenberg.php:218
+msgid "Disable Plugin"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-enable-gutenberg.php:221
+msgid "Disable Plugins"
+msgstr ""
+
+#. translators: 1. Name
+#: vslmd/options/redux-framework/inc/classes/class-redux-enable-gutenberg.php:340
+msgid "Redux WordPress Plugin"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-enqueue.php:625
+#: vslmd/options/redux-framework/inc/extensions/customizer/class-redux-extension-customizer.php:695
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-enqueue.php:641
+#: vslmd/options/redux-framework/inc/extensions/customizer/class-redux-extension-customizer.php:696
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-enqueue.php:657
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-enqueue.php:673
+#: vslmd/options/redux-framework/inc/extensions/customizer/class-redux-extension-customizer.php:697
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-enqueue.php:689
+msgid ""
+"Your current options will be replaced with the values of this import. Would "
+"you like to proceed?"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-enqueue.php:703
+msgid "Please Wait"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-enqueue.php:716
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-enqueue.php:720
+msgid ""
+"There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#. translators: %1$s Extension friendly name. %2$s: minimum Redux version.
+#: vslmd/options/redux-framework/inc/classes/class-redux-extension-abstract.php:227
+#, php-format
+msgid "The %1$s extension requires Redux Framework version %2$s or higher."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-extension-abstract.php:227
+msgid "You are currently running Redux Framework version "
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-extension-abstract.php:227
+msgid ""
+"This field will not render in your option panel, and featuress of this "
+"extension will not be available until the latest version of Redux Framework "
+"has been installed."
+msgstr ""
+
+#. translators: %s is the name of an extension
+#: vslmd/options/redux-framework/inc/classes/class-redux-extensions.php:92
+#, php-format
+msgid "The `%s` extension was not located properly"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-field.php:37
+msgid "Field ID"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-field.php:39
+msgid "Subtitle"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-field.php:41
+msgid "Class"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-field.php:42
+msgid "Compiler"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-field.php:43
+#: vslmd/options/redux-framework/inc/classes/class-redux-page-render.php:991
+msgid "Default"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-field.php:44
+msgid "Disabled"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-field.php:45
+msgid "Hint"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-field.php:46
+msgid "Permissions"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-field.php:47
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#. translators: %1$s: Upload URL.  %2$s: Codex URL.
+#: vslmd/options/redux-framework/inc/classes/class-redux-filesystem.php:149
+#: vslmd/options/redux-framework/inc/classes/class-redux-filesystem.php:443
+msgid "File Permission Issues"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-filesystem.php:149
+#: vslmd/options/redux-framework/inc/classes/class-redux-filesystem.php:443
+#, php-format
+msgid ""
+"We were unable to modify required files. Please ensure that %1$s has the "
+"proper read-write permissions, or modify your wp-config.php file to contain "
+"your FTP login credentials as %2$s."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-filesystem.php:149
+#: vslmd/options/redux-framework/inc/classes/class-redux-filesystem.php:443
+msgid "outlined here"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-functions.php:509
+msgid "Support hash could not be generated. Please try again later."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-helpers.php:1269
+msgid "version"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-helpers.php:1269
+msgid "is out of date. The core version is"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-page-render.php:172
+msgid "Enable"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-page-render.php:177
+msgid "Disable"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-page-render.php:184
+msgid "moving the mouse over"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-page-render.php:186
+msgid "clicking"
+msgstr ""
+
+#. translators: %1$s: Mousr action.  %2$s: Hint status.
+#: vslmd/options/redux-framework/inc/classes/class-redux-page-render.php:191
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %1$s the hint icon, offering addition "
+"information about the field in which they appear.  They can be %2$s by using "
+"the link below."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-page-render.php:196
+msgid "Hints"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-page-render.php:212
+msgid "Hint Tooltip Preferences"
+msgstr ""
+
+#. translators: %1$s is the field ID, %2$s is the field type.
+#: vslmd/options/redux-framework/inc/classes/class-redux-page-render.php:516
+#, php-format
+msgid "Field %1$s could not be displayed. Field type %2$s was not found."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-panel.php:86
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-panel.php:176
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-panel.php:197
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-panel.php:218
+msgid "Settings Saved!"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-panel.php:394
+msgid ""
+"Your panel has bundled copies of Redux Framework template files that are "
+"outdated!"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-panel.php:394
+msgid "Please update them now as functionality issues could arise."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-rest-api-builder.php:68
+#: vslmd/options/redux-framework/inc/classes/class-redux-rest-api-builder.php:83
+msgid "The field type"
+msgstr ""
+
+#. translators: Number of years
+#: vslmd/options/redux-framework/inc/classes/class-redux-user-feedback.php:98
+#, php-format
+msgid "%s years"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-user-feedback.php:100
+msgid "a year"
+msgstr ""
+
+#. translators: Number of weeks
+#: vslmd/options/redux-framework/inc/classes/class-redux-user-feedback.php:107
+#, php-format
+msgid "%s weeks"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-user-feedback.php:109
+msgid "a week"
+msgstr ""
+
+#. translators: Number of days
+#: vslmd/options/redux-framework/inc/classes/class-redux-user-feedback.php:116
+#, php-format
+msgid "%s days"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-user-feedback.php:118
+msgid "a day"
+msgstr ""
+
+#. translators: Number of hours
+#: vslmd/options/redux-framework/inc/classes/class-redux-user-feedback.php:125
+#, php-format
+msgid "%s hours"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-user-feedback.php:127
+msgid "an hour"
+msgstr ""
+
+#. translators: Number of minutes
+#: vslmd/options/redux-framework/inc/classes/class-redux-user-feedback.php:134
+#, php-format
+msgid "%s minutes"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-user-feedback.php:136
+msgid "a minute"
+msgstr ""
+
+#. translators: Number of seconds
+#: vslmd/options/redux-framework/inc/classes/class-redux-user-feedback.php:143
+#, php-format
+msgid "%s seconds"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-user-feedback.php:145
+msgid "a second"
+msgstr ""
+
+#. translators: 1. Name
+#: vslmd/options/redux-framework/inc/classes/class-redux-user-feedback.php:275
+#, php-format
+msgid "%s WordPress Plugin"
+msgstr ""
+
+#. translators: 1. Name
+#: vslmd/options/redux-framework/inc/classes/class-redux-user-feedback.php:279
+#, php-format
+msgid "Are you enjoying %s?"
+msgstr ""
+
+#. translators: 1. Name, 2. Time
+#: vslmd/options/redux-framework/inc/classes/class-redux-user-feedback.php:282
+#, php-format
+msgid ""
+"You have been using %1$s for %2$s now. Would you mind leaving a review to "
+"let us know know what you think? We'd really appreciate it!"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-user-feedback.php:286
+msgid "Leave a Review"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-user-feedback.php:287
+msgid "No thanks / I already have"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/classes/class-redux-wordpress-data.php:363
+msgid "[unassigned]"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/customizer/class-redux-extension-customizer.php:721
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/customizer/class-redux-extension-customizer.php:722
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/customizer/class-redux-extension-customizer.php:723
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/customizer/inc/class-redux-customizer-panel.php:97
+msgid "Press return or enter to open this panel"
+msgstr ""
+
+#. translators: %s is the site/panel title in the Customizer
+#: vslmd/options/redux-framework/inc/extensions/customizer/inc/class-redux-customizer-panel.php:126
+#: vslmd/options/redux-framework/inc/extensions/customizer/inc/class-redux-customizer-panel.php:167
+msgid "You are customizing"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/customizer/inc/class-redux-customizer-panel.php:163
+#: vslmd/options/redux-framework/inc/extensions/customizer/inc/class-redux-customizer-section.php:147
+msgid "Back"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/customizer/inc/class-redux-customizer-panel.php:174
+msgid "Help"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/customizer/inc/class-redux-customizer-section.php:91
+msgid "Press return or enter to expand"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/customizer/inc/class-redux-customizer-section.php:140
+msgid "Press return or enter to open"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/import_export/class-redux-extension-import-export.php:114
+msgid "Import / Export"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:77
+msgid "Import Options"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:83
+msgid "Import from Clipboard"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:90
+msgid "Import from URL"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:97
+msgid "Upload file"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:104
+msgid "Paste your clipboard data here."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:114
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:128
+msgid "Import"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:131
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:139
+msgid "Export Options"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:143
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:150
+#: vslmd/options/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:152
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:151
+#: vslmd/options/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:159
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:77
+msgid "Copied!"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:155
+msgid "Export File"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:158
+#: vslmd/options/redux-framework/inc/extensions/import_export/import_export/class-redux-import-export.php:161
+msgid "Copy Export URL"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/options_object/class-redux-extension-options-object.php:72
+#: vslmd/options/redux-framework/inc/extensions/options_object/options_object/class-redux-options-object.php:100
+msgid "Options Object"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/extensions/options_object/options_object/class-redux-options-object.php:106
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:124
+#: vslmd/options/redux-framework/inc/fields/color/class-redux-color.php:63
+#: vslmd/options/redux-framework/inc/fields/color_gradient/class-redux-color-gradient.php:116
+msgid "Transparent"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:135
+msgid "No Repeat"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:136
+msgid "Repeat All"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:137
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:138
+msgid "Repeat Vertically"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:139
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:154
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:172
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:190
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:209
+msgid "Inherit"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:155
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:173
+msgid "Border Box"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:156
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:174
+msgid "Content Box"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:157
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:175
+msgid "Padding Box"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:160
+msgid "Background Clip"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:178
+msgid "Background Origin"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:191
+msgid "Cover"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:192
+msgid "Contain"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:207
+msgid "Fixed"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:208
+msgid "Scroll"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:224
+msgid "Left Top"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:225
+msgid "Left center"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:226
+msgid "Left Bottom"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:227
+msgid "Center Top"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:228
+msgid "Center Center"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:229
+msgid "Center Bottom"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:230
+msgid "Right Top"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:231
+msgid "Right center"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:232
+msgid "Right Bottom"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:235
+msgid "Background Position"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:290
+#: vslmd/options/redux-framework/inc/fields/media/class-redux-media.php:51
+msgid "No media selected"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/background/class-redux-background.php:335
+#: vslmd/options/redux-framework/inc/fields/media/class-redux-media.php:200
+#: vslmd/options/redux-framework/inc/fields/slides/class-redux-slides.php:107
+#: vslmd/options/redux-framework/inc/fields/slides/class-redux-slides.php:251
+msgid "Upload"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/border/class-redux-border.php:106
+#: vslmd/options/redux-framework/inc/fields/spacing/class-redux-spacing.php:165
+msgid "All"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/border/class-redux-border.php:123
+#: vslmd/options/redux-framework/inc/fields/spacing/class-redux-spacing.php:223
+msgid "Top"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/border/class-redux-border.php:135
+#: vslmd/options/redux-framework/inc/fields/spacing/class-redux-spacing.php:239
+#: vslmd/widgets/contact-info-widget.php:190 vslmd/widgets/menu-widget.php:160
+#: vslmd/widgets/social-widget.php:609
+msgid "Right"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/border/class-redux-border.php:147
+#: vslmd/options/redux-framework/inc/fields/spacing/class-redux-spacing.php:255
+msgid "Bottom"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/border/class-redux-border.php:159
+#: vslmd/options/redux-framework/inc/fields/spacing/class-redux-spacing.php:271
+#: vslmd/widgets/contact-info-widget.php:188 vslmd/widgets/menu-widget.php:158
+#: vslmd/widgets/social-widget.php:607
+msgid "Left"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/border/class-redux-border.php:169
+msgid "Solid"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/border/class-redux-border.php:170
+msgid "Dashed"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/border/class-redux-border.php:171
+msgid "Dotted"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/border/class-redux-border.php:172
+msgid "Double"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/border/class-redux-border.php:173
+msgid "None"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/border/class-redux-border.php:176
+msgid "Border style"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/color_rgba/class-redux-color-rgba.php:42
+msgid "Choose"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/color_rgba/class-redux-color-rgba.php:45
+msgid "Select Color"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/dimensions/class-redux-dimensions.php:144
+msgid "Width"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/dimensions/class-redux-dimensions.php:173
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:561
+msgid "Height"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/dimensions/class-redux-dimensions.php:194
+#: vslmd/options/redux-framework/inc/fields/dimensions/class-redux-dimensions.php:198
+#: vslmd/options/redux-framework/inc/fields/dimensions/class-redux-dimensions.php:200
+#: vslmd/options/redux-framework/inc/fields/spacing/class-redux-spacing.php:282
+#: vslmd/options/redux-framework/inc/fields/spacing/class-redux-spacing.php:283
+msgid "Units"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/gallery/class-redux-gallery.php:48
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/gallery/class-redux-gallery.php:49
+msgid "Clear Gallery"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/link_color/class-redux-link-color.php:65
+msgid "Regular"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/link_color/class-redux-link-color.php:90
+msgid "Hover"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/link_color/class-redux-link-color.php:115
+msgid "Visited"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/link_color/class-redux-link-color.php:140
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/link_color/class-redux-link-color.php:165
+msgid "Focus"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/multi_text/class-redux-multi-text.php:31
+msgid "Add More"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/password/class-redux-password.php:53
+msgid "Password"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/password/class-redux-password.php:54
+msgid "Username"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/select/class-redux-select.php:89
+#: vslmd/options/redux-framework/inc/fields/select_image/class-redux-select-image.php:42
+msgid "Select an item"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/select/class-redux-select.php:166
+#: vslmd/options/redux-framework/inc/fields/select_image/class-redux-select-image.php:133
+msgid "No items of this type were found."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/slides/class-redux-slides.php:32
+msgid "Slide"
+msgstr ""
+
+#. translators: New accordion title.
+#. translators:  Content title for new accordion.
+#: vslmd/options/redux-framework/inc/fields/slides/class-redux-slides.php:48
+#: vslmd/options/redux-framework/inc/fields/slides/class-redux-slides.php:235
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/slides/class-redux-slides.php:217
+#: vslmd/options/redux-framework/inc/fields/slides/class-redux-slides.php:353
+msgid "Delete"
+msgstr ""
+
+#. translators:  Content title for accordion.
+#: vslmd/options/redux-framework/inc/fields/slides/class-redux-slides.php:365
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/switch/class-redux-switch.php:37
+msgid "On"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/text/class-redux-text.php:27
+msgid ""
+"The Text field accepts any form of text and optionally validates the text "
+"before saving the value."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/text/class-redux-text.php:29
+msgid "Display a qTip div when active on the text field."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/text/class-redux-text.php:30
+msgid "Placeholder text."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:291
+msgid "Font Family"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:293
+msgid "Font family"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:333
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:335
+msgid "Backup Font Family"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:354
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:374
+msgid "Font style"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:355
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:387
+msgid "Font subsets"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:395
+msgid "Font Subsets"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:398
+msgid "Subsets"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:400
+msgid "Font script"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:414
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:415
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:417
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:419
+msgid "Text Align"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:428
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:464
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:490
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:519
+msgid "inherit"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:429
+msgid "left"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:430
+msgid "right"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:431
+msgid "center"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:432
+msgid "justify"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:433
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:463
+msgid "initial"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:445
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:446
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:448
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:450
+msgid "Text Transform"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:459
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:518
+msgid "none"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:460
+msgid "capitalize"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:461
+msgid "uppercase"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:462
+msgid "lowercase"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:476
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:477
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:479
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:481
+msgid "Font Variant"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:491
+msgid "normal"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:492
+msgid "small-caps"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:504
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:505
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:507
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:509
+msgid "Text Decoration"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:520
+msgid "underline"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:521
+msgid "overline"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:522
+msgid "line-through"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:523
+msgid "blink"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:536
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:541
+msgid "Font Size"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:542
+msgid "Size"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:555
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:560
+msgid "Line Height"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:575
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:580
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:581
+msgid "Word Spacing"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:595
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:600
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:601
+msgid "Letter Spacing"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:636
+msgid "Font Color"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:643
+msgid "Font color"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:704
+msgid ""
+"Your Google Fonts are out of date. In order to update them you must register "
+"for Redux to enable updates."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:706
+msgid "to enable font updates"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:712
+msgid "Run a"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:712
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:714
+msgid "one-time update"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:714
+msgid "Automated updates"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:762
+msgid "Downloading Google Fonts..."
+msgstr ""
+
+#. translators: Aria title, link title.
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:764
+#, php-format
+msgid "Update Failed|msg. %1$s"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:764
+msgid "Retry?"
+msgstr ""
+
+#. translators: Javascript reload command, link title.
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:766
+#, php-format
+msgid "Updated! %1$s to start using your updated fonts."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:766
+msgid "Reload the page"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:1206
+msgid "Standard Fonts"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/fields/typography/class-redux-typography.php:1289
+msgid "Google Webfonts"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-embedded.php:42
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-embedded.php:64
+msgid "RECOMMENDED"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-embedded.php:42
+msgid "If you are submitting to WordPress.org Theme Repository, it is"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-embedded.php:42
+msgid "strongly"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-embedded.php:42
+msgid "suggested that you read"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-embedded.php:42
+msgid "this document"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-embedded.php:42
+msgid "or your theme will be rejected because of Redux."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-embedded.php:50
+msgid "REQUIRED"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-embedded.php:50
+msgid "You MUST delete"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-embedded.php:50
+msgid ""
+"or your theme will be rejected by WP.org theme submission because of Redux."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-embedded.php:64
+msgid ""
+"The following arguments MUST be used for WP.org submissions, or you will be "
+"rejected because of your Redux configuration."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-full-package.php:42
+msgid "Redux localization utilities"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-full-package.php:43
+msgid "Redux Resting Diles"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-full-package.php:44
+msgid "Redux Code Styles"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-full-package.php:45
+msgid "Redux Unit Testing"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-full-package.php:46
+msgid "Redux Plugin File"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-full-package.php:47
+msgid "Redux Boostrap Tests"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-full-package.php:48
+msgid "CI Testing FIle"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-full-package.php:49
+msgid "PHP Unit Testing"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-full-package.php:62
+msgid ""
+"It appears that you have embedded the full Redux package inside your theme. "
+"You need only embed the"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/themecheck/checks/class-redux-full-package.php:62
+msgid ""
+"folder. Embedding anything else will get your rejected from theme "
+"submission. Suspected Redux package file(s):"
+msgstr ""
+
+#. translators: %1$s: santizied value.  %2$s: Old value.
+#: vslmd/options/redux-framework/inc/validation/color/class-redux-validation-color.php:34
+#, php-format
+msgid ""
+"Invalid HTML color code %1$s. Please enter a valid code. No value was saved."
+msgstr ""
+
+#. translators: %1$s: santizied value.  %2$s: Old value.
+#: vslmd/options/redux-framework/inc/validation/color/class-redux-validation-color.php:46
+#, php-format
+msgid "Sanitized value and saved as %1$s instead of %2$s."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/validation/comma_numeric/class-redux-validation-comma-numeric.php:34
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/validation/css/class-redux-validation-css.php:27
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/validation/date/class-redux-validation-date.php:27
+msgid "This field must be a valid date."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/validation/email/class-redux-validation-email.php:27
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/validation/html_custom/class-redux-validation-html-custom.php:27
+msgid "Unallowed HTML was found in this field and has been removed."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/validation/js/class-redux-validation-js.php:27
+msgid "Javascript has been successfully escaped."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/validation/no_html/class-redux-validation-no-html.php:27
+msgid "You must not enter any HTML in this field.  All HTML has been removed."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/validation/no_special_chars/class-redux-validation-no-special-chars.php:27
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/validation/not_empty/class-redux-validation-not-empty.php:27
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/validation/numeric/class-redux-validation-numeric.php:27
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/validation/unique_slug/class-redux-validation-unique-slug.php:29
+msgid "That URL slug is in use, please choose another."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/validation/url/class-redux-validation-url.php:27
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/class-redux-welcome.php:87
+msgid "If you like"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/class-redux-welcome.php:87
+msgid "please leave us a"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/class-redux-welcome.php:87
+msgid "rating. A huge thank you in advance!"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/class-redux-welcome.php:104
+msgid "What is Redux Framework?"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/class-redux-welcome.php:104
+msgid "Redux Framework"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/class-redux-welcome.php:107
+#: vslmd/options/redux-framework/inc/welcome/class-redux-welcome.php:216
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:12
+msgid "Get Support"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/class-redux-welcome.php:110
+msgid "Redux Health Check"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/class-redux-welcome.php:206
+msgid "What is Redux?"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/class-redux-welcome.php:211
+msgid "Health Check"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/class-redux-welcome.php:302
+msgid "Disable Panel Demo"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/class-redux-welcome.php:308
+msgid "Enable Panel Demo"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:17
+msgid "Welcome to"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:21
+msgid ""
+"Redux is the world's most powerful and widely used WordPress interface "
+"builder. We are trusted by millions of developers and end users world-wide."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:25
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:149
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:47
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:875
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:18
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#. translators: %s: HTML.
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:34
+#, php-format
+msgid "Redux is Where the End User %s Interacts with WordPress"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:35
+msgid ""
+"Redux is a foundation on which to build any interface in WordPress. It's "
+"time saved, frustrations reduced, and a unified experience."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:38
+msgid "Metaboxes"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:39
+msgid "Taxonomies"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:40
+msgid "User Meta"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:41
+msgid "Options Panel"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:42
+msgid "Customizer"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:43
+msgid "Gutenberg"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:57
+msgid "Did I install this?"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:61
+msgid ""
+"Maybe not! These items are using Redux. If you want to keep using them, "
+"Redux will need to remain installed and activated."
+msgstr ""
+
+#. translators: %1$s: URL, %2$s: close tag.
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:72
+#, php-format
+msgid ""
+"Maybe not! If you want to see what Redux is all about, click here to "
+"%1$sActivate Demo Mode%2$s."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:99
+msgid "Version:"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:104
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:157
+msgid "By"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:111
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:863
+msgid "Theme"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/about.php:163
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:39
+msgid "Redux - Health Report"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:43
+msgid ""
+"Our core mantra at Redux is backward compatibility. With millions instances "
+"worldwide, all we care about is keeping can be assured that we will take "
+"care of you."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:56
+msgid ""
+"Please copy and paste this information in your ticket when contacting "
+"support:"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:61
+msgid "Get System Report"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:67
+msgid "Understanding the Status Report"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:78
+msgid "Copy for Support"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:88
+msgid "WordPress Environment"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:95
+msgid "Home URL"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:98
+msgid "The URL of your site's homepage."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:104
+msgid "Site URL"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:107
+msgid "The root URL of your site."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:115
+msgid "Redux Version"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:118
+msgid "The version of Redux Framework installed on your site."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:126
+msgid "Redux Data Directory Writable"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:129
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:152
+msgid ""
+"Redux and its extensions write data to the <code>uploads</code> directory. "
+"This directory must be writable."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:141
+msgid "To allow data saving, make"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:141
+msgid "writable."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:149
+msgid "WP Content URL"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:160
+msgid "WP Version"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:163
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:171
+msgid "WP Multisite"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:174
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:188
+msgid "Permalink Structure"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:191
+msgid ""
+"The current permalink structure as defined in WordPress Settings->Permalinks."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:200
+msgid "Front Page Display"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:203
+msgid "The current Reading mode of WordPress."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:212
+msgid "Front Page"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:215
+msgid "The currently selected page which acts as the site's Front Page."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:223
+msgid "Posts Page"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:226
+msgid "The currently selected page in where blog posts are displayed."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:237
+msgid "WP Memory Limit"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:240
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:247
+msgid "We recommend setting memory to at least 40MB. See:"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:247
+msgid "Increasing memory allocated to PHP"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:256
+msgid "Database Table Prefix"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:259
+msgid "The prefix structure of the current WordPress database."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:267
+msgid "WP Debug Mode"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:270
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:284
+msgid "Language"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:287
+msgid "The current language used by WordPress. Default = English"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:299
+msgid "Browser"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:306
+msgid "Browser Info"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:309
+msgid "Information about the current web browser."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:326
+msgid "Server Environment"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:333
+msgid "Server Info"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:336
+msgid "Information about the web server that is currently hosting your site."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:344
+msgid "Localhost Environment"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:347
+msgid "Is the server running in a localhost environment."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:363
+msgid "PHP Version"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:366
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:374
+msgid "ABSPATH"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:377
+msgid "The ABSPATH variable on the server."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:386
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:390
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:399
+msgid "The largest filesize that can be contained in one post."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:395
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:404
+msgid "PHP Time Limit"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:406
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:411
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:415
+msgid ""
+"The maximum number of variables your server can use for a single function to "
+"avoid overloads."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:420
+msgid "PHP Display Errors"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:424
+msgid "Determines if PHP will display errors within the browser."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:440
+msgid "SUHOSIN Installed"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:443
+msgid ""
+"Suhosin is an advanced protection system for PHP installations. It was "
+"designed to protect your servers on the one hand against a number of well "
+"known problems in PHP applications and on the other hand against potential "
+"unknown vulnerabilities within these applications or the PHP core itself.  "
+"If enabled on your server, Suhosin may need to be configured to increase its "
+"data submission limits."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:461
+msgid "MySQL Version"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:463
+msgid "The version of MySQL installed on your hosting server."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:468
+msgid "Max Upload Size"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:470
+msgid ""
+"The largest filesize that can be uploaded to your WordPress installation."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:476
+msgid "Default Timezone is UTC"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:479
+msgid "The default timezone for your server."
+msgstr ""
+
+#. translators: %s default time zone.
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:487
+msgid "Default timezone is"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:487
+msgid "it should be UTC"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:502
+msgid "Used when communicating with remote services with PHP."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:508
+msgid ""
+"Your server does not have fsockopen or cURL enabled - cURL is used to "
+"communicate with other servers. Please contact your hosting provider."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:512
+msgid "Remote Post"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:513
+msgid "Used to send data to remote servers."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:518
+msgid ""
+"wp_remote_post() failed. Many advanced features may not function. Contact "
+"your hosting provider."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:521
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:536
+msgid "Error:"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:528
+msgid "Remote Get"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:529
+msgid "Used to grab information from remote servers for updates updates."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:534
+msgid ""
+"wp_remote_get() failed. This is needed to get information from remote "
+"servers. Contact your hosting provider."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:572
+msgid "Active Plugins"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:585
+msgid "Visit plugin homepage"
+msgstr ""
+
+#. translators: %s Author name and URL.
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:593
+#, php-format
+msgctxt "by author"
+msgid "by %s"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:613
+msgid "Redux Instance: "
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:623
+msgid "The opt_name argument for this instance of Redux."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:633
+msgid "The global_variable argument for this instance of Redux."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:643
+msgid "Indicates if developer mode is enabled for this instance of Redux."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:662
+msgid "Indicates if ajax based saving is enabled for this instance of Redux."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:681
+msgid ""
+"The page slug denotes the string used for the options panel page for this "
+"instance of Redux."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:688
+msgid ""
+"The page permissions variable sets the permission level required to access "
+"the options panel for this instance of Redux."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:695
+msgid ""
+"This variable set whether or not the menu is displayed as an admin menu item "
+"for this instance of Redux."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:702
+msgid ""
+"The page parent variable sets where the options menu will be placed on the "
+"WordPress admin sidebar for this instance of Redux."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:710
+msgid "Indicates if the compiler flag is enabled for this instance of Redux."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:729
+msgid ""
+"Indicates if output flag for globally shutting off all CSS output is enabled "
+"for this instance of Redux."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:748
+msgid ""
+"The output_tag variable sets whether or not dynamic CSS will be generated "
+"for the customizer and Google fonts for this instance of Redux."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:768
+msgid ""
+"These files are calling this opt_name. If you want to alter the config of "
+"this opt_name, modify these files."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:800
+msgid ""
+"The specified template path containing custom template files for this "
+"instance of Redux."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:807
+msgid "List of template files overriding the default Redux template files."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:835
+msgid "Indicates the installed Redux extensions and their version numbers."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:870
+msgid "The name of the current active theme."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:877
+msgid "The installed version of the current active theme."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:885
+msgid "is available"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:891
+msgid "Author URL"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:893
+msgid "The theme developers URL."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:898
+msgid "Child Theme"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:900
+msgid "Displays whether or not the current theme is a child theme."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:908
+#, php-format
+msgid ""
+"If you are modifying Redux Framework on a parent theme that you did not "
+"build personally we recommend using a child theme. See: <a href=\"%s\" "
+"target=\"_blank\">How to create a child theme</a>"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:917
+msgid "Parent Theme Name"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:921
+msgid "The name of the parent theme."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:927
+msgid "Parent Theme Version"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:930
+msgid "The installed version of the parent theme."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:936
+msgid "Parent Theme Author URL"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/health-report.php:939
+msgid "The parent theme developers URL."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:14
+msgid ""
+"Sometimes you just need some help. Use this form to submit a support URL and "
+"then provide that link to the product developer or our staff."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:29
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:51
+msgid "Generate a Support URL"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:30
+msgid "Select Support Type"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:31
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:100
+msgid "How to Get Support"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:37
+msgid "Submit a Support Request"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:41
+msgid "To get started, we will need to generate a support hash."
+msgstr ""
+
+#. translators: %s: Redux Health page.
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:46
+#, php-format
+msgid ""
+"This will provide to your developer all the information they may need to "
+"remedy your issue. This action WILL send information securely to a remote "
+"server. To see the type of information sent, please look at the  <a href=\"%s"
+"\">Health Check</a> tab."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:64
+msgid "Select Your Support Type"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:68
+msgid "What type of user are you?"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:75
+#: vslmd/widgets/flickr-widget.php:102
+msgid "User"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:77
+msgid "I am a user, using a pre-built product."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:82
+msgid "Developer"
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:84
+msgid "I am a developer, building a product using Redux."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:105
+msgid ""
+"Please proceed to the Redux Framework issue tracker and supply us with your "
+"support URL below. Please also provide any information that will help us to "
+"reproduce your issue."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:114
+msgid ""
+"Listed below are the WordPress plugins and/or theme installed on your site "
+"that utilize Redux Framework. We do not directly support products created "
+"with our framework.  It is the responsibility of the plugin or theme "
+"developer to support their work. You will need to contact the author(s) of "
+"the products listed below with your support questions."
+msgstr ""
+
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:118
+msgid ""
+"Please be sure to include for your developer - via cut and paste - the "
+"Support URL in the box below."
+msgstr ""
+
+#. translators: %s: Support Defined URL.
+#: vslmd/options/redux-framework/inc/welcome/views/support.php:134
+#, php-format
+msgid ""
+"Should the developer not be responsive, read the <a href=\"%s\" target="
+"\"_blank\">following article</a> before asking for support from us directly."
+msgstr ""
+
+#: vslmd/options/redux-framework/templates/panel/footer.tpl.php:58
+#: vslmd/options/redux-framework/templates/panel/header-stickybar.tpl.php:22
+msgid "Save Changes"
+msgstr ""
+
+#: vslmd/options/redux-framework/templates/panel/footer.tpl.php:62
+#: vslmd/options/redux-framework/templates/panel/header-stickybar.tpl.php:26
+msgid "Reset Section"
+msgstr ""
+
+#: vslmd/options/redux-framework/templates/panel/footer.tpl.php:63
+#: vslmd/options/redux-framework/templates/panel/header-stickybar.tpl.php:27
+msgid "Reset All"
+msgstr ""
+
+#: vslmd/options/redux-framework/templates/panel/footer.tpl.php:67
+#: vslmd/options/redux-framework/templates/panel/header-stickybar.tpl.php:31
+msgid "Working..."
+msgstr ""
+
+#: vslmd/options/redux-framework/templates/panel/header.tpl.php:11
+#: vslmd/options/redux-framework/templates/panel/header.tpl.php:48
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: vslmd/options/redux-framework/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: vslmd/options/redux-framework/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: vslmd/options/redux-framework/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: vslmd/options/redux-framework/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: vslmd/options/redux-framework/templates/panel/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:393
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:920
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2626
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:394
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:395
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:1027
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:1214
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3602
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3602
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: vslmd/plugin-activation/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: vslmd/post-types/post-types.php:34
+msgid "Search "
+msgstr ""
+
+#: vslmd/post-types/post-types.php:35
+msgid "All "
+msgstr ""
+
+#: vslmd/post-types/post-types.php:36
+msgid "Parent "
+msgstr ""
+
+#: vslmd/post-types/post-types.php:37
+msgid "Edit "
+msgstr ""
+
+#: vslmd/post-types/post-types.php:38
+msgid "Update "
+msgstr ""
+
+#: vslmd/post-types/post-types.php:39
+msgid "Add New "
+msgstr ""
+
+#: vslmd/post-types/post-types.php:77 vslmd/post-types/post-types.php:86
+msgid "Tags"
+msgstr ""
+
+#: vslmd/post-types/post-types.php:78
+msgid "Tag"
+msgstr ""
+
+#: vslmd/post-types/post-types.php:79
+msgid "Search Tags"
+msgstr ""
+
+#: vslmd/post-types/post-types.php:80
+msgid "All Tags"
+msgstr ""
+
+#: vslmd/post-types/post-types.php:81
+msgid "Parent Tag"
+msgstr ""
+
+#: vslmd/post-types/post-types.php:82
+msgid "Edit Tag"
+msgstr ""
+
+#: vslmd/post-types/post-types.php:83
+msgid "Update Tag"
+msgstr ""
+
+#: vslmd/post-types/post-types.php:84
+msgid "Add New Tag"
+msgstr ""
+
+#: vslmd/post-types/post-types.php:85
+msgid "New Tag"
+msgstr ""
+
+#: vslmd/post-types/post-types.php:114 vslmd/post-types/post-types.php:131
+msgid ""
+"Enter an icon for category. This icons are used for example in Post filter."
+msgstr ""
+
+#: vslmd/widgets/contact-info-widget.php:13
+msgid "Visualmodo - Contact Information"
+msgstr ""
+
+#: vslmd/widgets/contact-info-widget.php:14
+msgid "Show your contact information."
+msgstr ""
+
+#: vslmd/widgets/contact-info-widget.php:186 vslmd/widgets/menu-widget.php:155
+#: vslmd/widgets/social-widget.php:605
+msgid "Alignment:"
+msgstr ""
+
+#: vslmd/widgets/contact-info-widget.php:189 vslmd/widgets/menu-widget.php:159
+#: vslmd/widgets/social-widget.php:608
+msgid "Center"
+msgstr ""
+
+#: vslmd/widgets/contact-info-widget.php:194 vslmd/widgets/menu-widget.php:164
+#: vslmd/widgets/social-widget.php:613
+msgid "Color Scheme:"
+msgstr ""
+
+#: vslmd/widgets/contact-info-widget.php:196 vslmd/widgets/menu-widget.php:157
+#: vslmd/widgets/menu-widget.php:166 vslmd/widgets/menu-widget.php:174
+#: vslmd/widgets/social-widget.php:615
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: vslmd/widgets/contact-info-widget.php:197 vslmd/widgets/menu-widget.php:167
+#: vslmd/widgets/social-widget.php:616
+msgid "For Light Background Colors"
+msgstr ""
+
+#: vslmd/widgets/contact-info-widget.php:198 vslmd/widgets/menu-widget.php:168
+#: vslmd/widgets/social-widget.php:617
+msgid "For Dark Background Colors"
+msgstr ""
+
+#: vslmd/widgets/contact-info-widget.php:202
+#: vslmd/widgets/social-widget.php:741
+msgid "Whatsapp:"
+msgstr ""
+
+#: vslmd/widgets/contact-info-widget.php:206
+msgid "Phone:"
+msgstr ""
+
+#: vslmd/widgets/contact-info-widget.php:210
+msgid "Business hours:"
+msgstr ""
+
+#: vslmd/widgets/contact-info-widget.php:214
+msgid "Address:"
+msgstr ""
+
+#: vslmd/widgets/contact-info-widget.php:218
+msgid "Email:"
+msgstr ""
+
+#: vslmd/widgets/empty-space-widget.php:13
+msgid "Visualmodo - Empty Space"
+msgstr ""
+
+#: vslmd/widgets/empty-space-widget.php:14
+msgid "Blank space with custom height."
+msgstr ""
+
+#: vslmd/widgets/empty-space-widget.php:77
+msgid "Height - CSS measurement units allowed"
+msgstr ""
+
+#: vslmd/widgets/flickr-widget.php:23
+msgid "Displays photos on flickr."
+msgstr ""
+
+#: vslmd/widgets/flickr-widget.php:24
+msgid "Visualmodo - Flickr"
+msgstr ""
+
+#: vslmd/widgets/flickr-widget.php:100
+msgid "Latest"
+msgstr ""
+
+#: vslmd/widgets/flickr-widget.php:100
+msgid "Random"
+msgstr ""
+
+#: vslmd/widgets/flickr-widget.php:101 vslmd/widgets/instagram-widget.php:99
+msgid "Small"
+msgstr ""
+
+#: vslmd/widgets/flickr-widget.php:102
+msgid "Group"
+msgstr ""
+
+#: vslmd/widgets/flickr-widget.php:102
+msgid "Set"
+msgstr ""
+
+#: vslmd/widgets/flickr-widget.php:102
+msgid "Public"
+msgstr ""
+
+#: vslmd/widgets/flickr-widget.php:106 vslmd/widgets/menu-widget.php:144
+#: vslmd/widgets/tweets-widget.php:91
+msgid "Title:"
+msgstr ""
+
+#: vslmd/widgets/flickr-widget.php:118
+msgid ""
+"Flickr ID (<a target=\"_blank\" href=\"http://www.idgettr.com\">idGettr</a>):"
+msgstr ""
+
+#: vslmd/widgets/flickr-widget.php:122
+msgid "Tags:"
+msgstr ""
+
+#: vslmd/widgets/flickr-widget.php:122
+msgid "Separate tag with commas"
+msgstr ""
+
+#: vslmd/widgets/flickr-widget.php:161
+msgid "Donate"
+msgstr ""
+
+#: vslmd/widgets/instagram-widget.php:14
+msgid "Visualmodo - Instagram"
+msgstr ""
+
+#: vslmd/widgets/instagram-widget.php:17
+msgid "Displays your latest Instagram photos"
+msgstr ""
+
+#: vslmd/widgets/instagram-widget.php:79
+msgid "Instagram"
+msgstr ""
+
+#: vslmd/widgets/instagram-widget.php:82
+msgid "Follow Me!"
+msgstr ""
+
+#: vslmd/widgets/instagram-widget.php:94
+msgid "@username or #tag"
+msgstr ""
+
+#: vslmd/widgets/instagram-widget.php:95
+msgid "Number of photos"
+msgstr ""
+
+#: vslmd/widgets/instagram-widget.php:96
+msgid "Photo size"
+msgstr ""
+
+#: vslmd/widgets/instagram-widget.php:101
+msgid "Original"
+msgstr ""
+
+#: vslmd/widgets/instagram-widget.php:104
+msgid "Open links in"
+msgstr ""
+
+#: vslmd/widgets/instagram-widget.php:106
+msgid "Current window (_self)"
+msgstr ""
+
+#: vslmd/widgets/instagram-widget.php:107
+msgid "New window (_blank)"
+msgstr ""
+
+#: vslmd/widgets/instagram-widget.php:110
+msgid "Link text"
+msgstr ""
+
+#: vslmd/widgets/instagram-widget.php:139
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: vslmd/widgets/instagram-widget.php:142
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: vslmd/widgets/instagram-widget.php:148
+#: vslmd/widgets/instagram-widget.php:155
+#: vslmd/widgets/instagram-widget.php:158
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: vslmd/widgets/instagram-widget.php:167
+msgid "Instagram Image"
+msgstr ""
+
+#: vslmd/widgets/instagram-widget.php:193
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: vslmd/widgets/menu-widget.php:13
+msgid "Add a custom menu to your sidebar."
+msgstr ""
+
+#: vslmd/widgets/menu-widget.php:16
+msgid "Visualmodo - Menu"
+msgstr ""
+
+#: vslmd/widgets/menu-widget.php:140
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: vslmd/widgets/menu-widget.php:148
+msgid "Navigation Structure:"
+msgstr ""
+
+#: vslmd/widgets/menu-widget.php:150
+msgid "Horizontal Navigation"
+msgstr ""
+
+#: vslmd/widgets/menu-widget.php:151
+msgid "Vertical Navigation"
+msgstr ""
+
+#: vslmd/widgets/menu-widget.php:172
+msgid "Select Menu:"
+msgstr ""
+
+#: vslmd/widgets/menu-widget.php:184
+msgid "Edit Menu"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:13
+msgid "Visualmodo - Social Icons"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:14
+msgid "Show your social Profiles."
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:621
+msgid "Amazon:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:625
+msgid "Apple:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:629
+msgid "Behance:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:633
+msgid "Delicious:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:637
+msgid "Deviantart:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:641
+msgid "Dropbox:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:645
+msgid "digg:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:649
+msgid "Dribbble:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:653
+msgid "Facebook:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:657
+msgid "Flickr:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:661
+msgid "Github:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:665
+msgid "Google:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:669
+msgid "Googlewallet:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:673
+msgid "Html5:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:677
+msgid "Instagram:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:681
+msgid "Lastfm:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:685
+msgid "Linkedin:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:689
+msgid "Medium:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:693
+msgid "Paypal:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:697
+msgid "Pinterest:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:701
+msgid "Reddit:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:705
+msgid "Rss:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:709
+msgid "Skype:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:713
+msgid "Slack:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:717
+msgid "Steam:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:721
+msgid "TripAdvisor:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:725
+msgid "Tumblr:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:729
+msgid "Twitch:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:733
+msgid "Twitter:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:737
+msgid "Vimeo:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:745
+msgid "Wordpress:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:749
+msgid "Yahoo:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:753
+msgid "Yelp:"
+msgstr ""
+
+#: vslmd/widgets/social-widget.php:757
+msgid "Youtube:"
+msgstr ""
+
+#: vslmd/widgets/tweets-widget.php:8
+msgid "Tweets Widget"
+msgstr ""
+
+#: vslmd/widgets/tweets-widget.php:9
+msgid "Use this widget to display your latest tweets."
+msgstr ""
+
+#: vslmd/widgets/tweets-widget.php:96
+msgid "Twitter Username"
+msgstr ""
+
+#: vslmd/widgets/tweets-widget.php:101
+msgid "Number of tweets"
+msgstr ""
+
+#: vslmd/widgets/tweets-widget.php:110
+msgid "Exclude Replies"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Horizon"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://visualmodo.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WordPress Theme by <strong>Visualmodo</strong> a clean, modern, minimal, "
+"smart and multi-purpose WordPress template. It has a wide range of "
+"incredible features and amazing tools for every site style creation, "
+"everything you need to create an awesome WordPress site in an incredibly "
+"easy way saving time doing it. Build any site design without coding! You can "
+"have a fully equipped website up and running within just a few minutes. This "
+"theme is not just a tool, it’s a collection of amazing examples with tons of "
+"features focused on site performance, optimizations, compatibility with "
+"plugins and flexibility to add power for your WordPress. <a href=\"https://"
+"visualmodo.com\">https://visualmodo.com</a> | <a href='https://twitter.com/"
+"visualmodo'>Twitter</a> | <a href='https://facebook.com/"
+"visualmodo'>Facebook</a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Visualmodo"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://visualmodo.com"
+msgstr ""

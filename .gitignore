@@ -1,0 +1,15 @@
+# WordPress core
+wp-admin/
+wp-includes/
+
+# Uploads
+wp-content/uploads/
+
+# Cache / Temp
+wp-content/cache/
+wp-content/upgrade/
+node_modules/
+.DS_Store
+
+# Local config
+wp-config.php

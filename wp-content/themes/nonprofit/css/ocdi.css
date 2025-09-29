@@ -1,0 +1,11 @@
+/*-----------------------------------------------------------------------------------*/
+/*  *.  One Click Demo Import Plugin
+/*-----------------------------------------------------------------------------------*/
+
+.ocdi__title-container,
+.ocdi__intro-text,
+.ocdi__theme-about,
+.ocdi-install-plugins-content-content div .plugin-item:first-child,
+.ocdi-content-notice.ocdi-content-notice--warning {
+    display: none;
+}
