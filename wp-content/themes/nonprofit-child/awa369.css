@@ -26,3 +26,7 @@
 .borderless-company-information__item svg,.desktop-mode .header-bottom .navbar-nav .active > .nav-link,.desktop-mode .header-bottom .navbar-nav .active > .nav-link{
     color: #043994 !important; 
 }
+
+rs-slides, rs-slide, rs-slide:before {
+    height: 94% !important;
+}

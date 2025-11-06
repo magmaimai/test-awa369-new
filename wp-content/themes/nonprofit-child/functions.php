@@ -26,3 +26,4 @@ function awa369_enqueue_styles() {
     wp_enqueue_style( 'awa369-style', get_stylesheet_directory_uri() . '/awa369.css', array('parent-style'), '1.0' );
 }
 add_action( 'wp_enqueue_scripts', 'awa369_enqueue_styles' );
+
