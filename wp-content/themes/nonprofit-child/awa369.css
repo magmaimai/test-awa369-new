@@ -1,0 +1,28 @@
+/*-----------------------------------------------------------------------------------*/
+/* awa369.css - 子テーマ独自追加CSS
+/*-----------------------------------------------------------------------------------*/
+
+/* カートアイコン非表示 */
+.fa-shopping-cart {
+    display: none !important;
+}
+
+
+
+
+/* 全体のテーマカラー変更 */
+.wp-block-social-links .wp-block-social-link.wp-social-link .wp-block-social-link-anchor,
+.wp-block-social-links .wp-block-social-link.wp-social-link .wp-block-social-link-anchor svg,
+.wp-block-social-links .wp-block-social-link.wp-social-link .wp-block-social-link-anchor:active,
+.wp-block-social-links .wp-block-social-link.wp-social-link .wp-block-social-link-anchor:hover,
+.wp-block-social-links .wp-block-social-link.wp-social-link .wp-block-social-link-anchor:visited {
+    color: #043994 !important; 
+}
+
+
+/* 既存 #29AF8A を #043994 に統一 */
+
+
+.borderless-company-information__item svg,.desktop-mode .header-bottom .navbar-nav .active > .nav-link,.desktop-mode .header-bottom .navbar-nav .active > .nav-link{
+    color: #043994 !important; 
+}
