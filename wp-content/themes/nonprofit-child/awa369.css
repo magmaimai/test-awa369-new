@@ -30,3 +30,23 @@
 rs-slides, rs-slide, rs-slide:before {
     height: 94% !important;
 }
+
+
+body{
+    font-family: 'Poppins', sans-serif!important;
+    font-weight: 500!important; /* SemiBold */
+}
+
+
+.awa369-iconani .vc_icon_element-icon {
+display: none!important;
+}
+
+.desktop-mode .header-bottom .navbar-brand>img{
+    /* width: 51%!important; */
+    padding: 2.5% 2.5% 2.5% 0;
+}
+
+.desktop-mode .header-bottom.header-medium .navbar-brand, .desktop-mode .header-bottom.header-medium .navbar-nav li a{
+    display: inherit!important;
+}

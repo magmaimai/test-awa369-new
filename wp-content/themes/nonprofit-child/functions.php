@@ -27,3 +27,14 @@ function awa369_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'awa369_enqueue_styles' );
 
+
+/*-----------------------------------------------------------------------------------*/
+/*  GoogleFonts
+/*-----------------------------------------------------------------------------------*/
+
+function add_google_fonts() {
+  wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap', false );
+}
+add_action( 'wp_enqueue_scripts', 'add_google_fonts' );
+
+
