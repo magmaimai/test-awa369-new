@@ -43,10 +43,69 @@ display: none!important;
 }
 
 .desktop-mode .header-bottom .navbar-brand>img{
-    /* width: 51%!important; */
-    padding: 2.5% 2.5% 2.5% 0;
+    padding: 3% 40% 2.5% 0;
 }
 
 .desktop-mode .header-bottom.header-medium .navbar-brand, .desktop-mode .header-bottom.header-medium .navbar-nav li a{
     display: inherit!important;
+    white-space: nowrap;
+}
+
+.borderless-company-information .borderless-company-information__item h3{
+    font-size: 1rem;
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+
+.borderless-company-information .borderless-company-information__item a,.borderless-company-information .borderless-company-information__item span{
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.borderless-company-information .borderless-company-information__item {
+    margin: 0.25rem 1rem 0.25rem 0;
+}
+
+#site-info__copyright,
+.footer-credit,
+.credits,
+.site-info {
+  /* display: none !important; */
+}
+
+
+
+body .is-layout-flex h2{
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.desktop-mode ul#widget-menu {
+    margin: 0 -50px!important;
+}
+
+.copyright-footer-item {
+    text-align: left;
+    color: #555;
+}
+
+
+/* 全体は中央揃えのまま */
+.bottom-footer .row.align-items-center {
+    display: flex;
+    align-items: center; /* デフォルト中央揃え */
+}
+
+/* 左のコピーライトだけ上寄せ */
+.bottom-footer .copyright-footer-item {
+    align-self: flex-start; /* 上寄せ */
+}
+
+.navbar {
+    padding: 0 1rem .5rem 1rem!important;
+    margin-top: -0.5rem!important;
+}
+
+.widgets-footer p{
+margin: 1rem 1rem 1rem 0;
 }
