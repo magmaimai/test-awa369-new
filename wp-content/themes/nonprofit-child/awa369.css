@@ -114,3 +114,15 @@ margin: 1rem 1rem 1rem 0;
 .vc_custom_1762619623030{
     padding-bottom: 3rem !important;
 }
+
+
+.top-sec01-title{
+    letter-spacing: 0.17rem;
+}
+
+.support-title,.center-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
