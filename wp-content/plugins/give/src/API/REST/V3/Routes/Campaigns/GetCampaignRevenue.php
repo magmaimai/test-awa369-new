@@ -203,36 +203,37 @@ class GetCampaignRevenue implements RestRoute
         foreach ($results as $result) {
             $date = $this->getFormattedDateFromGroupBy($groupBy, date_create($result->date_created));
 
-            $resultMap[$date] = $result->amount;
+            $resultMap[$date] = (float)$result->amount;
         }
 
         return $resultMap;
     }
 
     /**
-     * @since unreleased
+     * @since 4.13.0 update schema to match actual response
+     * @since 4.10.0
      */
     public function getSchema(): array
     {
         return [
             'title'   => 'campaign-revenue',
-            'description' => 'Provides daily revenue data for a specific campaign.',
-            'type'    => 'object',
-            'properties' => [
-                'date' => [
-                    'type'        => 'string',
-                    'format'      => 'date',
-                    'description' => esc_html__('The date for the revenue entry (YYYY-MM-DD).', 'give'),
-                ],
-                'amount' => [
-                    'oneOf' => [
-                        [ 'type' => 'number' ],
-                        [ 'type' => 'string' ],
+            'description' => esc_html__('Provides daily revenue data for a specific campaign.', 'give'),
+            'type' => 'array',
+            'readonly' => true,
+            'items' => [
+                'type' => 'object',
+                'properties' => [
+                    'date' => [
+                        'type' => 'string',
+                        'format' => 'date',
+                        'description' => esc_html__('The date for the revenue entry (YYYY-MM-DD).', 'give'),
                     ],
-                    'description' => esc_html__('The amount of revenue received on the given date.', 'give'),
-                ],
-            ],
-            'required' => ['date', 'amount'],
+                    'amount' => [
+                        'type' => ['integer', 'number'],
+                        'description' => esc_html__('The amount of revenue received on the given date.', 'give'),
+                    ],
+                ]
+            ]
         ];
     }
 }

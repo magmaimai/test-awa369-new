@@ -340,6 +340,7 @@ class DonorController extends WP_REST_Controller
     }
 
     /**
+     * @since 4.13.0 add schema description
      * @since 4.9.0 Set proper JSON Schema version
      * @since 4.7.0 Change title to givewp/donor and add custom fields schema
      * @since 4.4.0
@@ -349,6 +350,7 @@ class DonorController extends WP_REST_Controller
         $schema = [
             '$schema' => 'http://json-schema.org/draft-04/schema#',
             'title' => 'givewp/donor',
+            'description' => esc_html__('Donor routes for CRUD operations', 'give'),
             'type' => 'object',
             'properties' => [
                 'id' => [
@@ -444,6 +446,26 @@ class DonorController extends WP_REST_Controller
                             'zip' => [
                                 'type' => 'string',
                                 'description' => esc_html__('Donor address zip', 'give'),
+                                'format' => 'text-field',
+                            ],
+                        ],
+                    ],
+                ],
+                'customFields' => [
+                    'type' => 'array',
+                    'readonly' => true,
+                    'description' => esc_html__('Custom fields (sensitive data)', 'give'),
+                    'items' => [
+                        'type' => 'object',
+                        'properties' => [
+                            'label' => [
+                                'type' => 'string',
+                                'description' => esc_html__('Field label', 'give'),
+                                'format' => 'text-field',
+                            ],
+                            'value' => [
+                                'type' => 'string',
+                                'description' => esc_html__('Field value', 'give'),
                                 'format' => 'text-field',
                             ],
                         ],

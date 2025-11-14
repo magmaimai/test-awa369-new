@@ -5,7 +5,7 @@ Tags: donation, donate, recurring donations, fundraising, crowdfunding
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 4.9.0
+Stable tag: 4.13.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -272,6 +272,42 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 10. Use almost any payment gateway integration with GiveWP through our add-ons or by creating your own add-on.
 
 == Changelog ==
+
+= 4.13.0: November 5th, 2025 =
+* Enhancement: Updated the date and time formatting throughout the new admin screens to respect WordPress settings for timezone, date format, and time format
+* Fix: Resolved an issue with form field manager checkboxes and conditional logic
+* Fix: Resolved an issue with the legacy future status of donations
+* Fix: Resolved a compatibility issue with the Divi color pickers default palette setting
+* Fix: Resolved an issue with Loco Translate that was preventing custom translation files from being loaded properly
+* Dev: Updated the schema for Campaigns and Donations in the v3 REST API
+* Dev: Updated MCP server to be compatible with Angie 1.0.2
+
+= 4.12.0: October 29th, 2025 =
+* New: The admin subscription list table has been upgraded to a new design with additional sorting, filters and statistics
+* New: Updated the new admin donor list table with additional filters and sorting
+* New: Updated the new admin donation list table with additional filters
+* Fix: Subscriptions that were transferred to a form using the visual form builder are now referencing the correct form ID
+* Fix: Resolved an issue with sorting by revenue on the Campaigns list table
+* Fix: Resolved MCP server console errors with Angie v1.0.1
+* Fix: Resolved a migration issue that was causing the cache campaign data migration to be incomplete in some cases
+
+= 4.11.0: October 16th, 2025 =
+* New: Added a new csv subscriptions importer tool for the ability to import recurring donations into GiveWP
+* New: The admin donor list table now displays quick stats
+* New: The new admin subscription details screen now has record fields for status, gateway subscription ID, campaign, form, and associated donor
+* Fix: Resolved conflict from composer with some plugins like KestrelWP
+
+= 4.10.1: October 2nd, 2025 =
+* Security: Improved REST endpoint permissions for campaigns and forms (CVE-2025-11227, CVE-2025-11228)
+
+= 4.10.0: October 1st, 2025 =
+* New: The admin list tables have been upgraded to a new design with various enhancements!
+* New: The admin donations list table now displays quick stats
+* Enhancement: Improved the currency validation for donation forms
+* Fix: Resolved an issue where editing an option-based form was resetting various settings
+* Fix: Resolved various issues with deactiving and deleting GiveWP
+* Fix: Resolved occasional 404 console log errors in the new subscription detail screen
+* Dev: Added a sidebar slot fill to the donor details screen
 
 = 4.9.0: September 17th, 2025 =
 * New: Added MCP server integration with compatibility for Angie by Elementor

@@ -20,6 +20,7 @@ use WP_REST_Server;
 class GetCampaignStatistics implements RestRoute
 {
     /**
+     * @since 4.13.0 add schema
      * @since 4.0.0
      */
     public function registerRoute()
@@ -48,12 +49,14 @@ class GetCampaignStatistics implements RestRoute
                         'default' => 0, // Zero to mean "all time".
                     ],
                 ],
+                'schema' => [$this, 'getSchema'],
             ]
         );
     }
 
     /**
-     * @since 4.0.0
+     * @since 4.13.0 return 404 error if campaign is not found
+     * @since      4.0.0
      *
      * @throws Exception
      */
@@ -61,14 +64,20 @@ class GetCampaignStatistics implements RestRoute
     {
         $campaign = Campaign::find($request->get_param('id'));
 
+        if (!$campaign) {
+            return new WP_REST_Response('Campaign not found', 404);
+        }
+
         $query = new CampaignDonationQuery($campaign);
 
-        if(!$request->get_param('rangeInDays')) {
-            return new WP_REST_Response([[
-                'amountRaised' => $query->sumIntendedAmount(),
-                'donationCount' => $query->countDonations(),
-                'donorCount' => $query->countDonors(),
-            ]]);
+        if (!$request->get_param('rangeInDays')) {
+            return new WP_REST_Response([
+                [
+                    'amountRaised' => $query->sumIntendedAmount(),
+                    'donationCount' => $query->countDonations(),
+                    'donorCount' => $query->countDonors(),
+                ],
+            ]);
         }
 
         $days = $request->get_param('rangeInDays');
@@ -76,8 +85,7 @@ class GetCampaignStatistics implements RestRoute
         $interval = DateInterval::createFromDateString("-$days days");
         $period = new DatePeriod($date, $interval, 1);
 
-        return new WP_REST_Response(array_map(function($targetDate) use ($query, $interval) {
-
+        return new WP_REST_Response(array_map(function ($targetDate) use ($query, $interval) {
             $query = $query->between(
                 Temporal::withStartOfDay($targetDate->add($interval)),
                 Temporal::withEndOfDay($targetDate)
@@ -88,6 +96,36 @@ class GetCampaignStatistics implements RestRoute
                 'donationCount' => $query->countDonations(),
                 'donorCount' => $query->countDonors(),
             ];
-        }, iterator_to_array($period) ));
+        }, iterator_to_array($period)));
+    }
+
+    /**
+     * @since 4.13.0
+     */
+    public function getSchema(): array
+    {
+        return [
+            'title' => 'givewp/campaign-statistics',
+            'description' => esc_html__('Provides statistics for a specific campaign.', 'give'),
+            'type' => 'array',
+            'readonly' => true,
+            'items' => [
+                'type' => 'object',
+                'properties' => [
+                    'amountRaised' => [
+                        'type' => ['integer', 'number'],
+                        'description' => esc_html__('The amount raised for the campaign.', 'give'),
+                    ],
+                    'donationCount' => [
+                        'type' => 'integer',
+                        'description' => esc_html__('The number of donations for the campaign.', 'give'),
+                    ],
+                    'donorCount' => [
+                        'type' => 'integer',
+                        'description' => esc_html__('The number of donors for the campaign.', 'give'),
+                    ],
+                ],
+            ],
+        ];
     }
 }
