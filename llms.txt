@@ -9,14 +9,14 @@
 ## 投稿
 
 - [Blog](http://test-awa369-new.local/blog/)
+- [フードバンク安房定期会合](http://test-awa369-new.local/how-to-become-a-volunteer/) - ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+- [こども食堂開催2025年11月29日](http://test-awa369-new.local/こども食堂開催2025年11月29日/) - ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+- [NPO AWA369 HPオープン！](http://test-awa369-new.local/hello-world/) - 特定非営利活動法人 AWA369の公式HPがオープンしました！
+- [Volunteering In Africa](http://test-awa369-new.local/volunteering-in-africa/) - Quisque eros leo, pellentesque id leo non, scelerisque
+- [フードバンク安房](http://test-awa369-new.local/the-benefits-of-giving/) - ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
 - [The Children's Family Trust](http://test-awa369-new.local/the-childrens-family-trust/) - Quisque eros leo, pellentesque id leo non, scelerisque
 - [Education In Nepal](http://test-awa369-new.local/education-in-nepal/) - Lorem ipsum dolor sit amet, consectetur adipiscing elit
 - [Children's Education In Time Of Crisis](http://test-awa369-new.local/childrens-education-in-time-of-crisis/) - Quisque eros leo, pellentesque id leo non, scelerisque
-- [How To Become A Volunteer](http://test-awa369-new.local/how-to-become-a-volunteer/) - Quisque eros leo, pellentesque id leo non, scelerisque
-- [Volunteering In Africa](http://test-awa369-new.local/volunteering-in-africa/) - Quisque eros leo, pellentesque id leo non, scelerisque
-- [The Benefits Of Giving](http://test-awa369-new.local/the-benefits-of-giving/) - Quisque eros leo, pellentesque id leo non, scelerisque
-- [What Is a Nonprofit Organization?](http://test-awa369-new.local/what-is-a-nonprofit-organization/) - Quisque eros leo, pellentesque id leo non, scelerisque
-- [Hello world!](http://test-awa369-new.local/hello-world/) - Welcome to WordPress. This is your first post. Edit or
 - [Run It Forward Official Charity](http://test-awa369-new.local/run-it-forward-official-charity/) - Quisque eros leo, pellentesque id leo non, scelerisque
 
 ## 固定ページ
@@ -37,12 +37,12 @@
 - [Projects - 3 Columns](http://test-awa369-new.local/projects-3-columns/) - All Projects All Projects(current) Charity Education Na
 - [Projects - 2 Columns](http://test-awa369-new.local/projects-2-columns/) - All Projects All Projects(current) Charity Education Na
 - [Projects](http://test-awa369-new.local/projects/) - All Projects All Projects(current) Charity Education Na
-- [Blog - Wide](http://test-awa369-new.local/blog-wide/) - Hello world! Welcome to WordPress. This is your first p
-- [Blog - Right Sidebar](http://test-awa369-new.local/blog-right-sidebar/) - Hello world! Welcome to WordPress. This is your first p
-- [Blog - Masonry](http://test-awa369-new.local/blog-masonry/) - Hello world! Welcome to WordPress. This is your first p
-- [Blog - Left Sidebar](http://test-awa369-new.local/blog-left-sidebar/) - 検索検索Recent PostsHello world! What Is a Nonprofit Organi
-- [Blog - Full-Width](http://test-awa369-new.local/blog-full-width/) - Hello world! Welcome to WordPress. This is your first p
-- [Blog - Dual Sidebar](http://test-awa369-new.local/blog-dual-sidebar/) - 検索検索Recent PostsHello world! What Is a Nonprofit Organi
+- [Blog - Wide](http://test-awa369-new.local/blog-wide/) - NPO AWA369 HPオープン！ 特定非営利活動法人 AWA369の公式HPがオープンしました！ 11月
+- [Blog - Right Sidebar](http://test-awa369-new.local/blog-right-sidebar/) - NPO AWA369 HPオープン！ 特定非営利活動法人 AWA369の公式HPがオープンしました！ 11月
+- [Blog - Masonry](http://test-awa369-new.local/blog-masonry/) - NPO AWA369 HPオープン！ 特定非営利活動法人 AWA369の公式HPがオープンしました！ 11月
+- [Blog - Left Sidebar](http://test-awa369-new.local/blog-left-sidebar/) - 検索検索 最新の投稿 NPO AWA369 HPオープン！ こども食堂開催2025年11月29日 フードバンク
+- [Blog - Full-Width](http://test-awa369-new.local/blog-full-width/) - NPO AWA369 HPオープン！ 特定非営利活動法人 AWA369の公式HPがオープンしました！ 11月
+- [Blog - Dual Sidebar](http://test-awa369-new.local/blog-dual-sidebar/) - 検索検索 最新の投稿 NPO AWA369 HPオープン！ こども食堂開催2025年11月29日 フードバンク
 - [Donation Confirmation](http://test-awa369-new.local/donation-confirmation/)
 - [Donation Failed](http://test-awa369-new.local/donation-failed/) - We're sorry, your donation failed to process. Plea
 - [Donor Dashboard](http://test-awa369-new.local/donor-dashboard/)
