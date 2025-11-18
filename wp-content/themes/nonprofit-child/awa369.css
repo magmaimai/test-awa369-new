@@ -129,3 +129,17 @@ margin: 1rem 1rem 1rem 0;
 .about-title01{
     color: #fff;
 }
+
+/* Facebookと残りのソーシャルシェア要素をピンポイントで消去 */
+.vc_tweetmeme-element,
+.fb_like {
+    display: none !important;
+}
+/* シェアボタンを囲む親要素に、さらに汎用的な要素があればそれも消します */
+/* WPBakery要素のコンテナを広くカバー */
+.vc_tweetmeme-element.wpb_content_element, 
+.fb_like.wpb_content_element {
+    display: none !important;
+}
+
+
