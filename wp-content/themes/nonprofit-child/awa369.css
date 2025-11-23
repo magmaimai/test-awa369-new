@@ -142,4 +142,57 @@ margin: 1rem 1rem 1rem 0;
     display: none !important;
 }
 
+.donation-back01{
+ max-height: 45vh !important;
+}
 
+/* 寄付支援セクションの背景画像を画面いっぱいに表示するための修正 */
+.vc_custom_1763347848498 {
+    /* 既存の background-size: contain を上書きし、coverで画面全体を覆うようにします */
+    background-size: cover !important; 
+}
+
+/* 寄付支援セクションの背景画像を画面いっぱいに表示するための修正 */
+/* .vc_custom_1763347848498 {
+    background-size: cover !important; 
+}
+
+ */
+
+.project-title-line {
+    /* 文字の太さを500に設定 */
+    font-weight: 700 !important; /* WPBakeryのテーマ設定を上書きするため、!importantを付けています */
+    
+    /* 下線（ボーダー）の色とスタイルを設定 */
+    border-bottom: 3px solid #043994; 
+    
+    /* ラインの下に少しスペースを空ける */
+    padding-bottom: 5px; 
+}
+
+.text-shadow {
+    /* 水平 1px, 垂直 1px, ぼかし 4px, 薄いグレー (透明度70%) */
+    text-shadow: 1px 1px 4px rgba(200, 200, 200, 0.7); 
+}
+
+.text-shadow-strong {
+    /* 水平 1px, 垂直 1px, ぼかし 3px, 標準の黒 (不透明度35%) */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35); 
+}
+
+.__project-button01:hover{
+        /* --- ホバー時 --- */
+    background-color: #ffffff!important; /* 背景色: 白 */
+    color: #043994 !important; /* 文字色: 基本カラー */
+    border: 2px solid #043994!important; /* 外枠線: 基本カラー (外枠は変化なし) */
+    border-radius: 2px!important;
+}
+
+.project-photo {
+    /* 影の設定: 水平0px, 垂直3px, ぼかし6px, 拡散0px, 影の色 */
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.project-infotitle {
+    font-weight: 700!important;
+}
