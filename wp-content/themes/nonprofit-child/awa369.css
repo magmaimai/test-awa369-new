@@ -193,6 +193,16 @@ margin: 1rem 1rem 1rem 0;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
 }
 
-.project-infotitle {
-    font-weight: 700!important;
+/* 1. 画像アイコンのサイズ、間隔、縦位置を制御するクラス */
+.project-icon-space {
+    margin-right: 0.4rem;
+    vertical-align: middle;
+    width: 49px;
+    height: auto;
+}
+
+/* 2. プロジェクトタイトルのテキストカラーを黒に固定するクラス */
+.project-text-color {
+    color: #000000 !important; 
+    vertical-align: middle;
 }

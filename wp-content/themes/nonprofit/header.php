@@ -281,6 +281,7 @@ add_filter( 'body_class', function( $classes ) {
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<?php wp_head(); ?>
 </head>
 
