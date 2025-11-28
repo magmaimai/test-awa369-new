@@ -207,3 +207,60 @@ margin: 1rem 1rem 1rem 0;
     vertical-align: middle;
 }
 
+
+
+/* 念のため、Light Boxコンテナもリセット */
+#lightbox .fix-image-zoom .lb-outerContainer {
+    width: auto !important;
+    height: auto !important;
+    max-width: 100% !important; /* 画面幅に合わせて最大化 */
+    max-height: 100vh !important;
+}
+
+
+/* Lightboxのコンテナ要素と画像要素を結合し、優先度を最大化 */
+/* lb-outerContainer, lb-image は Lightbox2 の標準的なクラス名 */
+#lightbox .fix-image-zoom .lb-outerContainer .lb-image {
+    /* インラインCSSの固定値を無効化し、サイズをリセット */
+    width: auto !important;
+    height: auto !important;
+    max-width: 100% !important; 
+    max-height: 100vh !important; /* ビューポートの高さ制限も解除 */
+}
+
+#home-3step .vc_column-inner{
+    padding: 0 2rem!important;
+}
+
+.top-sec01-text{
+    line-height: 1.9rem;
+    letter-spacing: 0.17rem;
+}
+
+
+.nav-portfolio {
+    margin-bottom: 0!important;
+}
+
+#knowledgebase-filter.knowledgebase-nav ul li a, #portfolio-filter.portfolio-nav ul li a, #team-filter.team-nav ul li a :hover{
+    color: #043994!important;
+}
+
+/* #knowledgebase-filter.knowledgebase-nav ul li i, #portfolio-filter.portfolio-nav ul li i, #team-filter.team-nav ul li i{
+    color: inherit!important;
+}
+
+#knowledgebase-filter.knowledgebase-nav ul li i, #portfolio-filter.portfolio-nav ul li i, #team-filter.team-nav ul li i:hover{
+    color: #043994!important;
+} */
+
+.body p{
+    line-height: 1.9rem!important;
+    letter-spacing: 0.17rem!important;
+}
+
+.aio-icon-description{
+    line-height: 1.9rem!important;
+    letter-spacing: 0.17rem!important;
+}
+
