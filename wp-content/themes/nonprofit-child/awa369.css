@@ -292,8 +292,13 @@ margin: 1rem 1rem 1rem 0;
     background-color: #043994 !important; 
 }
 
-.header-presentation .hp-background-color .container .hp-content h1{
-    color: #3379FC!important;
+/* ブログタイトル <h1> のテキストシャドーをソフトに変更 */
+.header-presentation .hp-background-color .container .hp-content h1 {
+    /* 既存の文字色設定 */
+    color: #f7f5fc !important;
+
+    /* テキストシャドー設定 (ぼかしを強く、影を半透明に) */
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
 }
 
 
