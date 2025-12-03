@@ -126,6 +126,13 @@ margin: 1rem 1rem 1rem 0;
     text-align: center;
 }
 
+.top-sec01-text{
+    /* font-size: 20px;
+    line-height: 2em;
+    letter-spacing: -0.01em;
+    font-weight: 400; */
+}
+
 .about-title01{
     color: #fff;
 }
@@ -264,3 +271,60 @@ margin: 1rem 1rem 1rem 0;
     letter-spacing: 0.17rem!important;
 }
 
+
+/* BLOG個別ページの青いタイトル背景色と高さを強制的に上書きします */
+
+/* 高さの変更: HTMLの直書きを上書き（例: 400pxに統一） */
+.header-presentation {
+    height: 400px !important; 
+}
+
+/* 青 (#043994) から 白 (white) へのグラデーションに変更 */
+.hp-background-color {
+    /* グラデーションを設定 */
+    background: linear-gradient(
+        to bottom,     /* 上から下へグラデーション */
+        #043994 0%,    /* 上端 (0%) を濃い青に */
+        #ffffff 100%   /* 下端 (100%) を白に */
+    ) !important; 
+    
+    /* 古いブラウザ向けに単色を設定する（フォールバック） */
+    background-color: #043994 !important; 
+}
+
+.header-presentation .hp-background-color .container .hp-content h1{
+    color: #3379FC!important;
+}
+
+
+/* カテゴリー一覧リストの各項目に中黒「・」を追加 */
+
+/* 1. デフォルトのマークを非表示にする（念のため） */
+.wp-block-categories-list.wp-block-categories li {
+    list-style: none !important; 
+}
+
+/* 2. 疑似要素(::before)を使って「・」を挿入し、スタイルを調整 */
+.wp-block-categories-list.wp-block-categories li a::before {
+    content: "・"; /* 中黒を挿入 */
+    margin-right: 5px; /* テキストとの間に少しスペースを空ける */
+    font-weight: bold; /* 中黒を強調したい場合 */
+    color: #3379FC;
+}
+
+/* 最新NEWS一覧 (wp-block-latest-posts) の装飾 */
+
+/* 1. リストマークを非表示にする（念のため） */
+.wp-block-latest-posts li {
+    list-style: none !important;
+}
+
+/* 2. 疑似要素(::before)を使って「▶︎」を挿入し、スタイルを調整 */
+.wp-block-latest-posts li a::before {
+    content: "▶︎"; /* 右向きの三角を挿入 */
+    margin-right: 8px; /* テキストとの間にスペースを空ける */
+    font-size: 0.8em; /* サイズを少し小さくする */
+    color: #3379FC;
+    position: relative; /* 必要に応じて位置調整 */
+    top: -1px;
+}
