@@ -20,10 +20,30 @@
 }
 
 
-/* 既存 #29AF8A を #043994 に統一 */
+/* --- 統合版：#29AF8A を #043994 に統一 & ドロップダウン親メニュー強調 --- */
 
-.borderless-company-information__item svg,.desktop-mode .header-bottom .navbar-nav .active > .nav-link,.desktop-mode .header-bottom .navbar-nav .active > .nav-link{
+/* 1. ヘッダー上部：SVGアイコンの色を #043994 に固定 (colorではなくfillを使用) */
+.borderless-company-information__item svg path {
+    fill: #043994 !important;
+}
+
+/* 2. ヘッダーメニュー：現在地（.active）およびドロップダウンの親メニューを #043994 に強調 */
+/* active, current-menu-ancestor, current-menu-parent に該当するリンクの色を変更 */
+.desktop-mode .header-bottom .navbar-nav .active > .nav-link,
+.desktop-mode .header-bottom .navbar-nav .current-menu-ancestor > .nav-link,
+.desktop-mode .header-bottom .navbar-nav .current-menu-parent > .nav-link {
     color: #043994 !important; 
+}
+
+/* 3. ヘッダー上部のテキスト色が濃い青になってしまっているのを解除 (inheritでデフォルトに戻す) */
+/* アイコンの隣の「info@awa369.com」などの文字色を元に戻すための措置 */
+.top-header-left .borderless-company-information__item a,
+.top-header-left .borderless-company-information__item span {
+    color: inherit !important; /* または #333 などのデフォルト色 */
+}
+
+.borderless-company-information .borderless-company-information__item svg{
+    color: #3379FC !important;
 }
 
 rs-slides, rs-slide, rs-slide:before {
@@ -317,7 +337,7 @@ margin: 1rem 1rem 1rem 0;
     color: #3379FC;
 }
 
-/* 最新NEWS一覧 (wp-block-latest-posts) の装飾 */
+/* --- 最新NEWS一覧 (wp-block-latest-posts) の装飾 --- */
 
 /* 1. リストマークを非表示にする（念のため） */
 .wp-block-latest-posts li {
@@ -329,7 +349,202 @@ margin: 1rem 1rem 1rem 0;
     content: "▶︎"; /* 右向きの三角を挿入 */
     margin-right: 8px; /* テキストとの間にスペースを空ける */
     font-size: 0.8em; /* サイズを少し小さくする */
-    color: #3379FC;
-    position: relative; /* 必要に応じて位置調整 */
+    color: #3379FC; /* 青色 (#3379FC) */
+    position: relative;
     top: -1px;
+}
+
+/* --- フッターメニュー (menu-menue-footer) の装飾 --- */
+#menu-menue-footer li a::before {
+    content: "▶︎"; /* 右向きの三角を挿入 */
+    margin-right: 8px; /* テキストとの間にスペースを空ける */
+    font-size: 0.8em; /* サイズを少し小さくする */
+    color: #3379FC; /* 先ほど変換した青色 */
+    position: relative; 
+    top: -1px; /* 縦方向の位置調整 */
+}
+
+/* 念のため、標準のリストマークを非表示に */
+#menu-menue-footer li {
+    list-style: none;
+}
+
+
+/* お問い合わせページ：右側のテキストをGoogleマップの高さに対して中央に配置する */
+.contact-section01 {
+    display: flex;             
+    align-items: center;       
+}
+
+.contact-section01 > .vc_column-inner {
+    display: flex;
+    flex-direction: column;    
+    width: 100%;               
+}
+
+/* ★★★ この部分を追加または修正 ★★★ */
+.contact-section01 .vc_custom_heading h2 {
+    text-align: center !important; /* 見出しを中央揃えに戻す */
+}
+/* ★★★ ここまで ★★★ */
+
+/* 寄付ボタンホバー時の文字色を青に変更 */
+.donation-button a:hover {
+    /* リンク要素自身の文字色を変更 */
+    color: #043994 !important;
+    font-size: small;
+}
+
+/* 念のため、リンク要素内の文字やアイコンにも色を適用 */
+.donation-button a:hover * {
+    color: #043994 !important;
+    font-size:small;
+}
+
+/* 1. オーバーレイを隠した状態で準備 */
+.action-gray a,
+.action-gray { /* クラスが div や p に直接適用されていても対応できるように追加 */
+    /* 親要素を基準にする */
+    position: relative; 
+    /* リンク先が新しいタブで開く場合は display: block; を指定 */
+    display: block;
+}
+
+/* 疑似要素の配置基準を .action-gray クラスを持つ要素自体に変更 */
+.action-gray::before {
+    /* 疑似要素を作成 */
+    content: "";
+    /* 絶対配置で親要素全体を覆う */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* 背景色をグレー */
+    background-color: #333; 
+    /* 通常時は完全に透過 */
+    opacity: 0;
+    /* ホバー時の変化を滑らかに */
+    transition: opacity 0.3s ease-in-out;
+    /* 他のコンテンツの上に表示 */
+    z-index: 2; 
+    /* マウス操作を透過させることで、下のリンクがクリックできるように */
+    pointer-events: none; 
+}
+
+/* 2. ホバー時にオーバーレイを表示 */
+.action-gray:hover::before {
+    /* 透過度を設定 */
+    opacity: 0.4;
+}
+
+/* フッターメニュー内のリンクテキストの改行を禁止するCSS */
+#widget-menu .title-content {
+    /* 改行を禁止 */
+    white-space: nowrap; 
+    /* はみ出したテキストを隠す (省略することも多い) */
+    overflow: hidden; 
+}
+
+/* --- フッター下部メニューの文字色ホバーアクション設定 --- */
+
+/* 1. 通常時の背景色設定を上書きする（念のため） */
+/* テーマによっては背景色を変えてしまうため、ここで透明を強制 */
+#widget-menu .nav-item a.nav-link:hover {
+    background-color: transparent !important; 
+    transition: none !important; /* 背景色のトランジションを無効化 */
+}
+
+/* 2. ホバー時の文字色を青色 (#3379FC) に設定 */
+#widget-menu .nav-item a.nav-link:hover .title-content {
+    /* 文字色を青色 (#3379FC) に設定 */
+    color: #3379FC !important; 
+    /* 色の切り替わりを滑らかにする (オプション) */
+    transition: color 0.3s ease-in-out;
+}
+
+/* --- フッターメニュー (widget-menu) の現在のページ強調設定 --- */
+
+/* 1. 現在のページ (.current-menu-item) のリンクの文字色を青にする */
+/* .nav-item.active も同じ意味を持つため、両方に適用 */
+#widget-menu .nav-item.current-menu-item a.nav-link .title-content,
+#widget-menu .nav-item.active a.nav-link .title-content {
+    /* 文字色を青色 (#3379FC) に設定 */
+    color: #3379FC !important;
+}
+
+/* 2. ホバー時の文字色変更CSSと競合しないように再確認 */
+/* どちらも #3379FC なので問題ありませんが、activeページもホバー時に青のままにする設定 */
+#widget-menu .nav-item.current-menu-item a.nav-link:hover .title-content,
+#widget-menu .nav-item.active a.nav-link:hover .title-content {
+    color: #3379FC !important;
+}
+
+/* --- パンくずリスト (Breadcrumbs) の現在のページ強調設定 --- */
+
+/* 1. パンくずリストの現在地 (.active) の文字色を青にする */
+.breadcrumbs-footer .breadcrumb-item.active {
+    /* 文字色を青色 (#3379FC) に設定 */
+    color: #3379FC !important;
+    /* 念のため、フォントを太くする設定 (オプション) */
+    /* font-weight: bold; */
+}
+
+/* --- 代替案 6: 文字色の変更とわずかな拡大 (Scale Up) の修正版 --- */
+
+/* 1. リンクテキスト（.title-content）に効果を設定 (初期状態) */
+.desktop-mode .header-bottom .navbar-nav .nav-item a.nav-link .title-content {
+    /* 拡大の基準点を設定 */
+    display: inline-block; 
+    transform: scale(1); 
+    color: inherit !important; 
+    /* 文字色と変形の変化を滑らかにする */
+    transition: all 0.3s ease-in-out; 
+}
+
+/* 2. ホバー時に効果を適用 */
+.desktop-mode .header-bottom .navbar-nav .nav-item a.nav-link:hover .title-content {
+    /* 文字色を濃い青に設定 */
+    color: #043994 !important; 
+    /* わずか5%拡大 */
+    transform: scale(1.05); 
+}
+
+/* 3. 現在地（.active）やドロップダウンの親メニューのアクティブ項目は、拡大させずに色のみ濃い青で固定 */
+.desktop-mode .header-bottom .navbar-nav .active > .nav-link .title-content,
+.desktop-mode .header-bottom .navbar-nav .current-menu-ancestor > .nav-link .title-content,
+.desktop-mode .header-bottom .navbar-nav .current-menu-parent > .nav-link .title-content {
+    color: #043994 !important; /* 色を固定 */
+    transform: scale(1) !important; /* 拡大を抑制 */
+}
+
+/* --- ヘッダー上部：SVGアイコンの色だけを #043994 に固定する --- */
+
+/* 1. 各SVGアイコンの fill プロパティを直接ターゲットにして色を変更 */
+.top-header-left svg.borderless-icon-app__mail path,
+.top-header-left svg.borderless-icon-app__phone path,
+.top-header-left svg.borderless-icon-app__location path {
+    /* SVGの塗りつぶし色 (fill) を濃い青色に設定 */
+    fill: #043994 !important;
+    transition: fill 0.3s ease-in-out;
+}
+
+/* 2. テキスト（リンク）の色が濃い青色になっているのを解除し、テーマのデフォルト色に戻す */
+/* もしデフォルト色が黒 (#333など) の場合は、その色を指定 */
+.top-header-left .borderless-company-information__item a,
+.top-header-left .borderless-company-information__item span {
+    /* テキストの色を濃い青色にしていたCSSを上書きする */
+    color: inherit !important; /* 親要素の色を継承させる */
+    /* または、色を黒に固定する場合: color: #333333 !important; */
+}
+
+
+
+/* --- ドロップダウンメニューの位置調整 --- */
+
+/* デスクトップモードのドロップダウンメニュー要素をターゲットに設定 */
+.desktop-mode .header-bottom .navbar-nav .dropdown-menu {
+    /* 現在の設定が top: 100% などになっていても、この値を調整することで強制的に上に移動 */
+    top: 70% !important; /* 例: 70% を試す */
+    /* top: 50px !important;  <- もし px で指定されている場合はこちらを調整 */
 }
