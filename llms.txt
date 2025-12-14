@@ -9,88 +9,80 @@
 ## 投稿
 
 - [Blog](http://test-awa369-new.local/blog/)
-- [フードバンク安房定期会合](http://test-awa369-new.local/how-to-become-a-volunteer/) - ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-- [こども食堂開催2025年11月29日](http://test-awa369-new.local/こども食堂開催2025年11月29日/) - ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-- [NPO AWA369 HPオープン！](http://test-awa369-new.local/hello-world/) - 特定非営利活動法人 AWA369の公式HPがオープンしました！
-- [Volunteering In Africa](http://test-awa369-new.local/volunteering-in-africa/) - Quisque eros leo, pellentesque id leo non, scelerisque
 - [フードバンク安房](http://test-awa369-new.local/the-benefits-of-giving/) - ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-- [The Children's Family Trust](http://test-awa369-new.local/the-childrens-family-trust/) - Quisque eros leo, pellentesque id leo non, scelerisque
-- [Education In Nepal](http://test-awa369-new.local/education-in-nepal/) - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-- [Children's Education In Time Of Crisis](http://test-awa369-new.local/childrens-education-in-time-of-crisis/) - Quisque eros leo, pellentesque id leo non, scelerisque
-- [Run It Forward Official Charity](http://test-awa369-new.local/run-it-forward-official-charity/) - Quisque eros leo, pellentesque id leo non, scelerisque
+- [NPO AWA369 HPオープン！](http://test-awa369-new.local/hello-world/) - NPO AWA369 公式HPがオープンしました！ これまで以上に、私たちの思い、活動の様子、お伝えできたらと
+- [こども食堂開催2025年11月29日](http://test-awa369-new.local/こども食堂開催2025年11月29日/) - クラシックエディター ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+- [夏のミッション](http://test-awa369-new.local/childrens-education-in-time-of-crisis/) - ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+- [フードバンク安房定期会合](http://test-awa369-new.local/how-to-become-a-volunteer/) - ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+- [新年のごあいさつ](http://test-awa369-new.local/新年のごあいさつ/) - 2023.01.01 新年おめでとうございます。 安房３６９はNPOとして、本格的に活動を開始します。 今年も
+- [美しい館山の海と持続可能な漁業のために](http://test-awa369-new.local/美しい館山の海と持続可能な漁業のために/) - 2023.01.19 ※魚の生々しい画像があるため、以下苦手な方はご遠慮ください。 AWA３６９の理事には漁師
+- [館山の隠れパワースポット✡忌部塚　※現在立ち入り禁止](http://test-awa369-new.local/館山の隠れパワースポット✡忌部塚　※現在立ち/) - 2023.01.21 （現在立ち入り禁止中です） 安房の開祖・忌部氏を祀った忌部塚。 知る人ぞ知る、館山のパワ
+- [使われなくなった小屋の活用](http://test-awa369-new.local/使われなくなった小屋の活用/) - 2022.12.26 使っていない小屋があるので、持ち主さんから使用許可をいただきました。 壁が破損しています
+- [ギョギョッと新鮮！美味しい館山の魚を満喫](http://test-awa369-new.local/ギョギョッと新鮮！美味しい館山の魚を満喫/) - 漁師さんが持ってきたお魚で、刺身を作ってくれました。 上からメジナ、アオリイカです。 ピカピカに艶があって、見
+- [初めてのイノシシ駆除](http://test-awa369-new.local/初めてのイノシシ駆除/) - 2022.11.30 館山市では、イノシシによる被害が多発しており、 せっかく育てた農作物もイノシシに食べられ
+- [館山産の魚醤作り](http://test-awa369-new.local/館山産の魚醤作り/) - 2022.10.04 メンバーに漁師がいるので、未利用魚がたくさん手に入ります。 小魚類など、結構使われない魚
+- [イカざんまい](http://test-awa369-new.local/イカざんまい/) - イカがたくさん入手できました。 まずは新鮮スミイカです。 こちらは貴重なアオリイカです。 みんなで刺身や焼いた
+- [漁師直送便](http://test-awa369-new.local/漁師直送便/) - 2022.11.28 メンバーの漁師さんからカワハギやイサキなど、 獲れたて新鮮魚が届きました。 ちなみにその
+- [小屋をDIY補修](http://test-awa369-new.local/小屋をdiy補修/) - 倉庫の壁を補修しました。 余っていたブルーシートと廃材を使ったので、 とってもリーズナブルですね。 倉庫そばも
+- [放棄地の開拓](http://test-awa369-new.local/放棄地の開拓/) - 2023.01.12
+- [館山レモングラス](http://test-awa369-new.local/館山レモングラス/) - 2023.01.17 AWA３６９では、レモングラスを栽培しています。 ススキそっくりですが、葉には強いレモン
+- [空き家を安い賃貸物件に](http://test-awa369-new.local/空き家を安い賃貸物件に/) - AWA369では、空き家を補修してDIY可能でリーズナブルな価格の賃貸物件 を提供する事業を進めています。 全
+- [わくわく広場館山店に、農産物の納品をはじめました。お蔭様で完売です！](http://test-awa369-new.local/わくわく広場館山店に、農産物の納品をはじめま/) - わくわく広場館山店で、農産物の販売をはじめました。 第一弾は、ふきです。 まだ少数の納品ですが、お蔭さまですぐ
+- [カヤックフィッシング天国の館山](http://test-awa369-new.local/カヤックフィッシング天国の館山/) - 波佐間でも一番の楽しみは、カヤックで海釣りすることです。 館山湾は「鏡ケ浦」とも呼ばれ、鏡に例えられるほど穏や
+- [沖ノ島の森再生活動に参加しました](http://test-awa369-new.local/沖ノ島の森再生活動に参加しました/) - 館山のNPO法人海辺の鑑定団が行っている、沖ノ島の森再生活動に参加しました。 遊歩道の整備をお手伝いしましたが
+- [洲崎（すのさき）マーガレット岬の会ー幼稚園卒園イベント](http://test-awa369-new.local/洲崎（すのさき）マーガレット岬の会ー幼稚園卒/) - 洲崎（すのさき）マーガレット岬の会が主催する、地元の西岬（にしざき）幼稚園卒園イベント に行ってきました。 当
+- [波佐間で船釣り。１㎏越えのアオリイカなど大漁でした！](http://test-awa369-new.local/波佐間で船釣り。１㎏越えのアオリイカなど大漁/) - メンバーの漁師さんの伝手で船を借り、船釣りしました。 ３人で貸し切りなので、自由で贅沢です。 なんと１㎏越えの
+- [記念すべき第一回・忌部氏の研究会開催](http://test-awa369-new.local/記念すべき第一回・忌部氏の研究会開催/) - 先日、忌部氏の第一人者・御年90歳の鈴木馨氏を招いて勉強会を 開催しました。 忌部氏の真面目な話から裏話、脱線
+- [強力な助っ人降臨！顧問として今後もご協力お願いします](http://test-awa369-new.local/強力な助っ人降臨！顧問として今後もご協力お願/) - 2023.02.05 私たちの波佐間での活動に、地域の副区長さんから絶大な協力を いただいてます
+- [未利用魚の取り組みについて、24時間テレビで紹介されました！](http://test-awa369-new.local/2024-2/) - 2023.09.30 未利用魚の取り組みについて、24時間テレビで紹介されました！ 未利用魚の問題に、今後も重
+- [波佐間の放棄地の刈払い整備を進めています](http://test-awa369-new.local/波佐間の放棄地の刈払い整備を進めています/) - AWA369の顧問であり波佐間地区の副区長さんと、放棄地の刈払い等の 整備を継続して進めています。 ぽっかりと
 
 ## 固定ページ
 
-- [Home](http://test-awa369-new.local/) - 支援したい方 NPO AWA369では、地域を支えるさまざまなプロジェクトを推進しています。これらを継続するた
+- [Home](http://test-awa369-new.local/) - まずは地域から 地方再生は、身近なコミュニティから始まります。ひとりひとりの力が集まり、大きな変革を生む力とな
+- [所在地](http://test-awa369-new.local/location/) - お問い合わせ ご寄付はお電話、または以下よりお願いいたします。私たちは常にボランティアとして、地域の困っている
+- [お問い合わせ](http://test-awa369-new.local/contact/) - ご連絡ください 私たちの活動に関する質問、協業のアイデア、サポートのご依頼など、参加いただけるのは大歓迎です。
+- [活動ブログ](http://test-awa369-new.local/blog-right-sidebar/) - NPO AWA369 HPオープン！ NPO AWA369 公式HPがオープンしました！ これまで以上に、私た
+- [AWA369について](http://test-awa369-new.local/about/) - NPO AWA369 千葉県館山市の安房地域を拠点に、地域課題の解決と共生社会の実現を目指すNPO法人 AWA
+- [プロジェクト](http://test-awa369-new.local/projects-full-width/) - 寄付 支援 複数プロジェクトを継続維持していくため、NPO AWA369では皆様のサポートをお願いしています。
+- [Projects](http://test-awa369-new.local/projects/) - All Projects All Projects(current) Charity (慈善・福祉支援) Ed
 - [Home-TEST](http://test-awa369-new.local/home-test/) - 支援したい方 NPO AWA369では、地域を支えるさまざまなプロジェクトを推進しています。これらを継続するた
-- [Donation Confirmation](http://test-awa369-new.local/donation-confirmation-2/)
-- [Donation Failed](http://test-awa369-new.local/donation-failed-2/) - We're sorry, your donation failed to process. Plea
+- [Home-youtubetest](http://test-awa369-new.local/home-youtubetest/) - 支援したい方 NPO AWA369では、地域を支えるさまざまなプロジェクトを推進しています。これらを継続するた
 - [Donor Dashboard](http://test-awa369-new.local/donor-dashboard-2/)
-- [About](http://test-awa369-new.local/about/) - ABOUT US Helping every one since 2010 Nonprofit organiz
+- [Donation Failed](http://test-awa369-new.local/donation-failed-2/) - We're sorry, your donation failed to process. Plea
+- [Donation Confirmation](http://test-awa369-new.local/donation-confirmation-2/) - [give_receipt]
 - [Shop](http://test-awa369-new.local/shop/)
 - [Sample Page](http://test-awa369-new.local/sample-page/) - This is an example page. It's different from a blog pos
-- [Donate](http://test-awa369-new.local/donate/) - The shortcode is missing a valid Donation Form ID attri
-- [Contact](http://test-awa369-new.local/contact/) - Get In Touch With Us To donate please call us, you also
-- [Find Us](http://test-awa369-new.local/find-us/) - Get In Touch With Us To donate please call us, you also
-- [Shop Left](http://test-awa369-new.local/shop-left/) - Filter by price SHOP PRODUCTS Woo Album #2 $9.00 Wo
-- [Projects - Full-Width](http://test-awa369-new.local/projects-full-width/) - MAKE PART With Non-profit WordPress theme you can accep
-- [Projects - 3 Columns](http://test-awa369-new.local/projects-3-columns/) - All Projects All Projects(current) Charity Education Na
-- [Projects - 2 Columns](http://test-awa369-new.local/projects-2-columns/) - All Projects All Projects(current) Charity Education Na
-- [Projects](http://test-awa369-new.local/projects/) - All Projects All Projects(current) Charity Education Na
-- [Blog - Wide](http://test-awa369-new.local/blog-wide/) - NPO AWA369 HPオープン！ 特定非営利活動法人 AWA369の公式HPがオープンしました！ 11月
-- [Blog - Right Sidebar](http://test-awa369-new.local/blog-right-sidebar/) - NPO AWA369 HPオープン！ 特定非営利活動法人 AWA369の公式HPがオープンしました！ 11月
-- [Blog - Masonry](http://test-awa369-new.local/blog-masonry/) - NPO AWA369 HPオープン！ 特定非営利活動法人 AWA369の公式HPがオープンしました！ 11月
-- [Blog - Left Sidebar](http://test-awa369-new.local/blog-left-sidebar/) - 検索検索 最新の投稿 NPO AWA369 HPオープン！ こども食堂開催2025年11月29日 フードバンク
-- [Blog - Full-Width](http://test-awa369-new.local/blog-full-width/) - NPO AWA369 HPオープン！ 特定非営利活動法人 AWA369の公式HPがオープンしました！ 11月
-- [Blog - Dual Sidebar](http://test-awa369-new.local/blog-dual-sidebar/) - 検索検索 最新の投稿 NPO AWA369 HPオープン！ こども食堂開催2025年11月29日 フードバンク
-- [Donation Confirmation](http://test-awa369-new.local/donation-confirmation/)
+- [Donate](http://test-awa369-new.local/donate/) - [give_form id=”89″]
+- [Shop Left](http://test-awa369-new.local/shop-left/) - [recent_products per_page=”12″ columns=&#82
+- [Projects - 3 Columns](http://test-awa369-new.local/projects-3-columns/) - All Projects All Projects(current) Charity (慈善・福祉支援) Ed
+- [Projects - 2 Columns](http://test-awa369-new.local/projects-2-columns/) - All Projects All Projects(current) Charity (慈善・福祉支援) Ed
+- [Blog - Wide](http://test-awa369-new.local/blog-wide/) - NPO AWA369 HPオープン！ NPO AWA369 公式HPがオープンしました！ これまで以上に、私た
+- [Blog - Masonry](http://test-awa369-new.local/blog-masonry/) - NPO AWA369 HPオープン！ NPO AWA369 公式HPがオープンしました！ これまで以上に、私た
+- [Blog - Left Sidebar](http://test-awa369-new.local/blog-left-sidebar/) - 最新NEWS NPO AWA369 HPオープン！ こども食堂開催2025年11月29日 フードバンク安房定期
+- [Blog - Full-Width](http://test-awa369-new.local/blog-full-width/) - NPO AWA369 HPオープン！ NPO AWA369 公式HPがオープンしました！ これまで以上に、私た
+- [Blog - Dual Sidebar](http://test-awa369-new.local/blog-dual-sidebar/) - 最新NEWS NPO AWA369 HPオープン！ こども食堂開催2025年11月29日 フードバンク安房定期
+- [Donation Confirmation](http://test-awa369-new.local/donation-confirmation/) - [give_receipt]
 - [Donation Failed](http://test-awa369-new.local/donation-failed/) - We're sorry, your donation failed to process. Plea
 - [Donor Dashboard](http://test-awa369-new.local/donor-dashboard/)
 - [Shop](http://test-awa369-new.local/shop-2/)
-- [Cart](http://test-awa369-new.local/cart-2/)
-- [Checkout](http://test-awa369-new.local/checkout-2/)
-- [My account](http://test-awa369-new.local/my-account-2/)
+- [My account](http://test-awa369-new.local/my-account-2/) - [woocommerce_my_account]
+- [Checkout](http://test-awa369-new.local/checkout-2/) - [woocommerce_checkout]
+- [Cart](http://test-awa369-new.local/cart-2/) - [woocommerce_cart]
+- [YOUTUBE TEST](http://test-awa369-new.local/youtube-test/)
 
 ## Projects
 
-- [その他](http://test-awa369-new.local/portfolio/sports-project/) - Sports Project My lord! you’re a tripod. a drug person
-- [便利屋・お助けプロジェクト](http://test-awa369-new.local/portfolio/21/) - Panda Project My lord! you’re a tripod. a drug person c
-- [縁故疎開支援プロジェクト](http://test-awa369-new.local/portfolio/survival/) - Survival My lord! you’re a tripod. a drug person can le
-- [ワークショッププロジェクト](http://test-awa369-new.local/portfolio/africa-project/) - Africa Project My lord! you’re a tripod. a drug person
-- [未利用魚・廃棄処分問題プロジェクト](http://test-awa369-new.local/portfolio/beauty-project/) - Beauty Project My lord! you’re a tripod. a drug person
-- [畑・救済プロジェクト](http://test-awa369-new.local/portfolio/volunteer-classes/) - Volunteer Classes My lord! you’re a tripod. a drug pers
-- [野生鳥獣プロジェクト](http://test-awa369-new.local/portfolio/school-project/) - School Project My lord! you’re a tripod. a drug person
-- [空き家プロジェクト](http://test-awa369-new.local/portfolio/hands-to-help/) - Hands To Help My lord! you’re a tripod. a drug person c
-- [寄付・サポート](http://test-awa369-new.local/portfolio/donation/) - Donation My lord! you’re a tripod. a drug person can le
-- [地域貢献作業](http://test-awa369-new.local/portfolio/teaching/) - Teaching My lord! you’re a tripod. a drug person can le
-- [こども食堂ーフードライズ369](http://test-awa369-new.local/portfolio/kids-project/) - こども食堂 My lord! you’re a tripod. a drug person can learn
-- [フードバンク安房](http://test-awa369-new.local/portfolio/food-donation/) - Food Donation My lord! you’re a tripod. a drug person c
-
-## Donation Forms
-
-- [Fundraising Campaign](http://test-awa369-new.local/donations/fundraising-campaign/) - []
-
-## Products
-
-- [Patient Ninja](http://test-awa369-new.local/product/patient-ninja/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-- [Ship Your Idea](http://test-awa369-new.local/product/ship-your-idea-3/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-- [Flying Ninja](http://test-awa369-new.local/product/flying-ninja/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-- [Premium Quality](http://test-awa369-new.local/product/premium-quality-2/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-- [Woo Ninja](http://test-awa369-new.local/product/woo-ninja-3/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-- [Woo Logo](http://test-awa369-new.local/product/woo-logo-3/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-- [Woo Album #1](http://test-awa369-new.local/product/woo-album-1/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-- [Woo Album #2](http://test-awa369-new.local/product/woo-album-2/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-- [Woo Logo](http://test-awa369-new.local/product/woo-logo/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-- [Woo Logo](http://test-awa369-new.local/product/woo-logo-2/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-- [Premium Quality](http://test-awa369-new.local/product/premium-quality/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-- [Ship Your Idea](http://test-awa369-new.local/product/ship-your-idea/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-- [Ship Your Idea](http://test-awa369-new.local/product/ship-your-idea-2/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-- [Ninja Silhouette](http://test-awa369-new.local/product/ninja-silhouette/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-- [Ninja Silhouette](http://test-awa369-new.local/product/ninja-silhouette-2/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-- [Woo Ninja](http://test-awa369-new.local/product/woo-ninja/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-- [Happy Ninja](http://test-awa369-new.local/product/happy-ninja/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-- [Woo Ninja](http://test-awa369-new.local/product/woo-ninja-2/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-- [Happy Ninja](http://test-awa369-new.local/product/happy-ninja-2/) - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+- [縁故疎開支援](http://test-awa369-new.local/portfolio/sokaisien/) - 空き家・古民家プロジェクト 369 畑・放棄土地プロジェクト ワークショップ・プロジェクト 369 野生鳥獣プ
+- [ワークショップ](http://test-awa369-new.local/portfolio/workshop/) - こども食堂（フードライズ369） 369 フードバンク安房 未利用魚・廃棄処分プロジェクト 369 野生鳥獣プ
+- [空き家・古民家](http://test-awa369-new.local/portfolio/kominka/) - 畑・放棄土地プロジェクト 369 縁故疎開支援プロジェクト 地域貢献プロジェクト 369 ワークショップ・プロ
+- [畑・放棄土地](http://test-awa369-new.local/portfolio/hatake/) - 空き家・古民家プロジェクト 369 野生鳥獣プロジェクト 地域貢献プロジェクト 369 ワークショップ・プロジ
+- [野生鳥獣](http://test-awa369-new.local/portfolio/chojyu/) - 空き家・古民家プロジェクト 369 畑・放棄土地プロジェクト こども食堂（フードライズ369） 369 フーバ
+- [地域貢献](http://test-awa369-new.local/portfolio/chiiki/) - こども食堂（フードライズ369） 369 フードバンク安房 未利用魚・廃棄処分プロジェクト 369 野生鳥獣プ
+- [未利用魚・廃棄処分](http://test-awa369-new.local/portfolio/miriyogyo-project/) - こども食堂（フードライズ369） 369 フードバンク安房 ワークショップ・プロジェクト 369 地域貢献プロ
+- [寄付・サポート](http://test-awa369-new.local/portfolio/donation/) - こども食堂（フードライズ369） 369 フードバンク安房 未利用魚・廃棄処分プロジェクト 369 野性鳥獣プ
+- [フードバンク安房](http://test-awa369-new.local/portfolio/foodbank/) - こども食堂（フィードライズ369） 369 未利用魚・廃棄処分プロジェクト 空き家・古民家プロジェクト 369
+- [こども食堂（フードライズ369）](http://test-awa369-new.local/portfolio/kodomo-shokudo/) - フードバンク安房 369 未利用魚・廃棄処分プロジェクト 寄付・サポート 369 ご相談・問い合わせ こども食
 
 ## Galleries
 
@@ -98,52 +90,46 @@
 
 ## カテゴリー
 
-- [Uncategorized](http://test-awa369-new.local/category/uncategorized/)
-- [Charity](http://test-awa369-new.local/category/charity/)
-- [Children](http://test-awa369-new.local/category/children/)
-- [Education](http://test-awa369-new.local/category/education/)
-- [Events](http://test-awa369-new.local/category/events/)
-- [Love](http://test-awa369-new.local/category/love/)
-- [Nonprofit](http://test-awa369-new.local/category/nonprofit/)
-- [Support](http://test-awa369-new.local/category/support/)
+- [NPO AWA369 活動](http://test-awa369-new.local/category/awa369-project/)
+- [こども食堂（フードライズ369）](http://test-awa369-new.local/category/kodomo-shokudo/)
+- [フードバンク安房](http://test-awa369-new.local/category/food-bank/)
+- [未利用魚・廃棄処分](http://test-awa369-new.local/category/unutilized-fish/)
+- [地域貢献](http://test-awa369-new.local/category/local-contribution/)
+- [寄付・サポート](http://test-awa369-new.local/category/support/)
+- [空き家・古民家](http://test-awa369-new.local/category/akiya/)
+- [畑・放棄土地](http://test-awa369-new.local/category/abandoned-land/)
+- [野生鳥獣](http://test-awa369-new.local/category/wildlife/)
+- [ワークショップ](http://test-awa369-new.local/category/workshop/)
+- [縁故疎開支援](http://test-awa369-new.local/category/enko-sokai/)
+- [地域の情報・魅力](http://test-awa369-new.local/category/area-news/)
 
 ## タグ
 
-- [charity](http://test-awa369-new.local/tag/charity/)
-- [children](http://test-awa369-new.local/tag/children/)
-- [donate](http://test-awa369-new.local/tag/donate/)
-- [education](http://test-awa369-new.local/tag/education/)
-- [help](http://test-awa369-new.local/tag/help/)
-- [nonprofit](http://test-awa369-new.local/tag/nonprofit/)
-- [project](http://test-awa369-new.local/tag/project/)
-- [Site builder](http://test-awa369-new.local/tag/site-builder/)
-- [Template](http://test-awa369-new.local/tag/template/)
-- [Theme](http://test-awa369-new.local/tag/theme/)
-- [volunteer](http://test-awa369-new.local/tag/volunteer/)
-- [WordPress](http://test-awa369-new.local/tag/wordpress/)
+- [募集](http://test-awa369-new.local/tag/recruit/)
+- [メディア](http://test-awa369-new.local/tag/media/)
+- [報告](http://test-awa369-new.local/tag/report/)
+- [イベント](http://test-awa369-new.local/tag/event/)
+- [地域学習](http://test-awa369-new.local/tag/local-study/)
+- [資源活用](http://test-awa369-new.local/tag/resource/)
+- [農地・耕作](http://test-awa369-new.local/tag/cultivation/)
+- [生活支援](http://test-awa369-new.local/tag/assistance/)
+- [海・魚](http://test-awa369-new.local/tag/fishery/)
 
 ## Categories
 
-- [Charity](http://test-awa369-new.local/portfolio-category/charity/)
-- [Education](http://test-awa369-new.local/portfolio-category/education/)
-- [Nature](http://test-awa369-new.local/portfolio-category/nature/)
-- [Nonprofit](http://test-awa369-new.local/portfolio-category/nonprofit/)
-- [Volunteer](http://test-awa369-new.local/portfolio-category/volunteer/)
+- [Charity (慈善・福祉支援)](http://test-awa369-new.local/portfolio-category/charity/)
+- [Education (教育・交流・学習)](http://test-awa369-new.local/portfolio-category/education/)
+- [Nature (自然・環境・資源再生)](http://test-awa369-new.local/portfolio-category/nature/)
+- [Nonprofit (非営利団体・組織運営)](http://test-awa369-new.local/portfolio-category/nonprofit/)
+- [Support (基盤・参加・協力)](http://test-awa369-new.local/portfolio-category/support/)
+- [Events (イベント・開催プログラム)](http://test-awa369-new.local/portfolio-category/events/)
 
 ## Tags
 
-- [Animals](http://test-awa369-new.local/portfolio-tag/animals/)
-- [Education](http://test-awa369-new.local/portfolio-tag/education/)
-- [Florest](http://test-awa369-new.local/portfolio-tag/florest/)
-- [HElp](http://test-awa369-new.local/portfolio-tag/help/)
-- [Volunteer](http://test-awa369-new.local/portfolio-tag/volunteer/)
-
-## Product categories
-
-- [Clothing](http://test-awa369-new.local/product-category/clothing/)
-- [Hoodies](http://test-awa369-new.local/product-category/clothing/hoodies/)
-- [Music](http://test-awa369-new.local/product-category/music/)
-- [Posters](http://test-awa369-new.local/product-category/posters/)
-- [T-shirts](http://test-awa369-new.local/product-category/clothing/t-shirts/)
-- [Albums](http://test-awa369-new.local/product-category/music/albums/)
+- [鳥獣被害対策](http://test-awa369-new.local/portfolio-tag/wildlife/)
+- [資源活用](http://test-awa369-new.local/portfolio-tag/resource/)
+- [生活支援](http://test-awa369-new.local/portfolio-tag/assistance/)
+- [参加募集](http://test-awa369-new.local/portfolio-tag/welcome/)
+- [農地・耕作](http://test-awa369-new.local/portfolio-tag/cultivation/)
+- [地域学習](http://test-awa369-new.local/portfolio-tag/local-study/)
 
