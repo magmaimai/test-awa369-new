@@ -62,7 +62,19 @@ display: none!important;
 }
 
 .desktop-mode .header-bottom .navbar-brand>img{
-    padding: 3% 40% 2.5% 0;
+    padding: 3% 20% 2.5% 0;
+}
+/* ========================================================== */
+/* 画面幅 1200px 未満 (タブレット・モバイル) で padding を無効化 */
+/* ========================================================== */
+
+@media (max-width: 1199.98px) {
+    
+    /* 元のCSSセレクタをそのまま使用し、paddingを0に上書きします */
+    .desktop-mode .header-bottom .navbar-brand > img {
+        /* すべての方向のpaddingを0にリセットします */
+        padding: 0 !important; 
+    }
 }
 
 .desktop-mode .header-bottom.header-medium .navbar-brand, .desktop-mode .header-bottom.header-medium .navbar-nav li a{
@@ -393,6 +405,7 @@ margin: 1rem 1rem 1rem 0;
     /* リンク要素自身の文字色を変更 */
     color: #043994 !important;
     font-size: small;
+    
 }
 
 /* 念のため、リンク要素内の文字やアイコンにも色を適用 */
@@ -549,4 +562,118 @@ margin: 1rem 1rem 1rem 0;
     /* top: 50px !important;  <- もし px で指定されている場合はこちらを調整 */
 }
 
+/* ========================================================== */
+/* メインメニュー（PC/モバイル共通）のホバー・アクティブスタイル */
+/* ========================================================== */
 
+/* 1. 全てのメニュー項目のリンク（a.nav-link）をターゲットにします */
+#navbarNavDropdown #main-menu li a.nav-link {
+    /* デフォルトのテキスト色を設定（テーマのデフォルトを上書き）*/
+    color: #333333 !important; 
+}
+
+
+/* 2. マウスオーバー (PC) またはアクティブ時のテキスト・背景色 */
+#navbarNavDropdown #main-menu li a.nav-link:hover,
+#navbarNavDropdown #main-menu li a.nav-link:focus {
+    /* ホバー時のテキストカラー */
+    color: #YOUR_HOVER_COLOR !important; 
+    /* ホバー時の背景色 (モバイルで背景色がつくのを防ぐために指定) */
+    background-color: #F8F8F8 !important; 
+}
+
+/* 3. 現在開いているページ（Active / Current Item）のテキスト・背景色 */
+#navbarNavDropdown #main-menu li.current-menu-item > a.nav-link,
+#navbarNavDropdown #main-menu li.current-menu-ancestor > a.nav-link {
+    /* アクティブ時のテキストカラー */
+    color: #043994 !important;
+    /* アクティブ時の背景色 (必要であれば) */
+    background-color: transparent !important;
+    /* アクティブであることを示す下線 */
+    border-bottom: 2px solid #043994 !important;
+}
+
+/* ========================================================== */
+/* モバイル時のサブメニュー（ドロップダウン）の背景色を調整 */
+/* ========================================================== */
+
+/* モバイルメニュー展開時（サブメニュー）の項目をターゲット */
+@media (max-width: 991.98px) {
+    #navbarNavDropdown .dropdown-menu {
+        /* モバイル時のドロップダウン背景色を上書き (例: 白) */
+        background-color: white !important;
+    }
+    
+    #navbarNavDropdown .dropdown-menu a.nav-link:hover,
+    #navbarNavDropdown .dropdown-menu a.nav-link:focus {
+        /* サブメニュー項目のホバー色を確実に適用 */
+        color: #043994 !important;
+        background-color: #EEEEEE !important; /* 薄いグレーなど */
+    }
+}
+
+/* ========================================================== */
+/* PC版（画面幅 992px以上）でのスタイル上書きと無効化 */
+/* ========================================================== */
+
+@media (min-width: 992px) {
+
+    /* 1. PC版のメニュー項目ホバー時の背景色を無効化（透明に） */
+    #navbarNavDropdown #main-menu li a.nav-link:hover,
+    #navbarNavDropdown #main-menu li a.nav-link:focus {
+        /* 背景色を完全に透明にして、グレーの背景を消します */
+        background-color: transparent !important; 
+    }
+    
+    /* 2. PC版のアクティブ項目と親項目のアンダーラインを無効化（消す） */
+    #navbarNavDropdown #main-menu li.current-menu-item > a.nav-link,
+    #navbarNavDropdown #main-menu li.current-menu-ancestor > a.nav-link {
+        /* アンダーラインを消去します */
+        border-bottom: none !important;
+    }
+
+    /* 3. PC版のサブメニュー項目ホバー時の背景色を無効化（透明に） */
+    #navbarNavDropdown .dropdown-menu a.nav-link:hover,
+    #navbarNavDropdown .dropdown-menu a.nav-link:focus {
+        /* サブメニュー（ドロップダウン）内のホバー背景色を透明にします */
+        background-color: transparent !important;
+    }
+
+}
+
+.about-link-button a{
+    display: inline-block;
+    border: 1px solid #043994 !important; 
+    background-color: #F8F8F8 !important; 
+    /* padding: 5px 10px !important; */
+}
+
+/* ========================================================== */
+/* aboutボタンホバー時のスタイル定義 */
+/* ========================================================== */
+
+/* リンク要素（ボタン本体）のホバー時のスタイル */
+.about-link-button a:hover {
+    /* 文字色: 青を維持 */
+    color: #043994 !important;
+    /* フォントサイズ: small を維持 */
+    font-size: small;
+    
+    /* 1. 外枠（ボーダー）の追加 */
+    border: 1px solid #043994 !important; 
+    
+    /* 2. 背景色: 薄いグレーの追加 (例: #F8F8F8) */
+    background-color: #F8F8F8 !important; 
+    
+    /* ボタンの角を丸くしたい場合は以下を追加 (例: 4px) */
+    /* border-radius: 4px !important; */
+    
+    /* ホバー時に要素がずれないように padding の調整が必要な場合がある */
+    /* padding: 5px 10px !important; */
+}
+
+/* 念のため、リンク要素内の文字やアイコンにも色を適用（文字色維持） */
+.about-link-button a:hover * {
+    color: #043994 !important;
+    font-size: small;
+}
