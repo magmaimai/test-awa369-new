@@ -46,14 +46,14 @@
     color: #3379FC !important;
 }
 
-rs-slides, rs-slide, rs-slide:before {
-    height: 94% !important;
-}
 
 
-body{
-    font-family: 'Poppins', sans-serif!important;
-    font-weight: 500!important; /* SemiBold */
+body {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 400 !important;
+  -webkit-font-smoothing: antialiased; /* Mac/Safari用: フォントを細く鮮明に */
+  -moz-osx-font-smoothing: grayscale;   /* Firefox用 */
+  text-rendering: optimizeLegibility;    /* 文字の読みやすさを優先 */
 }
 
 
@@ -676,4 +676,89 @@ margin: 1rem 1rem 1rem 0;
 .about-link-button a:hover * {
     color: #043994 !important;
     font-size: small;
+}
+
+
+/* 画面幅が767px以下の時（一般的なスマホサイズ）に適用 */
+@media (max-width: 767px) {
+  .vc_custom_1762744971527 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+/* -----------------------------------------------------------
+   slide-revolution レスポンシブ
+----------------------------------------------------------- */
+
+
+rs-slides, rs-slide, rs-slide:before {
+    /* height: 94% !important; */
+}
+
+/* 1. 空白の元凶（forcer要素）を完全に消去 */
+rs-fw-forcer, 
+.rs-fullwidth-forcer, 
+rs-module-wrap-forcer {
+    display: none !important;
+    height: 0 !important;
+}
+
+/* 2. スライダー全体の枠組み：左右の「壁」を作り、巨大化を止める */
+#rev_slider_4_1_wrapper, 
+rs-module-wrap {
+    position: relative !important; 
+    display: block !important;
+    /* 2140pxでも動画が拡大されないよう、最大幅を制限 */
+    max-width: 1920px !important; 
+    margin: 0 auto !important; /* 中央に寄せる */
+    background: #000 !important; /* 両サイドの余白を黒で埋める */
+}
+
+/* 3. 本体の高さをしっかり確保し、ロゴ切れとメニュー被りを防ぐ */
+#rev_slider_4_1, 
+rs-module {
+    height: 900px !important; 
+    max-height: 900px !important;
+    min-height: 900px !important;
+}
+
+/* 4. 動画自体の表示：ズームを停止 */
+rs-slide video, 
+.rs-fullvideo-element,
+rs-sbg-px, rs-sbg {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important; 
+    /* 強制的に拡大率を1.0倍に固定 */
+    transform: scale(1.0) !important; 
+    /* ロゴ（右上）が切れないよう、表示の重心を調整 */
+    object-position: center 10% !important; 
+}
+
+/* 5. 下のコンテンツとの距離を適正に保つ */
+#rev_slider_4_1_wrapper {
+    margin-bottom: 60px !important; 
+}
+
+/* 6. 下のコンテンツ（まずは地域から...）：配置の整理 */
+#rev_slider_4_1_forcefullwidth + *,
+#rev_slider_4_1_wrapper + * {
+    clear: both !important;
+    position: relative !important;
+    display: block !important;
+    z-index: 10 !important;
+    margin-top: 20px !important;
+}
+
+/* 7. ヘッダー周りの不要な余白削除 */
+#main, .site-content, .entry-content, .page-content {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* 背景を黒にして、ワイド画面の余白を馴染ませる */
+body {
+    background-color: #000 !important;
+    overflow-x: hidden !important;
 }
