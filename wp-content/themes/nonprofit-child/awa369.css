@@ -186,18 +186,17 @@ margin: 1rem 1rem 1rem 0;
  max-height: 45vh !important;
 }
 
+
+
+
+
+
 /* 寄付支援セクションの背景画像を画面いっぱいに表示するための修正 */
 .vc_custom_1763347848498 {
     /* 既存の background-size: contain を上書きし、coverで画面全体を覆うようにします */
     background-size: cover !important; 
 }
 
-/* 寄付支援セクションの背景画像を画面いっぱいに表示するための修正 */
-/* .vc_custom_1763347848498 {
-    background-size: cover !important; 
-}
-
- */
 
 .project-title-line {
     /* 文字の太さを500に設定 */
@@ -769,19 +768,470 @@ rs-fw-forcer, .rs-fullwidth-forcer, .rs-module-wrap-forcer {
 
 }
 
+
+
 /* -----------------------------------------------------------
-   4. 下部コンテンツへの 10rem 余白：.rs-fullwidth-wrap で上書き
+   企業ロゴ・サポーター：スマホ完全縦並び化
 ----------------------------------------------------------- */
-/* ラッパー自体に margin-bottom を持たせる */
-.rs-fullwidth-wrap, 
-.forcefullwidth_wrapper_tp_banner,
-#rev_slider_4_1_wrapper {
-    margin-bottom: 2rem !important;
+@media (max-width: 480px) {
+    /* 1. カルーセルの「横に滑る動き」を完全に止めて縦並びにする */
+    .ult-carousel-wrapper .slick-track {
+        display: block !important; /* 横並び解除 */
+        width: 100% !important;
+        transform: none !important; /* 勝手な横移動を禁止 */
+        height: auto !important;
+    }
+
+    /* 2. 各ロゴの間隔と配置を整える */
+    .ult-carousel-wrapper .slick-slide {
+        display: block !important;
+        width: 100% !important; /* 横幅いっぱい */
+        height: auto !important;
+        margin-bottom: 40px !important; /* ロゴ同士の上下間隔 */
+        float: none !important;
+    }
+
+    /* 3. 画像のサイズをスマホで見やすい大きさに固定 */
+    .ult-carousel-wrapper .aio-icon-img img {
+        width: auto !important;
+        max-width: 220px !important; /* ロゴが大きすぎないように */
+        height: auto !important;
+        margin: 0 auto !important; /* 中央寄せ */
+    }
+
+    /* 4. スライダーが自動生成する「クローン（複製）」を隠してスッキリさせる */
+    .ult-carousel-wrapper .slick-cloned {
+        display: none !important;
+    }
+
+    /* 5. 文字の折り返し（わたしたちをサポートして〜） */
+    .ult-carousel-wrapper h2, 
+    .ult-carousel-wrapper .vc_custom_heading {
+        font-size: 1.5rem !important;
+        line-height: 1.4 !important;
+        margin-bottom: 2rem !important;
+    }
+}
+
+/* 480px以下のデバイスにのみ適用 */
+@media screen and (max-width: 480px) {
+    
+    /* 白い背景ボックスの調整 */
+    .mobile-adjust .tp-shapewrapper {
+        top: 50px !important; /* 上の余白を増やす（数値は調整してください） */
+        left: 50% !important;
+        transform: translateX(-50%) !important; /* 中央寄せ */
+    }
+
+    /* 「NPO AWA369」のテキスト（左に寄っているのを修正） */
+    .mobile-adjust rs-layer[data-id="Copy-Popular"] { /* 実際のIDに合わせて調整 */
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    /* 説明文の調整（上に上がりすぎを修正） */
+    .mobile-adjust rs-layer[data-id="Shape-11"] { /* 実際のIDに合わせて調整 */
+        margin-top: 20px !important; /* 上に隙間を作る */
+    }
+
+    /* 「もっと見る」ボタンの調整 */
+    .mobile-adjust rs-layer[data-id="Copy-Call-To-Action"] {
+        margin-top: 30px !important; /* ボタンの上に隙間を作る */
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+    }
+    /* divを頭につけて詳細度を上げ、上マージンを0に、下マージンを調整します */
+    div.vc_custom_1764137810101 {
+        margin-top: 0rem !important;
+        /* 下マージンもスマホ用に調整したい場合はここを変更してください */
+        margin-bottom: 2rem !important; 
+    }
+
+    .kodomo-banner.vc_row,
+    .kifu-banner.vc_row {
+        width: 100vw !important;
+        max-width: 100vw !important;
+        position: relative !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* 2. 内部カラムの余白をゼロにする */
+    .kodomo-banner .vc_column-inner{
+        padding: 0 !important;
+    }
+
+    .kifu-banner .vc_column-inner {
+        width: 85% !important; /* スマホでは箱を少し小さくして浮かせる */
+        margin: 20px auto !important;
+        padding: 20px !important;
+    }
+
+    /* 4. 見出しの調整（左寄せに戻す） */
+    .kodomo-banner h2.vc_custom_heading,
+    .kodomo-banner h3.vc_custom_heading {
+        text-align: left !important;
+        padding-left: 15px !important;
+        width: auto !important;
+    }
+
+    /* 5. 寄付バナー内のテキストを中央に揃える */
+    .kifu-banner .wpb_wrapper {
+        text-align: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+    }
+
+
+    /* バナー（こども食堂）内の見出しを左寄せに強制復帰 */
+    .kodomo-banner h2.vc_custom_heading,
+    .kodomo-banner h3.vc_custom_heading,
+    .kodomo-banner .wpb_wrapper h3.vc_custom_heading {
+        text-align: left !important;
+        width: auto !important;
+        display: inline-block !important; /* または block */
+        margin-left: 10px !important;    /* 画面端に近すぎる場合の微調整 */
+    }
+
+    /* 「もっと見る」ボタンのコンテナも左寄せに */
+    .kodomo-banner .ubtn-ctn-left {
+        text-align: left !important;
+        padding-left: 10px !important;
+    }
+
+
+    /* 寄付バナー内のテキストだけは、端に寄りすぎないよう適度な余白を持たせる */
+    .kifu-banner .wpb_text_column .wpb_wrapper p {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        line-height: 1.8 !important;
+    }
+}
+
+
+/* 480px以下のデバイス（スマホ）に適用 */
+@media screen and (max-width: 480px) {
+    /* 固有のクラスを指定してフォントサイズを強制的に変更 */
+    .vc_custom_heading.vc_custom_1764163872419 {
+        font-size: 1.4rem !important;
+        line-height: 1.4 !important; /* 行間も必要に応じて調整 */
+    }
+    /* 独自クラス top-sec01-title を狙ってサイズを変更 */
+    h3.vc_custom_heading.top-sec01-title {
+        font-size: 1.4rem !important;
+        line-height: 1.4 !important;
+        padding-left: 10px !important;  /* 画面端に近すぎる場合の余白 */
+        padding-right: 10px !important;
+        word-break: break-all !important; /* 改行を自然に */
+    }
+
+/* 1. 全てのセクション見出し(h3)のサイズを一括調整 */
+    .vc_custom_heading.vc_custom_1764163854869, /* 取り組み */
+    .vc_custom_heading.vc_custom_1764163872419, /* 目的 */
+    .vc_custom_heading.vc_custom_1763220345353, /* SNS・YouTube */
+    .vc_custom_heading.vc_custom_1763220489948, /* 最新ニュース (NEW) */
+    .vc_custom_heading.top-sec01-title         /* 地域問題の解決... */ {
+        font-size: 1.4rem !important;
+        line-height: 1.5 !important;
+        margin-top: 15px !important;
+        margin-bottom: 10px !important;
+    }
+
+    /* 2. ニュース記事のタイトル(h4)を少し小さくして読みやすくする */
+    .entry-title a {
+        font-size: 1.1rem !important;
+        line-height: 1.4 !important;
+    }
+
+    /* 3. 見出し下の説明文の文字サイズ調整 */
+    .top-sec01-title .wpb_wrapper div,
+    .borderless-wpbakery-infobox-content div {
+        font-size: 0.9rem !important;
+        line-height: 1.6 !important;
+    }
+
+    /* 4. ニュース記事カードの余白調整 */
+    .post-card-content {
+        padding: 15px !important;
+    }
+
+    /* アイコンボックス内の説明文、およびメインコンテンツ内のpタグを一括調整 */
+    .aio-icon-description p,
+    .aio-icon-description div,
+    .entry-content p,
+    .wpb_text_column p {
+        font-size: 0.9rem !important;
+        line-height: 1.7 !important; /* スマホで読みやすいように少しだけ行間を広く */
+        margin-bottom: 1.2em !important;
+    }
+
+    /* アイコンボックス自体の左右余白を少し詰めて、文字が入るスペースを確保 */
+    .aio-icon-description {
+        padding: 0 5px !important;
+    }
+
+    /* 「まずは地域から」などのタイトル(h3, h4)も少し調整 */
+    .aio-icon-title {
+        font-size: 1.2rem !important;
+        margin-bottom: 10px !important;
+    }
+
+    /* 「寄付支援」エリア等のアイコンタイトルを大きく強調 */
+    .aio-icon-title {
+        font-size: 1.4rem !important; /* 他の見出しより一回り大きくして目立たせる */
+        font-weight: 500 !important;  /* かなり太めにして視認性をアップ */
+        line-height: 1.3 !important;
+        margin-top: 10px !important;
+        margin-bottom: 15px !important;
+        color: #043994 !important;    /* 濃い青で引き締める */
+    }
+
+
+
+    /* 説明文(Pタグ)は0.9remを維持 */
+    .aio-icon-description p {
+        font-size: 0.9rem !important;
+        line-height: 1.8 !important;   /* 文字が詰まらないよう行間を広めに */
+        color: #333333 !important;
+    }
+
+    /* アイコンのサイズ微調整 */
+    .aio-icon.none {
+        font-size: 38px !important;    /* アイコンも少し存在感を出す */
+    }
+
+    /* 代表メッセージ等のテキストカラム内のPタグを調整 */
+    .top-sec01-text .wpb_wrapper p,
+    .aio-icon-description p {
+        font-size: 0.9rem !important;
+        line-height: 2.0 !important; /* 行間を2倍に増やして可読性を最大化 */
+        margin-bottom: 1.5em !important; /* 段落同士の隙間も少し広げる */
+        text-align: justify !important; /* 左右の端を揃えて綺麗に見せる */
+    }
+
+    /* 念のため、特定のクラスがついたラッパー内の調整 */
+    .wpb_text_column.top-sec01-text {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    /* カラム全体の左右余白を5pxに（これで1文字分以上稼げます） */
+    .vc_column-inner {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    /* テキストカラム自体の余白を完全にゼロにする */
+    .wpb_text_column.top-sec01-text,
+    .top-sec01-text .wpb_wrapper {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    /* Pタグの行間と端の揃えを最終調整 */
+    .top-sec01-text .wpb_wrapper p {
+        line-height: 2.1 !important;
+        text-align: justify !important;
+        word-break: break-all; /* 単語の途中で改行を許容して端まで埋める */
+        letter-spacing: 0.02em; /* 文字間をわずかに広げて可読性を維持 */
+    }
+
+    /* プロジェクトページスマホ */
+
+/* 1. 特定のIDやクラスが持つ独自パディングをすべて無効化 */
+    .vc_column-inner,
+    .wpb_column .vc_column-inner,
+    div.vc_custom_1764491558894 {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    /* 2. wpb_wrapper 自体が持っている可能性がある余白も強制解除 */
+    .wpb_wrapper, 
+    .wpb_text_column .wpb_wrapper {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    /* 3. 見出し部分（h3）の横幅を100%使い切る */
+    .project-title-line h3 {
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 0 10px 0 !important;
+        display: flex !important;
+        align-items: center;
+    }
+
+    /* アイコンの右余白を詰め、文字を1文字分右に寄せるのを防ぐ */
+    .project-icon-space {
+        margin-right: 6px !important;
+        flex-shrink: 0;
+    }
+
+    /* 4. 本文テキストの左右も5pxに合わせて広げる */
+    .wpb_text_column p {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        text-align: justify !important;
+        word-break: break-all !important; /* 日本語の端の隙間を埋める最重要設定 */
+    }
+
+    /* 1. ページ全体の横揺れ（ブレ）を物理的に止める */
+    html, body {
+        overflow-x: hidden !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* 2. カラムの突き出しを直し、左右5pxの余白に固定 */
+    .container, 
+    .row, 
+    .vc_row, 
+    .wpb-content-wrapper {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 100% !important;
+        max-width: 100vw !important;
+        padding-left: 2px !important;  /* ここで「もう1文字分」の幅を確保 */
+        padding-right: 2px !important;
+        box-sizing: border-box !important;
+    }
+
+    /* 3. WPBakeryの内側余白をリセット */
+    .vc_column-inner {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    /* 4. 画像が画面幅を超えてブレるのを防ぐ */
+    img, 
+    .vc_single_image-wrapper, 
+    .wpb_single_image {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    /* 5. テキストを端までビシッと詰める */
+    .wpb_text_column p {
+        text-align: justify !important;
+        word-break: break-all !important;
+        letter-spacing: -0.01em !important; /* わずかに詰めて文字数を稼ぐ */
+    }
+/* WPBakeryのカスタム見出し(h3)を強制的にスマホサイズに上書き */
+    h3.vc_custom_heading,
+    .project-title-line h3,
+    .wpb_text_column h3 {
+        font-size: 24px !important;       /* HOMEと同じサイズに固定 */
+        line-height: 1.4 !important;      /* 行間を少し詰める */
+        margin-top: 15px !important;      /* 上の余白を調整 */
+        margin-bottom: 10px !important;   /* 下の余白を調整 */
+        letter-spacing: 0.02em !important;
+    }
+
+    /* 「こども食堂」部分のアイコンとテキストの並びを微調整 */
+    .project-title-line h3 strong {
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-start;
+        font-weight: bold !important;
+    }
+
+    /* 下の方にある「AWA369の目的」などのセンター見出し用 */
+    h3.vc_custom_heading {
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    /* 「AWA369の取り組み」などのカスタム見出しを強制上書き */
+    h3.vc_custom_heading,
+    .wpb_wrapper h3.vc_custom_heading,
+    .vc_column-inner .wpb_wrapper h3 {
+        font-size: 20px !important;       /* HOMEと共通のサイズ */
+        line-height: 1.4 !important;
+        text-align: center !important;    /* 中央揃えを維持 */
+        margin-top: 30px !important;      /* 上のアイコンとの間隔 */
+        margin-bottom: 20px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        width: 100% !important;
+        display: block !important;
+    }
+
+    /* アイコンセパレーター自体の幅も調整してハミ出しを防ぐ */
+    .vc_separator.awa369-iconani {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+
+    /* 「All Projects」などのナビゲーション部分の調整 */
+    .nav-portfolio .navbar-brand {
+        font-size: 16px !important;
+    }
+
+    div.vc_custom_1769074091115 {
+        /* 左右に1rem（約16px）の程よい余白を確保 */
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+
+    /* 以前の「画面いっぱい」設定と競合しないよう、
+       widthをautoに戻してパディングが効くようにします */
+    .vc_row, .vc_column-inner {
+        width: auto !important;
+    }
+
+/* クラス名の前に div をつけることで優先順位（詳細度）を一段階引き上げます */
+    div.vc_custom_1769073586206 {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+
+    /* 具体的なクラス名と要素名（h5）を組み合わせて優先順位を上げます */
+    h5.top-sec01-title.vc_custom_heading {
+        font-size: 1.4rem !important;
+        line-height: 1.5 !important;   /* 2行になった時に重ならないよう調整 */
+        text-align: center !important; /* 中央揃えを強制 */
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    /* divを頭につけて詳細度を上げ、!importantで強制適用します */
+    div.vc_custom_1525821616417 {
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important; /* 余白が消えない場合はマージンも0に */
+    }
 }
 
 
 
+/* 1200px以上の大型PC画面に適用 */
+@media screen and (min-width: 1200px) {
+    /* 両方のカスタムクラスに適用 */
+    div.vc_custom_1769074091115,
+    div.vc_custom_1769076242606 {
+        padding-right: 15rem !important;
+        padding-left: 15rem !important;
+    }
+}
 
-
-
+/* 990pxから1199pxの間に適用 */
+@media screen and (min-width: 990px) and (max-width: 1199px) {
+    /* 両方のカスタムクラスに適用 */
+    div.vc_custom_1769074091115,
+    div.vc_custom_1769076242606 {
+        padding-right: 10rem !important;
+        padding-left: 10rem !important;
+    }
+}
 
