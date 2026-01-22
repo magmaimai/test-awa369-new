@@ -1235,3 +1235,31 @@ rs-fw-forcer, .rs-fullwidth-forcer, .rs-module-wrap-forcer {
     }
 }
 
+/* ============================================================
+   【最終解決】PC・タブレットの背景を画面端まで強制拡大
+   ============================================================ */
+/* 全デバイス共通：中央の枠を突き破って画面端まで広げる命令 */
+.kodomo-banner.vc_row,
+.kifu-banner.vc_row {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    position: relative !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0 !important;
+    background-size: cover !important;
+    overflow: visible !important;
+}
+
+/* PC・タブレット(481px以上)での白い箱の余白調整 */
+@media screen and (min-width: 481px) {
+    .kifu-banner .vc_column-inner {
+        background-color: rgba(255, 255, 255, 0.8) !important;
+        padding: 40px !important;
+        margin: 40px auto !important;
+    }
+}
+
+
