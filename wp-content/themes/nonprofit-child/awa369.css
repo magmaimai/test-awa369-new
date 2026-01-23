@@ -414,6 +414,10 @@ margin: 1rem 1rem 1rem 0;
     font-size:small;
 }
 
+.donation-button{
+    margin-bottom: 0rem!important;
+}
+
 /* 1. オーバーレイを隠した状態で準備 */
 .action-gray a,
 .action-gray { /* クラスが div や p に直接適用されていても対応できるように追加 */
@@ -641,9 +645,7 @@ margin: 1rem 1rem 1rem 0;
 
 .about-link-button a{
     display: inline-block;
-    border: 1px solid #043994 !important; 
-    background-color: #F8F8F8 !important; 
-    /* padding: 5px 10px !important; */
+    border: 1px solid #043994 !important;
 }
 
 /* ========================================================== */
@@ -659,15 +661,8 @@ margin: 1rem 1rem 1rem 0;
     
     /* 1. 外枠（ボーダー）の追加 */
     border: 1px solid #043994 !important; 
-    
-    /* 2. 背景色: 薄いグレーの追加 (例: #F8F8F8) */
-    background-color: #F8F8F8 !important; 
-    
-    /* ボタンの角を丸くしたい場合は以下を追加 (例: 4px) */
-    /* border-radius: 4px !important; */
-    
-    /* ホバー時に要素がずれないように padding の調整が必要な場合がある */
-    /* padding: 5px 10px !important; */
+
+
 }
 
 /* 念のため、リンク要素内の文字やアイコンにも色を適用（文字色維持） */
@@ -689,10 +684,6 @@ margin: 1rem 1rem 1rem 0;
    slide-revolution レスポンシブ
 ----------------------------------------------------------- */
 
-
-rs-slides, rs-slide, rs-slide:before {
-    /* height: 94% !important; */
-}
 
 /* 1. 共通：崩れの元（forcer）を停止 */
 rs-fw-forcer, .rs-fullwidth-forcer, .rs-module-wrap-forcer {
@@ -890,13 +881,12 @@ rs-fw-forcer, .rs-fullwidth-forcer, .rs-module-wrap-forcer {
 
 
     /* バナー（こども食堂）内の見出しを左寄せに強制復帰 */
-    .kodomo-banner h2.vc_custom_heading,
     .kodomo-banner h3.vc_custom_heading,
     .kodomo-banner .wpb_wrapper h3.vc_custom_heading {
         text-align: left !important;
         width: auto !important;
         display: inline-block !important; /* または block */
-        margin-left: 10px !important;    /* 画面端に近すぎる場合の微調整 */
+        margin-left: 30px !important;    /* 画面端に近すぎる場合の微調整 */
     }
 
     /* 「もっと見る」ボタンのコンテナも左寄せに */
@@ -911,6 +901,28 @@ rs-fw-forcer, .rs-fullwidth-forcer, .rs-module-wrap-forcer {
         padding-left: 20px !important;
         padding-right: 20px !important;
         line-height: 1.8 !important;
+    }
+
+    /* 1. 魚アイコンが入っているブロックの上に余白を作る */
+    .kodomo-banner .borderless-wpbakery-infobox {
+        margin-top: 40px !important; /* ここで全体の下げ幅を調整できます */
+        padding-left: 20px!important;
+    }
+
+    /* 2. 「未利用魚を活用した」とタイトルの間の詰まりを解消 */
+    .kodomo-banner h2.vc_custom_heading {
+        margin-top: 15px !important; /* 魚アイコンとの間隔 */
+        padding-top: 0 !important;
+    }
+
+    /* 3. 「こども食堂〜」と「2025年4月〜」の間の詰まりを解消 */
+    .kodomo-banner h3.vc_custom_heading {
+        margin-top: 10px !important;
+        padding-top: 0 !important;
+    }
+    .kodomo-banner h3.vc_custom_heading {
+        margin-left: 20px !important;
+        display: inline-block !important; /* 横幅を文字分だけにして余白を有効化 */
     }
 }
 
@@ -1199,7 +1211,7 @@ rs-fw-forcer, .rs-fullwidth-forcer, .rs-module-wrap-forcer {
 
     /* 具体的なクラス名と要素名（h5）を組み合わせて優先順位を上げます */
     h5.top-sec01-title.vc_custom_heading {
-        font-size: 1.4rem !important;
+        font-size: 1rem !important;
         line-height: 1.5 !important;   /* 2行になった時に重ならないよう調整 */
         text-align: center !important; /* 中央揃えを強制 */
         margin-top: 20px !important;
@@ -1210,6 +1222,93 @@ rs-fw-forcer, .rs-fullwidth-forcer, .rs-module-wrap-forcer {
     div.vc_custom_1525821616417 {
         padding-bottom: 0px !important;
         margin-bottom: 0px !important; /* 余白が消えない場合はマージンも0に */
+    }
+
+    .about-title01.vc_custom_1769106676906 {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    /* 背景画像の横幅を強制的に画面いっぱいに */
+    .vc_row[data-vc-full-width="true"] {
+        width: 100vw !important;
+        position: relative;
+        left: 50% !important;
+        right: 50% !important;
+        margin-left: -50vw !important;
+        margin-right: -50vw !important;
+        box-sizing: border-box;
+    }
+
+    /* 他のページの!important設定に勝つために、親要素のクラス名 .about01 を付けて指定します */
+    .about01 .ult-carousel-wrapper .slick-slide {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 20px !important; /* 必要に応じて調整してください */
+        width: 100% !important;
+    }
+
+    /* カルーセルのコンテナ自体の余白（もしあれば）をリセット */
+    .about01 .ult-carousel-wrapper {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    /* メンバー紹介スライダーの下のドットを非表示にする */
+    .about01 .slick-dots {
+        display: none !important;
+    }
+
+    /* 1. 外枠のズレを修正し、画像に完全に重ねる */
+    #portfolio-projects .portfolio-style-access {
+        width: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    /* 2. 中身の配置：flexboxで完全中央寄せ＆左右の余白を均等に */
+    #portfolio-projects .project-name .va {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important; /* 横方向のズレを解消 */
+        height: 100% !important;
+        width: 100% !important;
+        padding: 10px 15px !important; /* 左右に適切な遊びを作る */
+        box-sizing: border-box !important;
+        text-align: center !important;
+    }
+
+    /* 3. タイトル(h3)の調整 */
+    #portfolio-projects #projects .item-project h3.project-title,
+    #portfolio-projects #projects .item-project .project-title h3 {
+        font-size: 24px !important;
+        line-height: 1.2 !important;
+        margin-top: 0 !important;   /* 共通設定の30pxをリセット */
+        margin-bottom: 8px !important;
+        display: block !important;
+        width: 100% !important;
+    }
+
+    /* 4. 説明文(span)の調整：強制改行と読みやすさ */
+    #portfolio-projects #projects .item-project .project-title span {
+        font-size: 13px !important;
+        line-height: 1.5 !important;
+        display: block !important;
+        white-space: normal !important;   /* 改行を許可 */
+        word-wrap: break-word !important; /* 長い単語で枠を突き抜けないように */
+        overflow: visible !important;
+        padding-top: 5px !important;
+        width: 100% !important;
+    }
+
+    /* 5. 万が一親のli要素に余計な余白がある場合の保険 */
+    #portfolio-projects #projects li.item-project {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 }
 
@@ -1236,9 +1335,10 @@ rs-fw-forcer, .rs-fullwidth-forcer, .rs-module-wrap-forcer {
 }
 
 /* ============================================================
-   【最終解決】PC・タブレットの背景を画面端まで強制拡大
+   【最終解決】背景は全画面、中身は中央（inline）を維持
    ============================================================ */
-/* 全デバイス共通：中央の枠を突き破って画面端まで広げる命令 */
+
+/* 1. 背景を画面いっぱいにする（これは維持） */
 .kodomo-banner.vc_row,
 .kifu-banner.vc_row {
     width: 100vw !important;
@@ -1253,8 +1353,19 @@ rs-fw-forcer, .rs-fullwidth-forcer, .rs-module-wrap-forcer {
     overflow: visible !important;
 }
 
-/* PC・タブレット(481px以上)での白い箱の余白調整 */
+/* 2. 【重要】PC・タブレットで「中身の文字やボタン」を中央に寄せる */
 @media screen and (min-width: 481px) {
+    .kodomo-banner > .wpb_column,
+    .kifu-banner > .wpb_column {
+        /* テーマの標準的なコンテンツ幅（例：1140px）に制限して中央寄せ */
+        max-width: 1140px !important; 
+        margin: 0 auto !important;
+        float: none !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    /* 寄付バナーの白い箱の余白調整（角丸なし） */
     .kifu-banner .vc_column-inner {
         background-color: rgba(255, 255, 255, 0.8) !important;
         padding: 40px !important;
@@ -1262,4 +1373,69 @@ rs-fw-forcer, .rs-fullwidth-forcer, .rs-module-wrap-forcer {
     }
 }
 
+/* 3. 透過指定の再徹底 */
+.kifu-banner-clear .vc_column-inner {
+    background-color: transparent !important;
+    background-image: none !important;
+    padding: 0 !important;
+}
 
+.ubtn-shd{
+    border-radius: 0!important;
+}
+
+.kodomo-banner-button .ubtn,.donation-button .ubtn:hover {
+    /* 背景を透明にする */
+    background: transparent !important;
+    
+    /* 枠線を設定する（太さ、種類、色） */
+    border: 1px solid #043994 !important; /* 青い枠線の例 */
+}
+
+/* 2. 寄付ボタン内部の白い背景レイヤーを消す */
+.donation-button .ubtn:hover .ubtn-hover {
+    background: transparent !important;
+    opacity: 0 !important;
+    display: none !important;
+}
+
+
+/* --- 全端末共通：ポートフォリオ配置の安定化 --- */
+
+/* 1. 各プロジェクトの枠が重なったり離れたりするのを防ぐ */
+#portfolio-projects #projects li.item-project {
+    position: relative !important; /* JSによる absolute 配置の計算ミスを防ぐ */
+    float: left !important;
+    min-height: 200px; /* 枠が潰れるのを防止 */
+    box-sizing: border-box !important;
+}
+
+/* 2. マウスホバー時のテキスト枠を常に中央へ */
+.item-project .portfolio-style-access {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgba(10, 10, 10, 0.4); /* 背景を少し暗くして視認性UP */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* ホバー時に表示 */
+.item-project:hover .portfolio-style-access {
+    opacity: 1;
+}
+
+/* 3. 内枠（.va）の絶対的な中央配置 */
+.item-project .project-name .va {
+    width: 100% !important;
+    padding: 20px !important;
+    text-align: center !important;
+    /* JSの計算による上下のズレを打ち消す */
+    position: relative !important;
+    top: 0 !important;
+    transform: none !important; 
+}
