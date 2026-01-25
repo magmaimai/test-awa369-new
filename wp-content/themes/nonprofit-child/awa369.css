@@ -711,21 +711,21 @@ rs-fw-forcer, .rs-fullwidth-forcer, .rs-module-wrap-forcer {
 
 @media (min-width: 2010px) {
     #rev_slider_4_1_wrapper, .rs-module-wrap, .rs-fullwidth-wrap, .rs-module {
-        height: 1000px !important;
-        max-height: 1000px!important;
+        /* height: 1000px !important;
+        max-height: 1000px!important; */
     }
     .rs-fullvideo-element {
         transform: scale(0.90) !important;
         transform-origin: center top !important;
     }
     .rs-module{
-        height: 1000px!important;
-        max-height: 1000px!important;
+        /* height: 1000px!important;
+        max-height: 1000px!important; */
     }
 
     .rs-slides{
-        height: 1000px!important;
-        max-height: 1000px!important;
+        /* height: 1000px!important;
+        max-height: 1000px!important; */
     }
 
     .rs-fullwidth-wrap, 
@@ -738,25 +738,31 @@ rs-fw-forcer, .rs-fullwidth-forcer, .rs-module-wrap-forcer {
 
 @media (min-width: 1900px){
     #rev_slider_4_1_wrapper, .rs-module-wrap, .rs-fullwidth-wrap, .rs-module {
-        height: 850px !important;
-        max-height: 850px!important;
+        /* height: 850px !important;
+        max-height: 850px!important; */
     }
     .rs-module{
-        height: 800px!important;
-        max-height: 800px!important;
+        /* height: 800px!important;
+        max-height: 800px!important; */
     }
     .rs-fullvideo-element {
         transform: scale(0.60) !important;
         transform-origin: center top !important;
     }
-    .rs-mod
-        .rs-fullwidth-wrap, 
-    .forcefullwidth_wrapper_tp_banner,
-    #rev_slider_4_1_wrapper {
-        margin-bottom: 0rem !important;
-    }
     
 
+}
+
+/* iPad横画面 (1024px〜1366px) の右側の隙間を物理的に埋める */
+@media (max-width: 1400px) {
+    #rev_slider_4_1_wrapper, 
+    .rs-module-wrap, 
+    .rs-module {
+        width: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin: 0 !important;
+    }
 }
 
 
@@ -765,42 +771,60 @@ rs-fw-forcer, .rs-fullwidth-forcer, .rs-module-wrap-forcer {
    企業ロゴ・サポーター：スマホ完全縦並び化
 ----------------------------------------------------------- */
 @media (max-width: 480px) {
-    /* 1. カルーセルの「横に滑る動き」を完全に止めて縦並びにする */
+/* 1. カルーセルの「横移動」を完全に止めて縦並びにする */
     .ult-carousel-wrapper .slick-track {
-        display: block !important; /* 横並び解除 */
+        display: block !important;
         width: 100% !important;
-        transform: none !important; /* 勝手な横移動を禁止 */
+        transform: none !important; /* 横移動の計算をリセット */
         height: auto !important;
     }
 
-    /* 2. 各ロゴの間隔と配置を整える */
+    /* 2. 各スライド枠：左右のマージンを消して100%中央へ */
     .ult-carousel-wrapper .slick-slide {
         display: block !important;
-        width: 100% !important; /* 横幅いっぱい */
+        width: 100% !important;
         height: auto !important;
+        margin-left: 0 !important;   /* 右寄りの原因となるマージンを解除 */
+        margin-right: 0 !important;  /* 右寄りの原因となるマージンを解除 */
         margin-bottom: 40px !important; /* ロゴ同士の上下間隔 */
         float: none !important;
+        text-align: center !important; /* 中身を中央へ */
     }
 
-    /* 3. 画像のサイズをスマホで見やすい大きさに固定 */
+    /* 3. 画像コンテナ：inline-blockを解除して中央配置を安定させる */
+    .ult-carousel-wrapper .aio-icon-img {
+        display: block !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+        font-size: inherit !important; /* インラインの巨大なfont-sizeを無効化 */
+    }
+
+    /* 4. 画像そのもののサイズと中央寄せ */
     .ult-carousel-wrapper .aio-icon-img img {
         width: auto !important;
-        max-width: 220px !important; /* ロゴが大きすぎないように */
+        max-width: 220px !important;
         height: auto !important;
-        margin: 0 auto !important; /* 中央寄せ */
+        margin: 0 auto !important;
+        display: inline-block !important;
     }
 
-    /* 4. スライダーが自動生成する「クローン（複製）」を隠してスッキリさせる */
+    /* 5. スライダーが自動生成する「クローン（複製）」を隠す */
     .ult-carousel-wrapper .slick-cloned {
         display: none !important;
     }
 
-    /* 5. 文字の折り返し（わたしたちをサポートして〜） */
+    /* 6. 見出しの調整（わたしたちをサポート〜など） */
     .ult-carousel-wrapper h2, 
     .ult-carousel-wrapper .vc_custom_heading {
         font-size: 1.5rem !important;
         line-height: 1.4 !important;
         margin-bottom: 2rem !important;
+        text-align: center !important;
+    }
+
+    /* 7. ドットナビゲーション（もし出ていれば）を非表示 */
+    .ult-carousel-wrapper .slick-dots {
+        display: none !important;
     }
 }
 
@@ -1310,6 +1334,51 @@ rs-fw-forcer, .rs-fullwidth-forcer, .rs-module-wrap-forcer {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
+
+    /* 1. コピーライトの文字サイズと余白の調整 */
+    .copyright-footer-item {
+        font-size: 14px !important; /* 少し小さくしてスッキリさせます */
+        text-align: center !important; /* スマホでは中央揃えが一般的です */
+        line-height: 1.6 !important;
+        padding-top: 15px !important;
+        padding-bottom: 5px !important;
+        color: #666; /* 必要に応じて色も調整してください */
+    }
+
+    /* 2. フッターメニュー（ナビ）の調整 */
+    .copyright-footer-item nav.navbar {
+        justify-content: center !important; /* 右寄せから中央寄せに変更 */
+        text-align: center !important;
+        padding: 0 !important;
+    }
+
+    /* 3. メニュー項目が縦に並ぶ場合の微調整 */
+    .copyright-footer-item .navbar-nav {
+        flex-direction: row !important; /* 横並びを維持する場合 */
+        flex-wrap: wrap !important;     /* 入りきらない場合は改行 */
+        justify-content: center !important;
+        margin-top: 10px !important;
+    }
+
+    .copyright-footer-item .nav-link {
+        font-size: 11px !important;
+        padding: 5px 8px !important; /* リンク同士の間隔を調整 */
+    }
+
+    .page-id-2591 #slider-4-slide-17-layer-5 {
+    display: none !important;
+    }
+
+    [data-key="rs-16"] .tp-shapewrapper,
+    [data-key="rs-16"] rs-layer.tp-shape {
+        /* 青色のトーンを維持しつつ、不透明度を 0.7 (70%) に */
+        background-color: rgba(4, 57, 148, 0.7) !important; 
+        
+        /* スマホで見やすくするために影を少し弱める */
+        box-shadow: none !important;
+    }
+
+
 }
 
 
@@ -1438,4 +1507,194 @@ rs-fw-forcer, .rs-fullwidth-forcer, .rs-module-wrap-forcer {
     position: relative !important;
     top: 0 !important;
     transform: none !important; 
+}
+
+@media screen and (max-width: 1200px) {
+    /* 1. ヘッダーのコンテナを3分割の並びに設定 */
+    header .container, 
+    .navbar-header .container {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: space-between !important; /* 両端と中央に配置 */
+        flex-wrap: nowrap !important;
+        position: relative !important;
+    }
+
+    /* 2. ロゴ(navbar-brand)を中央に絶対配置 */
+    .navbar-brand {
+        position: absolute !important;
+        left: 50% !important;
+        top: 50% !important;
+        transform: translate(-50%, -50%) !important; /* 完全に中心へ */
+        margin: 0 !important;
+        padding: 0 !important;
+        z-index: 10;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    /* 3. 画像サイズの設定（brand-mobileを強制表示） */
+    .navbar-brand img {
+        display: none !important;
+    }
+    .navbar-brand img.brand-mobile {
+        display: block !important;
+        height: 40px !important; /* スマホ・タブレットで共通の高さ */
+        width: auto !important;
+        max-width: 160px !important;
+    }
+
+    /* 4. 右側に空の要素を追加してバランスを取る（もし右に要素がない場合） */
+    header .container::after {
+        content: "";
+        width: 44px; /* ハンバーガーボタンと同じ幅の空きを作る */
+        display: block;
+    }
+
+    /* 5. ハンバーガーボタン(三本線)の固定 */
+    .navbar-toggler {
+        z-index: 11; /* ロゴより上に配置 */
+        margin-left: 0 !important;
+        border: none !important;
+    }
+
+}
+
+/* 「寄付のお願い・こども食堂（rs-19）」の白バックを少し透明にする */
+[data-key="rs-19"] .tp-shapewrapper,
+[data-key="rs-19"] rs-layer.tp-shape {
+    /* 0.8 は 80% の不透明度（少し透ける状態）です */
+    background: rgba(255, 255, 255, 0.8) !important; 
+    
+    /* 影が強すぎる場合は、ここも調整するとスッキリします */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important;
+}
+
+
+/* スライダーの横幅をブラウザの端から端まで固定する */
+#rev_slider_4_1_wrapper {
+    width: 100vw !important;
+    left: 50% !important;
+    right: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+}
+
+/* 内部の画像が右に届かない問題を強制解決 */
+rs-module-wrap, rs-module, rs-slide, rs-sbg-wrap, rs-sbg, canvas {
+    width: 100% !important;
+    min-width: 100vw !important;
+}
+
+/* --- iPad・タブレットの右側空白を解消する --- */
+@media (max-width: 1400px) {
+    #rev_slider_4_1_wrapper, 
+    .rs-module-wrap, 
+    .rs-module {
+        width: 100% !important;
+        min-width: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin: 0 !important;
+    }
+}
+
+/* 寄付ページ：テキストの位置を固定し、棒を左側に浮かす */
+#slider-4-slide-19-layer-1 {
+    background-color: transparent !important;
+    color: #043994 !important;
+    padding-left: 0 !important; /* テキストの位置を元に戻す */
+    position: relative !important;
+    border: none !important;
+}
+
+/* 縦棒：テキストに干渉しないように配置 */
+#slider-4-slide-19-layer-1::before {
+    content: "" !important;
+    position: absolute !important;
+    /* ↓ 文字の左端からさらに「左」へ。この数値で距離を調整してください */
+    left: -30px !important; 
+    top: 50% !important;
+    width: 4px !important;
+    background-color: #043994 !important;
+    height: 100% !important;
+    transform: translateY(-50%) scaleY(0);
+    
+    /* 上下に広がるアニメーション */
+    animation: barGrow 1.2s ease-out forwards !important;
+    animation-delay: 0.3s !important;
+}
+
+@keyframes barGrow {
+    0% { transform: translateY(-50%) scaleY(0); }
+    100% { transform: translateY(-50%) scaleY(1); }
+}
+
+/* スライダーを包んでいるセクション（親要素）に下の余白を作る */
+section:has(#rev_slider_4_1_wrapper), 
+.rev_slider_wrapper {
+    margin-bottom: 2rem !important; 
+}
+
+/* --- ブログセクションをPCで3列に強制する --- */
+@media (min-width: 992px) {
+    #post-area.masonry-area {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        height: auto !important; /* JSの変な高さ計算を上書き */
+    }
+
+    #post-area .item-blog.col-md-4 {
+        width: 33.33% !important; /* 強制的に3列にする */
+        max-width: 33.33% !important;
+        position: relative !important; /* JSによる absolute 配置を解除 */
+        left: auto !important;
+        top: auto !important;
+        float: left !important;
+        margin-bottom: 30px;
+    }
+}
+
+/* --- ブログカードの画像の高さを統一する --- */
+#post-area .post-thumb a.hover-wrap {
+    display: block !important;
+    width: 100% !important;
+    height: 200px !important; /* ← ここの数値で高さを調整（200px〜250pxが一般的） */
+    overflow: hidden !important; /* はみ出た部分を隠す */
+}
+
+#post-area .post-thumb img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important; /* ← これが重要！画像を歪ませずに枠いっぱいに広げます */
+    object-position: center center !important; /* 画像の真ん中を基準にトリミング */
+}
+
+/* ついでにカード全体の高さも揃えて、下のメタ情報（日付など）のラインを合わせる */
+#post-area .post-container {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+}
+
+#post-area .post-card-content {
+    flex-grow: 1 !important; /* テキスト量に関わらず、カードの高さを自動で伸ばす */
+}
+
+/* インスタグラムのボタンエリアを整える */
+#sbi_load {
+    padding-top: 2rem !important;
+    display: flex !important;
+    justify-content: center !important; /* ボタンを中央に集める */
+    align-items: center !important;
+    gap: 0.5rem !important; /* ボタン同士の横の隙間 */
+    width: 100% !important;
+}
+
+/* ボタンが個別に浮かないように調整 */
+#sbi_load .sbi_load_btn, 
+#sbi_load .sbi_follow_btn {
+    margin: 0 !important; /* 余計なマージンを消して中央寄せを優先 */
+    display: inline-block !important;
 }
