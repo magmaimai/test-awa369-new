@@ -1377,8 +1377,9 @@ rs-fw-forcer, .rs-fullwidth-forcer, .rs-module-wrap-forcer {
         /* スマホで見やすくするために影を少し弱める */
         box-shadow: none !important;
     }
-
-
+    #portfolio-projects #projects li.item-project {
+        margin-bottom: 0px;
+    }
 }
 
 
@@ -1475,7 +1476,7 @@ rs-fw-forcer, .rs-fullwidth-forcer, .rs-module-wrap-forcer {
 #portfolio-projects #projects li.item-project {
     position: relative !important; /* JSによる absolute 配置の計算ミスを防ぐ */
     float: left !important;
-    min-height: 200px; /* 枠が潰れるのを防止 */
+    /* min-height: 200px; */
     box-sizing: border-box !important;
 }
 
@@ -1697,4 +1698,51 @@ section:has(#rev_slider_4_1_wrapper),
 #sbi_load .sbi_follow_btn {
     margin: 0 !important; /* 余計なマージンを消して中央寄せを優先 */
     display: inline-block !important;
+}
+
+/* --- プロジェクト一覧の崩れを強制修正 --- */
+#portfolio-projects {
+    height: auto !important; /* JSが計算した「3614px」という異常な高さを解除 */
+}
+
+#projects.row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    position: relative !important;
+}
+
+/* 各プロジェクト記事の強制配置 */
+#projects .item-project.col-md-3 {
+    position: relative !important; /* JSの absolute 配置を殺す */
+    left: auto !important;
+    top: auto !important;
+    width: 25% !important; /* PCで4列 */
+    max-width: 25% !important;
+    /* margin-bottom: 30px !important; */
+    padding: 15px !important;
+    height: auto !important;
+}
+
+/* 画像のツラを合わせる（ここもブログ同様に揃えます） */
+#projects .item-container img {
+    width: 100% !important;
+    /* height: 180px !important; */
+    object-fit: contain !important; /* ロゴ系が多いので contain が安全 */
+    background: #f9f9f9; /* 余白を薄いグレーで埋める */
+}
+
+/* スマホ・タブレット（1200px以下）では2列にする */
+@media (max-width: 1200px) {
+    #projects .item-project.col-md-3 {
+        width: 50% !important;
+        max-width: 50% !important;
+    }
+}
+
+/* スマホ（768px以下）では1列にする */
+@media (max-width: 768px) {
+    #projects .item-project.col-md-3 {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
 }
